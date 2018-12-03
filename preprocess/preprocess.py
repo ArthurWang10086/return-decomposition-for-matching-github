@@ -55,7 +55,7 @@ if __name__ == '__main__':
                 D1[gameid].pop(role_id)
 
     #清洗比赛
-    L = filter(lambda x:len(D[x])>0 ,D.keys())
+    L = filter(lambda x:len(D[x])==6 ,D.keys())
 
     D2={}
     for gameid in L:
