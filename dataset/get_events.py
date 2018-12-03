@@ -31,7 +31,7 @@ def fetch_one_day(ds):
     with open('new_role_ids/%s.csv' % ds, 'r') as fin:
         for l in fin:
             for id in l.split(','):
-                role_ids.append(id)
+                role_ids.append(id[:9])
     role_ids = list(set(role_ids))
     start_time = '%s' % ds
     _t = datetime.datetime.strptime(start_time, '%Y-%m-%d')
