@@ -11,7 +11,7 @@ import traceback
 
 logger = LogUtils(__file__).get_logger()
 # 数源接口
-base_url = "http://42.186.114.228:8080/roleseq/time?game=ball&role_info=%s&start_time=%s&end_time=%s&event=none&dataNames=logid,origin_json"
+base_url = "http://42.186.114.228:8080/roleseq/time?game=ball&role_info=%s&start_time=%s 00:00:00&end_time=%s 23:59:59&event=none&dataNames=logid,origin_json"
 
 OUTPUT = "behaviors_sql"
 if not os.path.exists(OUTPUT):
