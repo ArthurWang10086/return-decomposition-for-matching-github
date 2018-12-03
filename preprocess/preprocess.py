@@ -67,18 +67,18 @@ def process(ds):
             except Exception:
                 pass
     #清洗序列
-    import copy
-    D1 = copy.deepcopy(D)
-    for gameid in D:
-        for role_id in D[gameid]:
-            GameEnd_count = sum([1 if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
-            GameStart_count = sum([1 if 'GameStart' in x else 0 for x in D[gameid][role_id]])
-            game_result = max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
-            if GameEnd_count!=1 or GameStart_count!=1 or game_result not in [0,1]:
-                D1[gameid].pop(role_id)
+    # import copy
+    # D1 = copy.deepcopy(D)
+    # for gameid in D:
+    #     for role_id in D[gameid]:
+    #         GameEnd_count = sum([1 if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
+    #         GameStart_count = sum([1 if 'GameStart' in x else 0 for x in D[gameid][role_id]])
+    #         game_result = max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
+    #         if GameEnd_count!=1 or GameStart_count!=1 or game_result not in [0,1]:
+    #             D1[gameid].pop(role_id)
 
     #清洗比赛
-    L = filter(lambda x:len(D1[x])==6 ,D1.keys())
+    L = filter(lambda x:len(D[x])==6 ,D.keys())
 
     D2={}
     for gameid in L:
