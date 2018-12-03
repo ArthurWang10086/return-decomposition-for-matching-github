@@ -45,12 +45,15 @@ def seq_gen_2(filepath,outpath):
         datas = f.read().split('\n')
         for data in datas:
             tmp = []
-            for x in data.split(';'):
+            for i,x in enumerate(data.split(';')):
+                print(len(x.split('@')))
+                print(x)
                 result = x.split('@')[1]
                 result = '1' if int(result)>0 else '-1'
                 for action in x.split('@')[2].split(','):
                     # print(action[:19])
-                    tmp.append((action[:19],EncodeMap[action.split(':')[-1]]))
+                    #action_id = logid + role_idx * len(logids)
+                    tmp.append((action[:19],EncodeMap[action.split(':')[-1]]+i*len(EncodeMap)))
             sorted(tmp,key=lambda x : x[0])
             L.append(result+'@'+','.join([str(x[1]) for x in tmp]))
 
