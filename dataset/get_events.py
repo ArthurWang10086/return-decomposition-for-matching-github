@@ -77,10 +77,10 @@ def retry_failed():
 
 
 if __name__ == "__main__":
-    DATE='2018-11-21'
+    # DATE='2018-11-01'
     # create the pool
     pool = multiprocessing.Pool(processes=1)
-    days = [DATE,]
+    days = ['2018-11-01','2018-11-02','2018-11-03','2018-11-04','2018-11-05']
     q = JoinableQueue()
     for ds in days:
         pool.apply_async(fetch_one_day, args=(ds, ))
