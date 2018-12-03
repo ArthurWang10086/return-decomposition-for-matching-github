@@ -1,0 +1,2122 @@
+[
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"game_remain_time\":101.33472442626953,\"model_id\":102,\"log_ts\":\"2018-11-21 00:00:11\",\"blocked_player\":103561588,\"result\":\"success\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:00:11#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"pickup\",\"log_id\":\"Conversion\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"role_id\":100114290,\"game_remain_time\":99.18158721923828,\"game_score\":\"6:5\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:00:13\"}"
+        },
+        {
+            "logid": "2018-11-21 00:00:13#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"receiver_id\":203348525,\"game_remain_time\":98.52571868896484,\"model_id\":102,\"log_ts\":\"2018-11-21 00:00:14\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:00:14#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"ShootCancel\",\"role_type\":\"user\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"game_remain_time\":89.34766387939453,\"model_id\":102,\"log_ts\":\"2018-11-21 00:00:23\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":225,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"three_point\"}"
+        },
+        {
+            "logid": "2018-11-21 00:00:23#000#ShootCancel"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"receiver_id\":201320761,\"game_remain_time\":88.5074234008789,\"model_id\":102,\"log_ts\":\"2018-11-21 00:00:24\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:00:24#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"game_remain_time\":55.70915985107422,\"model_id\":102,\"log_ts\":\"2018-11-21 00:00:57\",\"blocked_player\":203349384,\"result\":\"success\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:00:57#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"game_remain_time\":44.91051483154297,\"model_id\":102,\"log_ts\":\"2018-11-21 00:01:08\",\"blocked_player\":103561588,\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:01:08#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"game_remain_time\":41.873451232910156,\"model_id\":102,\"log_ts\":\"2018-11-21 00:01:11\",\"blocked_player\":103561588,\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:01:11#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"rebound\",\"log_id\":\"Conversion\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"role_id\":100114290,\"game_remain_time\":35.13860321044922,\"game_score\":\"6:5\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:01:18\"}"
+        },
+        {
+            "logid": "2018-11-21 00:01:18#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.3310854434967041,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"game_remain_time\":35.13860321044922,\"model_id\":102,\"log_ts\":\"2018-11-21 00:01:18\",\"result\":\"success\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":1,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:01:18#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"receiver_id\":201320761,\"game_remain_time\":33.49945831298828,\"model_id\":102,\"log_ts\":\"2018-11-21 00:01:19\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:01:19#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"goalin\",\"log_id\":\"Conversion\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"role_id\":100114290,\"game_remain_time\":21.151283264160156,\"game_score\":\"6:7\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:01:35\"}"
+        },
+        {
+            "logid": "2018-11-21 00:01:35#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":10,\"role_type\":\"user\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"role_id\":100114290,\"game_remain_time\":19.97948455810547,\"skill_id\":21,\"mentor_run\":0,\"model_id\":102,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:01:39\"}"
+        },
+        {
+            "logid": "2018-11-21 00:01:39#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"game_remain_time\":18.33472442626953,\"model_id\":102,\"log_ts\":\"2018-11-21 00:01:40\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":4,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 00:01:40#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"pickup\",\"log_id\":\"Conversion\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"role_id\":100114290,\"game_remain_time\":8.765586853027344,\"game_score\":\"8:7\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:01:56\"}"
+        },
+        {
+            "logid": "2018-11-21 00:01:56#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"receiver_id\":201320761,\"game_remain_time\":8.021873474121094,\"model_id\":102,\"log_ts\":\"2018-11-21 00:01:57\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:01:57#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":10,\"role_type\":\"user\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"role_id\":100114290,\"game_remain_time\":-1.3184890747070312,\"skill_id\":112,\"mentor_run\":0,\"model_id\":102,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:02:06\"}"
+        },
+        {
+            "logid": "2018-11-21 00:02:06#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1035,\"log_id\":\"DailyTask\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"task_id\":1014,\"draw\":1,\"schedul\":2,\"log_ts\":\"2018-11-21 00:02:09\",\"finish_time\":1542729729,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:02:09#050#DailyTask"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"iconid\":7,\"game_result\":1,\"two_point_fieldgoal_num\":1,\"gtitle\":37,\"really_score\":3446,\"role_level\":50,\"skill_use_time\":[{\"skillID\":21,\"Count\":1},{\"skillID\":4,\"Count\":2},{\"skillID\":112,\"Count\":1},{\"skillID\":2,\"Count\":2},{\"skillID\":39,\"Count\":2},{\"skillID\":6,\"Count\":5},{\"skillID\":9,\"Count\":5},{\"skillID\":1,\"Count\":5}],\"evaluation\":0,\"matchUids\":\"201320761\",\"three_point_shoot_num\":0,\"role_id\":100114290,\"mvp_point\":11.600000381469727,\"ai_player\":0,\"delta_rank\":10,\"reb_num\":1,\"floor_num\":2,\"ballstealed_num\":0,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"ass_num\":0,\"withFriend\":\"201320761\",\"overtime\":0,\"cmd\":\"GameEnd\",\"position\":\"PF\",\"frame\":34,\"inTeam\":1,\"server\":1035,\"balltouch_num\":8,\"distance\":0,\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"rank_class\":2,\"game_score\":\"7:8\",\"match_rank\":3456,\"game_type\":1,\"log_ts\":\"2018-11-21 00:02:09\",\"player_id\":\"40\",\"ballpass_num\":5,\"game_time\":0,\"blk_num\":2,\"steal_num\":0,\"match_type\":3,\"role_score\":2,\"mentor_use_time\":0,\"log_id\":\"GameEnd\",\"wideopen_num\":0,\"mvp\":0,\"end_time\":1542729729,\"two_point_shoot_num\":1,\"team\":1,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"ballblk_num\":0,\"delta_evaluation\":0,\"game_mode\":3,\"three_point_fieldgoal_num\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:02:09#050#GameEnd"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1035,\"log_id\":\"MentorsLog\",\"game_uuid\":\"609f24b118b8466086da9d16c70bbd3f\",\"end_time\":1542729729,\"role_level\":50,\"game_type\":3,\"log_ts\":\"2018-11-21 00:02:09\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"game_rank\":2,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":\"40\",\"role_id\":100114290,\"montoid\":10,\"player_level\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:02:09#050#MentorsLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1035,\"d_role_name\":\"-1\",\"d_role_level\":0,\"s_device_model\":\"HUAWEI MHA-AL00\",\"d_account_id\":\"-1\",\"s_prod_money\":360,\"log_ts\":\"2018-11-21 00:02:09\",\"s_exp\":32,\"d_cost_item\":[],\"d_prod_item\":[],\"s_cost_money\":0,\"d_os_ver\":\"-1\",\"s_os_ver\":\"8.0.0\",\"d_mac_addr\":\"-1\",\"s_cost_item\":[],\"s_udid\":\"775198ddab824565\",\"s_role_level\":50,\"d_old_accountid\":\"-1\",\"d_os_name\":\"-1\",\"log_id\":\"PVP\",\"use_time\":180,\"s_role_id\":100114290,\"begin_time\":1542729729093,\"s_role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"d_cost_money\":0,\"d_prod_money\":0,\"d_exp\":0,\"s_account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"d_udid\":\"-1\",\"s_old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"d_role_id\":\"-1\",\"s_os_name\":\"ad\",\"s_prod_item\":[],\"end_state\":1,\"s_mac_addr\":\"14:9D:09:6D:7E:B5\",\"d_device_model\":\"-1\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:02:09#050#PVP"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1035,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:02:09\",\"finish_time\":1542729729,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":3,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":3,\"role_id\":100114290,\"complete\":1,\"day\":5,\"car_id\":65,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:02:09#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1035,\"reason\":\"PvpBattleEnd\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:02:09\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":472,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 00:02:09#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1035,\"reason\":\"_battleEnd\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542729729273,\"yuanbao\":32,\"role_level\":50,\"log_ts\":\"2018-11-21 00:02:09\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":472,\"log_ds\":\"2018-11-21\",\"rewards\":\"\"}"
+        },
+        {
+            "logid": "2018-11-21 00:02:09#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"steal\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:02:17\",\"mode\":3,\"uid\":203348525,\"score\":\"8:7\",\"rebound\":1,\"role_id\":100114290,\"assists\":0,\"total_score\":0,\"block\":0,\"vip\":4,\"win\":1,\"log_id\":\"AIBattle\",\"twoPointTry\":0,\"playerName\":\"\u9ad8\u5174\u4e37\u7ea6\u4ec0\",\"end_time\":1542729737136,\"team\":1,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"threePointTry\":0,\"loose\":0,\"guid\":\"100114290_1001_1542729737136\",\"three_num\":0,\"log_ds\":\"2018-11-21\",\"two_num\":0,\"playerid\":4}"
+        },
+        {
+            "logid": "2018-11-21 00:02:17#050#AIBattle"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"y_account_id\":\"\",\"server\":1001,\"log_id\":\"Chat\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"chat_time\":1542729784,\"y_obj\":\"\",\"channel\":4,\"role_level\":50,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 00:03:04\",\"content\":\"2\u5206\u8fdb\u4e86\u8d5a\u4e86\u4e0d\u8fdb\u6211\u53ef\u4ee5\u88653\u5206\u4e00\u5b9a\u8fdb\u4e0d\u4e86\uff0c\",\"y_level\":\"\",\"scene\":\"ChatScene\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"y_name\":\"\",\"udid\":\"775198ddab824565\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:04#050#Chat"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"y_account_id\":\"\",\"server\":1001,\"log_id\":\"Chat\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"chat_time\":1542729796,\"y_obj\":\"\",\"channel\":4,\"role_level\":50,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 00:03:16\",\"content\":\"\u55ef\u5361\u4f4d\u6211\u653e\u4e0d\u4e86\",\"y_level\":\"\",\"scene\":\"ChatScene\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"y_name\":\"\",\"udid\":\"775198ddab824565\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:16#050#Chat"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"CrestProject\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"role_level\":50,\"project\":\"1049,1049,1049,1049,1049,1049,1049,1049,1049,1049,1051,1051,1051,1051,1051,1051,1051,1051,1051,1051;;\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:03:19\",\"finish_time\":1542729799}"
+        },
+        {
+            "logid": "2018-11-21 00:03:19#050#CrestProject"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"DrawLoopLoginInfo\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542729800993,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:20\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_450,4;\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:20#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"ReadMail\",\"log_id\":\"CrestFrag\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"num\":25,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:33\",\"finish_time\":1542729813,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"id\":300,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:33#050#CrestFrag"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"DrawRepetitiveLoginReward\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542729813285,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:33\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":158,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_173,3;98_300,25;\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:33#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"amount\":158,\"channel\":\"huawei\",\"role_level\":50,\"money_type\":3,\"income_category\":2,\"log_ts\":\"2018-11-21 00:03:33\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:33#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"ReadMail\",\"log_id\":\"CrestFrag\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"num\":5,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:35\",\"finish_time\":1542729815,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"id\":300,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:35#050#CrestFrag"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"BuyPreferenceReward\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:35\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":300,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 00:03:35#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"BuyPreferenceReward\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542729815167,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:35\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_300,5;\",\"coin\":null}"
+        },
+        {
+            "logid": "2018-11-21 00:03:35#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"amount\":300,\"channel\":\"huawei\",\"role_level\":50,\"money_type\":2,\"income_category\":2,\"log_ts\":\"2018-11-21 00:03:35\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:35#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"daily_liveness\":45,\"log_id\":\"DailyLiveness\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:03:39\",\"finish_time\":1542729819}"
+        },
+        {
+            "logid": "2018-11-21 00:03:39#050#DailyLiveness"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"DailyTask\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"task_id\":1014,\"draw\":2,\"log_ts\":\"2018-11-21 00:03:39\",\"finish_time\":1542729819,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:39#050#DailyTask"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:39\",\"finish_time\":1542729819,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":27,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":27,\"role_id\":100114290,\"complete\":1,\"day\":6,\"car_id\":68,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:39#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"SubmitQuest\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542729819677,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:39\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":42,\"log_ds\":\"2018-11-21\",\"rewards\":\"\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:39#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":4,\"log_id\":\"UserIncome\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"amount\":10,\"channel\":\"huawei\",\"role_level\":50,\"money_type\":3,\"income_category\":1,\"log_ts\":\"2018-11-21 00:03:39\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:39#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"WeeklyLiveness\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"weekly_liveness\":75,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:03:39\",\"finish_time\":1542729819}"
+        },
+        {
+            "logid": "2018-11-21 00:03:39#050#WeeklyLiveness"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"daily_liveness\":60,\"log_id\":\"DailyLiveness\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:03:40\",\"finish_time\":1542729820}"
+        },
+        {
+            "logid": "2018-11-21 00:03:40#050#DailyLiveness"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"DailyTask\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"task_id\":1008,\"draw\":2,\"log_ts\":\"2018-11-21 00:03:40\",\"finish_time\":1542729820,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:40#050#DailyTask"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:40\",\"finish_time\":1542729820,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":27,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":27,\"role_id\":100114290,\"complete\":1,\"day\":6,\"car_id\":68,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:40#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"SubmitQuest\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542729820524,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:40\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":36,\"log_ds\":\"2018-11-21\",\"rewards\":\"\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:40#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"WeeklyLiveness\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"weekly_liveness\":90,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:03:40\",\"finish_time\":1542729820}"
+        },
+        {
+            "logid": "2018-11-21 00:03:40#050#WeeklyLiveness"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"DayOrWeekGift\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"flag\":0,\"liveness\":30,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:41\",\"finish_time\":1542729821,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"weekly_refush\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:41#050#DayOrWeekGift"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"ReceiveActiveBoxReward\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:41\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":140,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 00:03:41#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"ReceiveActiveBoxReward\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542729821658,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:41\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":10,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_110,1;\",\"coin\":null}"
+        },
+        {
+            "logid": "2018-11-21 00:03:41#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":29,\"log_id\":\"UserIncome\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"amount\":10,\"channel\":\"huawei\",\"role_level\":50,\"money_type\":3,\"income_category\":2,\"log_ts\":\"2018-11-21 00:03:41\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:41#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"DayOrWeekGift\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"flag\":0,\"liveness\":50,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:42\",\"finish_time\":1542729822,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"weekly_refush\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:42#050#DayOrWeekGift"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"ReceiveActiveBoxReward\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:42\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":220,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 00:03:42#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"ReceiveActiveBoxReward\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542729822444,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:42\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":10,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"\",\"coin\":null}"
+        },
+        {
+            "logid": "2018-11-21 00:03:42#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":29,\"log_id\":\"UserIncome\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"amount\":10,\"channel\":\"huawei\",\"role_level\":50,\"money_type\":3,\"income_category\":2,\"log_ts\":\"2018-11-21 00:03:42\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:42#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"ReadMail\",\"log_id\":\"CrestFrag\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"num\":5,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:48\",\"finish_time\":1542729828,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"id\":300,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:48#050#CrestFrag"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"item_type\":\"shop_item\",\"role_level\":50,\"other_price\":-1,\"log_ts\":\"2018-11-21 00:03:48\",\"cost_money\":0,\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"price\":0,\"currency\":1,\"udid\":\"775198ddab824565\",\"left_free_yuanbao\":0,\"log_id\":\"ItemBuy\",\"yuanbao\":0,\"item_id\":\"98-163\",\"count\":1,\"expire_time\":0,\"item_name\":\"shop_item\",\"left_yuanbao\":0,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"huawei\",\"buy_time\":1542729828,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"shop_type\":1,\"log_ds\":\"2018-11-21\",\"free_yuanbao\":0}"
+        },
+        {
+            "logid": "2018-11-21 00:03:48#050#ItemBuy"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"BuyShopItem\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:48\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 00:03:48#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"BuyShopItem\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542729828592,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:48\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_300,5;\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:48#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"item_id\":\"98-163\",\"cost_type\":1,\"channel\":\"huawei\",\"role_level\":50,\"cost_value\":0,\"log_ts\":\"2018-11-21 00:03:48\",\"item_num\":1,\"way\":\"BuyShopItem\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":0,\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:48#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"item_type\":\"shop_item\",\"role_level\":50,\"other_price\":-1,\"log_ts\":\"2018-11-21 00:03:50\",\"cost_money\":0,\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"price\":0,\"currency\":1,\"udid\":\"775198ddab824565\",\"left_free_yuanbao\":0,\"log_id\":\"ItemBuy\",\"yuanbao\":0,\"item_id\":\"98-164\",\"count\":1,\"expire_time\":0,\"item_name\":\"shop_item\",\"left_yuanbao\":0,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"huawei\",\"buy_time\":1542729830,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"shop_type\":1,\"log_ds\":\"2018-11-21\",\"free_yuanbao\":0}"
+        },
+        {
+            "logid": "2018-11-21 00:03:50#050#ItemBuy"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"BuyShopItem\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:50\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 00:03:50#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"BuyShopItem\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542729830389,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:03:50\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":15,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:50#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"item_id\":\"98-164\",\"cost_type\":1,\"channel\":\"huawei\",\"role_level\":50,\"cost_value\":0,\"log_ts\":\"2018-11-21 00:03:50\",\"item_num\":1,\"way\":\"BuyShopItem\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":0,\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:50#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"amount\":15,\"channel\":\"huawei\",\"role_level\":50,\"money_type\":3,\"income_category\":2,\"log_ts\":\"2018-11-21 00:03:50\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:03:50#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,102001,1,1\",\"role_id\":100114290,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:04:08\",\"finish_time\":1542729848}"
+        },
+        {
+            "logid": "2018-11-21 00:04:08#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"122005,5,1;127005,5,1;134004,4,1;104003,3,1;120002,2,1;103003,3,1;105003,3,2;130005,5,2;205005,5,1;226005,5,1;133003,3,1;136001,1,1;104002,2,1;127001,1,1;135001,1,1;111001,1,1;102001,1,1\",\"role_id\":100114290,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:04:08\",\"finish_time\":1542729848}"
+        },
+        {
+            "logid": "2018-11-21 00:04:08#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 00:04:08\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"box_type\":1,\"role_id\":100114290,\"cost_yuanbao\":44,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_102001,1;98_208,3;1_0,17;\"}"
+        },
+        {
+            "logid": "2018-11-21 00:04:08#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:04:08\",\"finish_time\":1542729848,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":1,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":1,\"role_id\":100114290,\"complete\":1,\"day\":5,\"car_id\":63,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:04:08#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"DrawTrophyReward\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:04:08\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":17,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 00:04:08#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"item_id\":\"45-110\",\"cost_type\":3,\"channel\":\"huawei\",\"role_level\":50,\"cost_value\":44,\"log_ts\":\"2018-11-21 00:04:08\",\"item_num\":1,\"way\":\"DarwTrophyReward\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":0,\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:04:08#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"amount\":17,\"channel\":\"huawei\",\"role_level\":50,\"money_type\":2,\"income_category\":2,\"log_ts\":\"2018-11-21 00:04:08\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:04:08#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,108002,2,1\",\"role_id\":100114290,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:04:10\",\"finish_time\":1542729850}"
+        },
+        {
+            "logid": "2018-11-21 00:04:10#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"122005,5,1;127005,5,1;134004,4,1;104003,3,1;120002,2,1;103003,3,1;105003,3,2;130005,5,2;205005,5,1;226005,5,1;133003,3,1;136001,1,1;104002,2,1;127001,1,1;135001,1,1;111001,1,1;102001,1,1;108002,2,1\",\"role_id\":100114290,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:04:10\",\"finish_time\":1542729850}"
+        },
+        {
+            "logid": "2018-11-21 00:04:10#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 00:04:10\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"box_type\":2,\"role_id\":100114290,\"cost_yuanbao\":55,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_108002,1;98_208,10;98_201,1;1_0,476;1_0,380;\"}"
+        },
+        {
+            "logid": "2018-11-21 00:04:10#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:04:10\",\"finish_time\":1542729850,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":1,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":1,\"role_id\":100114290,\"complete\":1,\"day\":4,\"car_id\":59,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:04:10#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"DrawTrophyReward\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:04:10\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":856,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 00:04:10#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"item_id\":\"45-120\",\"cost_type\":3,\"channel\":\"huawei\",\"role_level\":50,\"cost_value\":55,\"log_ts\":\"2018-11-21 00:04:10\",\"item_num\":1,\"way\":\"DarwTrophyReward\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":0,\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:04:10#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"amount\":856,\"channel\":\"huawei\",\"role_level\":50,\"money_type\":2,\"income_category\":2,\"log_ts\":\"2018-11-21 00:04:10\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:04:10#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_coin\":4251,\"server\":1001,\"before_quality\":1,\"log_id\":\"CompoundSkill\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"skillType\":\"-1\",\"role_level\":50,\"rand_num\":7,\"before_num\":\"102001,1;111001,1;127001,1;135001,1;136001,1\",\"type\":2,\"log_ts\":\"2018-11-21 00:04:18\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"need_money\":500,\"role_id\":100114290,\"old_coin\":4751,\"after_id\":102002,\"need_card_num\":5,\"left_num\":\"102001,0;111001,0;127001,0;135001,0;136001,0\",\"after_quality\":2,\"log_ds\":\"2018-11-21\",\"before_id\":\"102001;111001;127001;135001;136001\"}"
+        },
+        {
+            "logid": "2018-11-21 00:04:18#050#CompoundSkill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:04:18\",\"finish_time\":1542729858,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":1,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":1,\"role_id\":100114290,\"complete\":1,\"day\":5,\"car_id\":63,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:04:18#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"CompoundSkill\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:04:18\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":-500,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 00:04:18#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"CompoundSkill\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542729858577,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:04:18\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_102002,1;\"}"
+        },
+        {
+            "logid": "2018-11-21 00:04:18#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"item_id\":\"44-1\",\"cost_type\":1,\"channel\":\"huawei\",\"role_level\":50,\"cost_value\":500,\"log_ts\":\"2018-11-21 00:04:18\",\"item_num\":0,\"way\":\"CompoundSkill\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:04:18#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"SkillEquip\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:04:22\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"skill_id_before\":\"102002,2\",\"role_id\":100114290,\"skill_off\":1,\"skill_type\":1,\"skill_id\":\"\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:04:22#050#SkillEquip"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"y_account_id\":\"\",\"server\":1001,\"log_id\":\"Chat\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"chat_time\":1542729914,\"y_obj\":\"\",\"channel\":5,\"role_level\":50,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 00:05:14\",\"content\":\"\u5475\u5475\",\"y_level\":\"\",\"scene\":\"ChatScene\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"y_name\":\"\",\"udid\":\"775198ddab824565\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:05:14#050#Chat"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"y_account_id\":\"\",\"server\":1001,\"log_id\":\"Chat\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"chat_time\":1542729925,\"y_obj\":\"\",\"channel\":4,\"role_level\":50,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 00:05:25\",\"content\":\"\u5403\u9e21\u53bb\",\"y_level\":\"\",\"scene\":\"ChatScene\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"y_name\":\"\",\"udid\":\"775198ddab824565\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:05:25#050#Chat"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"y_account_id\":\"\",\"server\":1001,\"log_id\":\"Chat\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"chat_time\":1542729933,\"y_obj\":\"\",\"channel\":4,\"role_level\":50,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 00:05:33\",\"content\":\"\u4f60\u6ca1\u51c6\u5907\",\"y_level\":\"\",\"scene\":\"ChatScene\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"y_name\":\"\",\"udid\":\"775198ddab824565\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:05:33#050#Chat"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"y_account_id\":\"\",\"server\":1001,\"log_id\":\"Chat\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"chat_time\":1542729992,\"y_obj\":\"\",\"channel\":5,\"role_level\":50,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 00:06:32\",\"content\":\"\u5e26\u6211\u98de\",\"y_level\":\"\",\"scene\":\"ChatScene\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"y_name\":\"\",\"udid\":\"775198ddab824565\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:06:32#050#Chat"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1028,\"log_id\":\"GameStart\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"mentor\":\"10\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"rune_info\":{\"power\":\"10.000\",\"jump\":\"10.000\"},\"skin\":1102,\"role_level\":1,\"game_type\":3,\"log_ts\":\"2018-11-21 00:06:47\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"skill_info\":[{\"level\":5,\"id\":38},{\"level\":4,\"id\":41},{\"level\":3,\"id\":103},{\"level\":2,\"id\":18},{\"level\":3,\"id\":202},{\"level\":2,\"id\":401}],\"start_time\":1542730007162,\"all_players\":\"28,38,13,17,18,4,33,11,5,27,16,23,40,37,25,8,36,21,46,30\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"role_id\":100114290,\"map_id\":0,\"skin_attribute\":\"1,5\",\"player_info\":{\"middle\":21,\"steal\":25,\"pass\":13,\"run\":35,\"rebound\":49.5,\"feverGauge\":20,\"threepoint\":13,\"feverRecovery\":20,\"dribble\":24,\"block\":47,\"dunknLayup\":57,\"near\":20,\"power\":60,\"jump\":72},\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:06:47#001#GameStart"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1028,\"log_id\":\"MatchEnd\",\"match_rank_adjust\":3446,\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"match_rank_real\":3456,\"end_time\":1542730007,\"role_level\":50,\"match_time\":55,\"team_id\":27836807,\"log_ts\":\"2018-11-21 00:06:47\",\"evaluation_adjust\":0,\"home\":0,\"evaluation\":0,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"evaluation_real\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"winning_strak\":2,\"match_type\":3,\"losing_strak\":0,\"class\":2,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:06:47#050#MatchEnd"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.0,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":179.0325927734375,\"model_id\":102,\"log_ts\":\"2018-11-21 00:07:35\",\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":1,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:07:35#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":10,\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":172.6926727294922,\"skill_id\":21,\"mentor_run\":0,\"model_id\":102,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:07:48\"}"
+        },
+        {
+            "logid": "2018-11-21 00:07:48#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":171.7694549560547,\"model_id\":102,\"log_ts\":\"2018-11-21 00:07:49\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":101,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"layupndunk\"}"
+        },
+        {
+            "logid": "2018-11-21 00:07:49#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.0,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":158.49139404296875,\"model_id\":102,\"log_ts\":\"2018-11-21 00:08:02\",\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":1,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:02#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"pickup\",\"log_id\":\"Conversion\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":150.62518310546875,\"game_score\":\"0:6\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:08:16\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:16#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"receiver_id\":203349399,\"game_remain_time\":149.41574096679688,\"model_id\":102,\"log_ts\":\"2018-11-21 00:08:17\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:17#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"rebound\",\"log_id\":\"Conversion\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":145.3001708984375,\"game_score\":\"0:6\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:08:21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:21#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.5508044958114624,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":145.3001708984375,\"model_id\":102,\"log_ts\":\"2018-11-21 00:08:21\",\"result\":\"success\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":1,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:21#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":143.49447631835938,\"model_id\":102,\"log_ts\":\"2018-11-21 00:08:23\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":101,\"mentor_run\":1,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"layupndunk\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:23#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":140.39642333984375,\"model_id\":102,\"log_ts\":\"2018-11-21 00:08:32\",\"blocked_player\":103114637,\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:32#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"goalin\",\"log_id\":\"Conversion\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":137.23178100585938,\"game_score\":\"2:8\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:08:38\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:38#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":10,\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":134.7261962890625,\"skill_id\":21,\"mentor_run\":1,\"model_id\":102,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:08:44\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:44#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"receiver_id\":201320761,\"game_remain_time\":133.57354736328125,\"model_id\":102,\"log_ts\":\"2018-11-21 00:08:45\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:45#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"rebound\",\"log_id\":\"Conversion\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":130.6809844970703,\"game_score\":\"2:8\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:08:48\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:48#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.28468334674835205,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":130.6809844970703,\"model_id\":102,\"log_ts\":\"2018-11-21 00:08:48\",\"result\":\"success\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":1,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:48#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":129.09915161132812,\"model_id\":102,\"log_ts\":\"2018-11-21 00:08:50\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":101,\"mentor_run\":1,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"layupndunk\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:50#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":126.35116577148438,\"model_id\":102,\"log_ts\":\"2018-11-21 00:08:58\",\"blocked_player\":103114637,\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:08:58#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":118.38140869140625,\"model_id\":102,\"log_ts\":\"2018-11-21 00:09:06\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":4,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 00:09:06#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":10,\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":108.95504760742188,\"skill_id\":21,\"mentor_run\":1,\"model_id\":102,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:09:22\"}"
+        },
+        {
+            "logid": "2018-11-21 00:09:22#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":108.11257934570312,\"model_id\":102,\"log_ts\":\"2018-11-21 00:09:23\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":15,\"mentor_run\":1,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"layupndunk\"}"
+        },
+        {
+            "logid": "2018-11-21 00:09:23#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"rebound\",\"log_id\":\"Conversion\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":101.29197692871094,\"game_score\":\"6:11\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:09:36\"}"
+        },
+        {
+            "logid": "2018-11-21 00:09:36#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.5707635879516602,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":101.29197692871094,\"model_id\":102,\"log_ts\":\"2018-11-21 00:09:36\",\"result\":\"success\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":1,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:09:36#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":10,\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":93.99189758300781,\"skill_id\":21,\"mentor_run\":1,\"model_id\":102,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:09:43\"}"
+        },
+        {
+            "logid": "2018-11-21 00:09:43#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"receiver_id\":203349399,\"game_remain_time\":90.45693969726562,\"model_id\":102,\"log_ts\":\"2018-11-21 00:09:46\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:09:46#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":10,\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":83.45863342285156,\"skill_id\":112,\"mentor_run\":1,\"model_id\":102,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:09:53\"}"
+        },
+        {
+            "logid": "2018-11-21 00:09:53#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"rebound\",\"log_id\":\"Conversion\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":83.3553466796875,\"game_score\":\"6:11\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:09:54\"}"
+        },
+        {
+            "logid": "2018-11-21 00:09:54#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.4741511344909668,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":83.3553466796875,\"model_id\":102,\"log_ts\":\"2018-11-21 00:09:54\",\"result\":\"success\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":112,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:09:54#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":83.3553466796875,\"model_id\":102,\"log_ts\":\"2018-11-21 00:09:54\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":112,\"mentor_run\":1,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"layupndunk\"}"
+        },
+        {
+            "logid": "2018-11-21 00:09:54#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":10,\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":83.3553466796875,\"skill_id\":112,\"mentor_run\":1,\"model_id\":102,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:09:54\"}"
+        },
+        {
+            "logid": "2018-11-21 00:09:54#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":10,\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":72.30645751953125,\"skill_id\":21,\"mentor_run\":0,\"model_id\":102,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:10:11\"}"
+        },
+        {
+            "logid": "2018-11-21 00:10:11#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":70.04426574707031,\"model_id\":102,\"log_ts\":\"2018-11-21 00:10:13\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":4,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 00:10:13#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":59.07798767089844,\"model_id\":102,\"log_ts\":\"2018-11-21 00:10:30\",\"blocked_player\":103655453,\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:10:30#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"pickup\",\"log_id\":\"Conversion\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":56.14192199707031,\"game_score\":\"10:11\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:10:33\"}"
+        },
+        {
+            "logid": "2018-11-21 00:10:33#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":55.03446960449219,\"model_id\":102,\"log_ts\":\"2018-11-21 00:10:34\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":4,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 00:10:34#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.0,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":40.95646667480469,\"model_id\":102,\"log_ts\":\"2018-11-21 00:10:48\",\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":1,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:10:48#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":10,\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":39.87001037597656,\"skill_id\":23,\"mentor_run\":0,\"model_id\":102,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:10:55\"}"
+        },
+        {
+            "logid": "2018-11-21 00:10:55#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"rebound\",\"log_id\":\"Conversion\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":34.863494873046875,\"game_score\":\"10:13\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:11:00\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:00#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.278106689453125,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":34.863494873046875,\"model_id\":102,\"log_ts\":\"2018-11-21 00:11:00\",\"result\":\"success\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":112,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:00#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":34.863494873046875,\"model_id\":102,\"log_ts\":\"2018-11-21 00:11:00\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":112,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"layupndunk\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:00#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":10,\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":34.863494873046875,\"skill_id\":112,\"mentor_run\":0,\"model_id\":102,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:11:00\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:00#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Steal\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":28.339340209960938,\"model_id\":102,\"stealed_player\":103655453,\"log_ts\":\"2018-11-21 00:11:13\",\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":8,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:13#000#Steal"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":26.145004272460938,\"model_id\":102,\"log_ts\":\"2018-11-21 00:11:15\",\"blocked_player\":103655453,\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:15#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":24.976699829101562,\"model_id\":102,\"log_ts\":\"2018-11-21 00:11:16\",\"blocked_player\":103655453,\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:16#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"goalin\",\"log_id\":\"Conversion\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":23.808059692382812,\"game_score\":\"12:15\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:11:20\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:20#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"receiver_id\":201320761,\"game_remain_time\":23.315841674804688,\"model_id\":102,\"log_ts\":\"2018-11-21 00:11:24\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:24#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":19.954513549804688,\"model_id\":102,\"log_ts\":\"2018-11-21 00:11:27\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":101,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"layupndunk\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:27#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":10,\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":20.774185180664062,\"skill_id\":21,\"mentor_run\":0,\"model_id\":102,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:11:27\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:27#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":14.268417358398438,\"model_id\":102,\"log_ts\":\"2018-11-21 00:11:39\",\"blocked_player\":103114637,\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:39#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"pickup\",\"log_id\":\"Conversion\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"role_id\":100114290,\"game_remain_time\":10.798599243164062,\"game_score\":\"14:15\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:11:43\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:43#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"receiver_id\":201320761,\"game_remain_time\":9.732437133789062,\"model_id\":102,\"log_ts\":\"2018-11-21 00:11:44\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:44#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"game_remain_time\":1.1302947998046875,\"model_id\":102,\"log_ts\":\"2018-11-21 00:11:58\",\"blocked_player\":103655453,\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:11:58#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"iconid\":7,\"game_result\":0,\"two_point_fieldgoal_num\":7,\"gtitle\":37,\"really_score\":3456,\"role_level\":50,\"skill_use_time\":[{\"skillID\":8,\"Count\":2},{\"skillID\":23,\"Count\":1},{\"skillID\":112,\"Count\":4},{\"skillID\":1,\"Count\":9},{\"skillID\":34,\"Count\":5},{\"skillID\":21,\"Count\":6},{\"skillID\":2,\"Count\":3},{\"skillID\":6,\"Count\":5},{\"skillID\":39,\"Count\":2},{\"skillID\":101,\"Count\":4},{\"skillID\":9,\"Count\":7},{\"skillID\":4,\"Count\":3},{\"skillID\":15,\"Count\":1}],\"evaluation\":0,\"matchUids\":\"201320761\",\"three_point_shoot_num\":0,\"role_id\":100114290,\"mvp_point\":24.400001525878906,\"ai_player\":0,\"delta_rank\":-39,\"reb_num\":5,\"floor_num\":3,\"ballstealed_num\":0,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"ass_num\":0,\"withFriend\":\"201320761\",\"overtime\":0,\"cmd\":\"GameEnd\",\"position\":\"PF\",\"frame\":34,\"inTeam\":1,\"server\":1031,\"balltouch_num\":13,\"distance\":0,\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"rank_class\":2,\"game_score\":\"17:16\",\"match_rank\":3417,\"game_type\":1,\"log_ts\":\"2018-11-21 00:12:05\",\"player_id\":\"40\",\"ballpass_num\":5,\"game_time\":0,\"blk_num\":0,\"steal_num\":0,\"match_type\":2,\"role_score\":14,\"mentor_use_time\":3,\"log_id\":\"GameEnd\",\"wideopen_num\":0,\"mvp\":0,\"end_time\":1542730325,\"two_point_shoot_num\":10,\"team\":1,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"ballblk_num\":1,\"delta_evaluation\":0,\"game_mode\":3,\"three_point_fieldgoal_num\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:12:05#050#GameEnd"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1031,\"log_id\":\"MentorsLog\",\"game_uuid\":\"c50f677c5f375c0057e3e1e6eac93853\",\"end_time\":1542730325,\"role_level\":50,\"game_type\":3,\"log_ts\":\"2018-11-21 00:12:05\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"game_rank\":2,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":\"40\",\"role_id\":100114290,\"montoid\":10,\"player_level\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:12:05#050#MentorsLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1031,\"d_role_name\":\"-1\",\"d_role_level\":0,\"s_device_model\":\"HUAWEI MHA-AL00\",\"d_account_id\":\"-1\",\"s_prod_money\":90,\"log_ts\":\"2018-11-21 00:12:05\",\"s_exp\":21,\"d_cost_item\":[],\"d_prod_item\":[],\"s_cost_money\":0,\"d_os_ver\":\"-1\",\"s_os_ver\":\"8.0.0\",\"d_mac_addr\":\"-1\",\"s_cost_item\":[],\"s_udid\":\"775198ddab824565\",\"s_role_level\":50,\"d_old_accountid\":\"-1\",\"d_os_name\":\"-1\",\"log_id\":\"PVP\",\"use_time\":180,\"s_role_id\":100114290,\"begin_time\":1542730325529,\"s_role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"d_cost_money\":0,\"d_prod_money\":0,\"d_exp\":0,\"s_account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"d_udid\":\"-1\",\"s_old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"d_role_id\":\"-1\",\"s_os_name\":\"ad\",\"s_prod_item\":[],\"end_state\":0,\"s_mac_addr\":\"14:9D:09:6D:7E:B5\",\"d_device_model\":\"-1\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:12:05#050#PVP"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1031,\"reason\":\"PvpBattleEnd\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:12:05\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":146,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 00:12:05#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1031,\"reason\":\"PvpBattleEnd\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542730325709,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:12:05\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"\"}"
+        },
+        {
+            "logid": "2018-11-21 00:12:05#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1031,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:12:06\",\"finish_time\":1542730326,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":27,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":27,\"role_id\":100114290,\"complete\":1,\"day\":6,\"car_id\":68,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:12:06#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"steal\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:12:13\",\"mode\":3,\"uid\":100114290,\"score\":\"16:17\",\"rebound\":5,\"role_id\":100114290,\"assists\":0,\"total_score\":14,\"block\":0,\"vip\":4,\"win\":0,\"log_id\":\"AIBattle\",\"twoPointTry\":0,\"playerName\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"end_time\":1542730333894,\"team\":1,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"threePointTry\":0,\"loose\":3,\"guid\":\"100114290_1001_1542730333894\",\"three_num\":0,\"log_ds\":\"2018-11-21\",\"two_num\":7,\"playerid\":102}"
+        },
+        {
+            "logid": "2018-11-21 00:12:13#050#AIBattle"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2013,\"log_id\":\"GameStart\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"mentor\":\"10\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"rune_info\":{\"power\":\"10.000\",\"jump\":\"10.000\"},\"skin\":1102,\"role_level\":1,\"game_type\":3,\"log_ts\":\"2018-11-21 00:13:10\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"skill_info\":[{\"level\":5,\"id\":38},{\"level\":4,\"id\":41},{\"level\":3,\"id\":103},{\"level\":2,\"id\":18},{\"level\":3,\"id\":202},{\"level\":2,\"id\":401}],\"start_time\":1542730390087,\"all_players\":\"28,38,13,17,18,4,33,11,5,27,16,23,40,37,25,8,36,21,46,30\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"role_id\":100114290,\"map_id\":0,\"skin_attribute\":\"1,5\",\"player_info\":{\"middle\":21,\"steal\":25,\"pass\":13,\"run\":35,\"rebound\":49.5,\"feverGauge\":20,\"threepoint\":13,\"feverRecovery\":20,\"dribble\":24,\"block\":47,\"dunknLayup\":57,\"near\":20,\"power\":60,\"jump\":72},\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:13:10#001#GameStart"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2013,\"log_id\":\"MatchEnd\",\"match_rank_adjust\":3456,\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"match_rank_real\":3417,\"end_time\":1542730390,\"role_level\":50,\"match_time\":41,\"team_id\":27836807,\"log_ts\":\"2018-11-21 00:13:10\",\"evaluation_adjust\":0,\"home\":0,\"evaluation\":0,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"evaluation_real\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"winning_strak\":0,\"match_type\":3,\"losing_strak\":1,\"class\":2,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:13:10#050#MatchEnd"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.0,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"game_remain_time\":178.82859802246094,\"model_id\":102,\"log_ts\":\"2018-11-21 00:13:50\",\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":1,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:13:50#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.23144948482513428,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"game_remain_time\":172.83432006835938,\"model_id\":102,\"log_ts\":\"2018-11-21 00:13:56\",\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":1,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:13:56#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.5402487516403198,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"game_remain_time\":168.5233612060547,\"model_id\":102,\"log_ts\":\"2018-11-21 00:14:01\",\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":1,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:14:01#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.0,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"game_remain_time\":138.3053741455078,\"model_id\":102,\"log_ts\":\"2018-11-21 00:14:43\",\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":1,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:14:43#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"game_remain_time\":135.71881103515625,\"model_id\":102,\"log_ts\":\"2018-11-21 00:14:46\",\"blocked_player\":201225367,\"result\":\"fail\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:14:46#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"goalin\",\"log_id\":\"Conversion\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"role_id\":100114290,\"game_remain_time\":134.60922241210938,\"game_score\":\"0:6\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:14:50\"}"
+        },
+        {
+            "logid": "2018-11-21 00:14:50#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":10,\"role_type\":\"user\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"role_id\":100114290,\"game_remain_time\":132.84259033203125,\"skill_id\":21,\"mentor_run\":1,\"model_id\":102,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:14:55\"}"
+        },
+        {
+            "logid": "2018-11-21 00:14:55#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"ShootCancel\",\"role_type\":\"user\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"game_remain_time\":130.46408081054688,\"model_id\":102,\"log_ts\":\"2018-11-21 00:14:57\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":211,\"mentor_run\":1,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 00:14:57#000#ShootCancel"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"receiver_id\":201320761,\"game_remain_time\":129.43984985351562,\"model_id\":102,\"log_ts\":\"2018-11-21 00:14:58\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:14:58#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"ShootCancel\",\"role_type\":\"user\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"game_remain_time\":129.66497802734375,\"model_id\":102,\"log_ts\":\"2018-11-21 00:14:58\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":211,\"mentor_run\":1,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 00:14:58#000#ShootCancel"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"game_remain_time\":122.8949203491211,\"model_id\":102,\"log_ts\":\"2018-11-21 00:15:05\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":4,\"mentor_run\":1,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 00:15:05#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"game_remain_time\":119.20169067382812,\"model_id\":102,\"log_ts\":\"2018-11-21 00:15:14\",\"blocked_player\":201225367,\"result\":\"success\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:15:14#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"goalin\",\"log_id\":\"Conversion\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"role_id\":100114290,\"game_remain_time\":88.67349243164062,\"game_score\":\"2:14\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:16:00\"}"
+        },
+        {
+            "logid": "2018-11-21 00:16:00#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"receiver_id\":203349338,\"game_remain_time\":88.55052185058594,\"model_id\":102,\"log_ts\":\"2018-11-21 00:16:03\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:16:03#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"receiver_id\":201320761,\"game_remain_time\":73.41551208496094,\"model_id\":102,\"log_ts\":\"2018-11-21 00:16:24\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:16:24#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"goalin\",\"log_id\":\"Conversion\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"role_id\":100114290,\"game_remain_time\":52.97569274902344,\"game_score\":\"2:20\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:16:54\"}"
+        },
+        {
+            "logid": "2018-11-21 00:16:54#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user_AI\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"receiver_id\":201320761,\"game_remain_time\":51.15069580078125,\"model_id\":102,\"log_ts\":\"2018-11-21 00:16:59\",\"mentor_id\":10,\"pass_type\":\"intercept_catch\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:16:59#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"pickup\",\"log_id\":\"Conversion\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"role_id\":100114290,\"game_remain_time\":37.13063049316406,\"game_score\":\"2:22\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:17:19\"}"
+        },
+        {
+            "logid": "2018-11-21 00:17:19#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user_AI\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"receiver_id\":201320761,\"game_remain_time\":36.3670654296875,\"model_id\":102,\"log_ts\":\"2018-11-21 00:17:20\",\"mentor_id\":10,\"pass_type\":\"pass_long_run\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:17:20#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user_AI\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"receiver_id\":201320761,\"game_remain_time\":31.627792358398438,\"model_id\":102,\"log_ts\":\"2018-11-21 00:17:24\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:17:24#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user_AI\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"receiver_id\":201320761,\"game_remain_time\":30.53607177734375,\"model_id\":102,\"log_ts\":\"2018-11-21 00:17:25\",\"mentor_id\":10,\"pass_type\":\"pass_short\",\"role_id\":100114290,\"skill_id\":6,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:17:25#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user_AI\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"game_remain_time\":29.426986694335938,\"model_id\":102,\"log_ts\":\"2018-11-21 00:17:27\",\"result\":\"nogoal\",\"mentor_id\":10,\"role_id\":100114290,\"skill_id\":101,\"mentor_run\":1,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"layupndunk\"}"
+        },
+        {
+            "logid": "2018-11-21 00:17:27#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"away\",\"reason\":\"goalin\",\"log_id\":\"Conversion\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"role_id\":100114290,\"game_remain_time\":4.7552032470703125,\"game_score\":\"4:28\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 00:18:06\"}"
+        },
+        {
+            "logid": "2018-11-21 00:18:06#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2019,\"log_id\":\"DailyTask\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"task_id\":1006,\"draw\":1,\"schedul\":3,\"log_ts\":\"2018-11-21 00:18:19\",\"finish_time\":1542730699,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:18:19#050#DailyTask"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"iconid\":7,\"game_result\":0,\"two_point_fieldgoal_num\":2,\"gtitle\":37,\"really_score\":3417,\"role_level\":50,\"skill_use_time\":[{\"skillID\":34,\"Count\":1},{\"skillID\":1,\"Count\":8},{\"skillID\":39,\"Count\":2},{\"skillID\":6,\"Count\":7},{\"skillID\":21,\"Count\":1},{\"skillID\":327,\"Count\":1},{\"skillID\":4,\"Count\":3},{\"skillID\":22,\"Count\":1},{\"skillID\":2,\"Count\":1},{\"skillID\":9,\"Count\":2},{\"skillID\":101,\"Count\":1}],\"evaluation\":0,\"matchUids\":\"201320761\",\"three_point_shoot_num\":0,\"role_id\":100114290,\"mvp_point\":9.300000190734863,\"ai_player\":0,\"delta_rank\":-5,\"reb_num\":0,\"floor_num\":1,\"ballstealed_num\":2,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"ass_num\":0,\"withFriend\":\"201320761\",\"overtime\":0,\"cmd\":\"GameEnd\",\"position\":\"PF\",\"frame\":34,\"inTeam\":1,\"server\":2019,\"balltouch_num\":8,\"distance\":0,\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"rank_class\":2,\"game_score\":\"28:4\",\"match_rank\":3412,\"game_type\":1,\"log_ts\":\"2018-11-21 00:18:19\",\"player_id\":\"40\",\"ballpass_num\":7,\"game_time\":0,\"blk_num\":1,\"steal_num\":0,\"match_type\":3,\"role_score\":4,\"mentor_use_time\":2,\"log_id\":\"GameEnd\",\"wideopen_num\":0,\"mvp\":0,\"end_time\":1542730699,\"two_point_shoot_num\":2,\"team\":1,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"ballblk_num\":0,\"delta_evaluation\":0,\"game_mode\":3,\"three_point_fieldgoal_num\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:18:19#050#GameEnd"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2019,\"log_id\":\"MentorsLog\",\"game_uuid\":\"7eca75ddb84cc453d2ef386942aaf86a\",\"end_time\":1542730699,\"role_level\":50,\"game_type\":3,\"log_ts\":\"2018-11-21 00:18:19\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"game_rank\":2,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":\"40\",\"role_id\":100114290,\"montoid\":10,\"player_level\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:18:19#050#MentorsLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2019,\"d_role_name\":\"-1\",\"d_role_level\":0,\"s_device_model\":\"HUAWEI MHA-AL00\",\"d_account_id\":\"-1\",\"s_prod_money\":0,\"log_ts\":\"2018-11-21 00:18:19\",\"s_exp\":0,\"d_cost_item\":[],\"d_prod_item\":[],\"s_cost_money\":0,\"d_os_ver\":\"-1\",\"s_os_ver\":\"8.0.0\",\"d_mac_addr\":\"-1\",\"s_cost_item\":[],\"s_udid\":\"775198ddab824565\",\"s_role_level\":50,\"d_old_accountid\":\"-1\",\"d_os_name\":\"-1\",\"log_id\":\"PVP\",\"use_time\":180,\"s_role_id\":100114290,\"begin_time\":1542730699049,\"s_role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"d_cost_money\":0,\"d_prod_money\":0,\"d_exp\":0,\"s_account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"d_udid\":\"-1\",\"s_old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"d_role_id\":\"-1\",\"s_os_name\":\"ad\",\"s_prod_item\":[],\"end_state\":0,\"s_mac_addr\":\"14:9D:09:6D:7E:B5\",\"d_device_model\":\"-1\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:18:19#050#PVP"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2019,\"reason\":\"PvpBattleEnd\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542730699229,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 00:18:19\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"\"}"
+        },
+        {
+            "logid": "2018-11-21 00:18:19#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2019,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 00:18:22\",\"finish_time\":1542730702,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":3,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":3,\"role_id\":100114290,\"complete\":1,\"day\":5,\"car_id\":65,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 00:18:22#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"device_model\":\"HUAWEI MHA-AL00\",\"isp\":\"460028958883906\",\"role_level\":50,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 00:26:28\",\"network\":\"wifi\",\"scene\":\"3003\",\"device_width\":1920,\"online_time\":1206,\"user_cash\":0,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"role_id\":100114290,\"ipv6\":\"fe80::80dc:4dff:fe6c:f985%dummy0\",\"exp_sum\":131,\"udid\":\"775198ddab824565\",\"exp\":104573,\"free_yuanbao_sum\":0,\"log_id\":\"LogoutRole\",\"os_ver\":\"8.0.0\",\"create_time\":1532570217,\"ip\":\"49.77.249.10\",\"item_sum\":[],\"money_sum\":2211,\"user_token_money\":129,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"huawei\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"device_height\":1080,\"app_ver\":\"28141\",\"logout_time\":1542731188,\"os_name\":\"ad\",\"vip_level\":4,\"log_ds\":\"2018-11-21\",\"last_operation\":\"3003004\",\"coin\":4397}"
+        },
+        {
+            "logid": "2018-11-21 00:26:28#050#LogoutRole"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"device_model\":\"HUAWEI MHA-AL00\",\"nation\":86,\"isp\":\"460028958883906\",\"log_key\":\"\",\"role_level\":50,\"last_logout_time\":1542731188,\"log_ts\":\"2018-11-21 01:41:18\",\"offline_exp\":0,\"network\":\"wifi\",\"offline_money\":0,\"device_width\":1920,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"role_id\":100114290,\"ipv6\":\"fe80::80dc:4dff:fe6c:f985%dummy0\",\"udid\":\"775198ddab824565\",\"log_content\":\"\",\"log_id\":\"LoginRole\",\"os_ver\":\"8.0.0\",\"create_time\":1532570217,\"ip\":\"49.77.249.10\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"huawei\",\"u_dtls\":\"0\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"sum_money\":693,\"device_height\":1080,\"login_time\":1542735678,\"app_ver\":\"28141\",\"os_name\":\"ad\",\"offline_item\":[],\"vip_level\":5,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:18#050#LoginRole"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:41:18\",\"finish_time\":1542735678,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":27,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":27,\"role_id\":100114290,\"complete\":1,\"day\":6,\"car_id\":68,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:18#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"CrestProject\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"role_level\":50,\"project\":\"1049,1049,1049,1049,1049,1049,1049,1049,1049,1049,1051,1051,1051,1051,1051,1051,1051,1051,1051,1051;;\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:41:26\",\"finish_time\":1542735686}"
+        },
+        {
+            "logid": "2018-11-21 01:41:26#050#CrestProject"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,102001,1,1\",\"role_id\":100114290,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:41:30\",\"finish_time\":1542735690}"
+        },
+        {
+            "logid": "2018-11-21 01:41:30#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"122005,5,1;127005,5,1;134004,4,1;104003,3,1;120002,2,1;103003,3,1;102002,2,1;105003,3,2;130005,5,2;205005,5,1;226005,5,1;133003,3,1;104002,2,1;108002,2,1;102001,1,1\",\"role_id\":100114290,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:41:30\",\"finish_time\":1542735690}"
+        },
+        {
+            "logid": "2018-11-21 01:41:30#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 01:41:30\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"box_type\":1,\"role_id\":100114290,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_102001,1;98_208,3;98_201,1;\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:30#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:41:30\",\"finish_time\":1542735690,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":1,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":1,\"role_id\":100114290,\"complete\":1,\"day\":5,\"car_id\":63,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:30#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,115001,1,1\",\"role_id\":100114290,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:41:32\",\"finish_time\":1542735692}"
+        },
+        {
+            "logid": "2018-11-21 01:41:32#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"122005,5,1;127005,5,1;134004,4,1;104003,3,1;120002,2,1;103003,3,1;102002,2,1;105003,3,2;130005,5,2;205005,5,1;226005,5,1;133003,3,1;104002,2,1;108002,2,1;102001,1,1;115001,1,1\",\"role_id\":100114290,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:41:32\",\"finish_time\":1542735692}"
+        },
+        {
+            "logid": "2018-11-21 01:41:32#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 01:41:32\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"box_type\":1,\"role_id\":100114290,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_115001,1;98_209,2;1_0,80;\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:32#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:41:32\",\"finish_time\":1542735692,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":2,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":2,\"role_id\":100114290,\"complete\":1,\"day\":7,\"car_id\":74,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:32#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"DrawTrophyReward\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:41:32\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":80,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 01:41:32#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"amount\":80,\"channel\":\"huawei\",\"role_level\":50,\"money_type\":2,\"income_category\":2,\"log_ts\":\"2018-11-21 01:41:32\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:32#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,105002,2,1\",\"role_id\":100114290,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:41:34\",\"finish_time\":1542735694}"
+        },
+        {
+            "logid": "2018-11-21 01:41:34#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"122005,5,1;127005,5,1;134004,4,1;104003,3,1;120002,2,1;103003,3,1;102002,2,1;105003,3,2;130005,5,2;205005,5,1;226005,5,1;133003,3,1;104002,2,1;108002,2,1;102001,1,1;115001,1,1;105002,2,1\",\"role_id\":100114290,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:41:34\",\"finish_time\":1542735694}"
+        },
+        {
+            "logid": "2018-11-21 01:41:34#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 01:41:34\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"box_type\":1,\"role_id\":100114290,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_105002,1;98_207,2;98_205,3;\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:34#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:41:34\",\"finish_time\":1542735694,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":2,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":2,\"role_id\":100114290,\"complete\":1,\"day\":7,\"car_id\":74,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:34#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,131001,1,1\",\"role_id\":100114290,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:41:35\",\"finish_time\":1542735695}"
+        },
+        {
+            "logid": "2018-11-21 01:41:35#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"122005,5,1;127005,5,1;134004,4,1;104003,3,1;120002,2,1;103003,3,1;102002,2,1;105003,3,2;130005,5,2;205005,5,1;226005,5,1;133003,3,1;104002,2,1;108002,2,1;102001,1,1;115001,1,1;105002,2,1;131001,1,1\",\"role_id\":100114290,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:41:35\",\"finish_time\":1542735695}"
+        },
+        {
+            "logid": "2018-11-21 01:41:35#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 01:41:35\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"box_type\":1,\"role_id\":100114290,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_131001,1;98_208,3;\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:35#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:41:35\",\"finish_time\":1542735695,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":2,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":2,\"role_id\":100114290,\"complete\":1,\"day\":7,\"car_id\":74,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:35#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"daily_liveness\":70,\"log_id\":\"DailyLiveness\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:41:39\",\"finish_time\":1542735699}"
+        },
+        {
+            "logid": "2018-11-21 01:41:39#050#DailyLiveness"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"DailyTask\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"task_id\":1006,\"draw\":2,\"log_ts\":\"2018-11-21 01:41:39\",\"finish_time\":1542735699,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:39#050#DailyTask"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:41:39\",\"finish_time\":1542735699,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":27,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":27,\"role_id\":100114290,\"complete\":1,\"day\":6,\"car_id\":68,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:39#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"SubmitQuest\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542735699464,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 01:41:39\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"12_0,10;26_0,30;\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:39#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"WeeklyLiveness\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"weekly_liveness\":100,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:41:39\",\"finish_time\":1542735699}"
+        },
+        {
+            "logid": "2018-11-21 01:41:39#050#WeeklyLiveness"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ShopUpdate\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"update_type\":0,\"role_level\":50,\"update_cost\":0,\"log_ts\":\"2018-11-21 01:41:46\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"vip\":4,\"logtime\":1542735706073,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:41:46#050#ShopUpdate"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,122001,1,1\",\"role_id\":100114290,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:42:03\",\"finish_time\":1542735723}"
+        },
+        {
+            "logid": "2018-11-21 01:42:03#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"122005,5,1;127005,5,1;134004,4,1;104003,3,1;120002,2,1;103003,3,1;102002,2,1;105003,3,2;130005,5,2;205005,5,1;226005,5,1;133003,3,1;104002,2,1;108002,2,1;102001,1,1;115001,1,1;105002,2,1;131001,1,1;122001,1,1\",\"role_id\":100114290,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:42:03\",\"finish_time\":1542735723}"
+        },
+        {
+            "logid": "2018-11-21 01:42:03#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:03\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"box_type\":1,\"role_id\":100114290,\"cost_yuanbao\":9,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_122001,1;98_204,3;1_0,72;\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:03#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:03\",\"finish_time\":1542735723,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":1,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":1,\"role_id\":100114290,\"complete\":1,\"day\":4,\"car_id\":59,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:03#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"DrawTrophyReward\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:03\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":72,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 01:42:03#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"item_id\":\"45-110\",\"cost_type\":3,\"channel\":\"huawei\",\"role_level\":50,\"cost_value\":9,\"log_ts\":\"2018-11-21 01:42:03\",\"item_num\":1,\"way\":\"DarwTrophyReward\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":0,\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:03#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"amount\":72,\"channel\":\"huawei\",\"role_level\":50,\"money_type\":2,\"income_category\":2,\"log_ts\":\"2018-11-21 01:42:03\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:03#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,105001,1,1\",\"role_id\":100114290,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:42:05\",\"finish_time\":1542735725}"
+        },
+        {
+            "logid": "2018-11-21 01:42:05#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"122005,5,1;127005,5,1;134004,4,1;104003,3,1;120002,2,1;103003,3,1;102002,2,1;105003,3,2;130005,5,2;205005,5,1;226005,5,1;133003,3,1;104002,2,1;108002,2,1;102001,1,1;115001,1,1;105002,2,1;131001,1,1;122001,1,1;105001,1,1\",\"role_id\":100114290,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 01:42:05\",\"finish_time\":1542735725}"
+        },
+        {
+            "logid": "2018-11-21 01:42:05#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:05\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"box_type\":1,\"role_id\":100114290,\"cost_yuanbao\":14,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_105001,1;98_213,2;\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:05#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:05\",\"finish_time\":1542735725,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":1,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":1,\"role_id\":100114290,\"complete\":1,\"day\":5,\"car_id\":63,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:05#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"item_id\":\"45-110\",\"cost_type\":3,\"channel\":\"huawei\",\"role_level\":50,\"cost_value\":14,\"log_ts\":\"2018-11-21 01:42:05\",\"item_num\":1,\"way\":\"DarwTrophyReward\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":0,\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:05#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_coin\":4049,\"server\":1001,\"before_quality\":1,\"log_id\":\"CompoundSkill\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"skillType\":\"-1\",\"role_level\":50,\"rand_num\":29,\"before_num\":\"102001,1;105001,1;115001,1;122001,1;131001,1\",\"type\":2,\"log_ts\":\"2018-11-21 01:42:11\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"need_money\":500,\"role_id\":100114290,\"old_coin\":4549,\"after_id\":105002,\"need_card_num\":5,\"left_num\":\"102001,0;105001,0;115001,0;122001,0;131001,0\",\"after_quality\":2,\"log_ds\":\"2018-11-21\",\"before_id\":\"102001;105001;115001;122001;131001\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:11#050#CompoundSkill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:11\",\"finish_time\":1542735731,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":2,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":2,\"role_id\":100114290,\"complete\":1,\"day\":7,\"car_id\":74,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:11#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"CompoundSkill\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:11\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":-500,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 01:42:11#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"CompoundSkill\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542735731475,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:11\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_105002,1;\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:11#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"item_id\":\"44-1\",\"cost_type\":1,\"channel\":\"huawei\",\"role_level\":50,\"cost_value\":500,\"log_ts\":\"2018-11-21 01:42:11\",\"item_num\":0,\"way\":\"CompoundSkill\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:11#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"SkillEquip\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:16\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"skill_id_before\":\"120002,2\",\"role_id\":100114290,\"skill_off\":2,\"skill_type\":1,\"skill_id\":\"\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:16#050#SkillEquip"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_coin\":2549,\"server\":1001,\"before_quality\":2,\"log_id\":\"CompoundSkill\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"skillType\":\"-1\",\"role_level\":50,\"rand_num\":20,\"before_num\":\"104002,1;105002,2;108002,1;120002,1\",\"type\":2,\"log_ts\":\"2018-11-21 01:42:20\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"need_money\":1500,\"role_id\":100114290,\"old_coin\":4049,\"after_id\":104003,\"need_card_num\":5,\"left_num\":\"104002,0;105002,0;108002,0;120002,0\",\"after_quality\":3,\"log_ds\":\"2018-11-21\",\"before_id\":\"104002;105002;105002;108002;120002\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:20#050#CompoundSkill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:20\",\"finish_time\":1542735740,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":2,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":2,\"role_id\":100114290,\"complete\":1,\"day\":7,\"car_id\":74,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:20#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"CompoundSkill\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:20\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"bonus_money\":-1500,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 01:42:20#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"CompoundSkill\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542735740270,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:20\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_104003,1;\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:20#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"item_id\":\"44-1\",\"cost_type\":1,\"channel\":\"huawei\",\"role_level\":50,\"cost_value\":1500,\"log_ts\":\"2018-11-21 01:42:20\",\"item_num\":0,\"way\":\"CompoundSkill\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:20#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"SkillEquip\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:25\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"skill_id_before\":\"104003,3\",\"role_id\":100114290,\"skill_off\":2,\"skill_type\":1,\"skill_id\":\"\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:25#050#SkillEquip"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"SkillEquip\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:27\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"skill_id_before\":\"103003,3\",\"role_id\":100114290,\"skill_off\":2,\"skill_type\":1,\"skill_id\":\"\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:27#050#SkillEquip"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"SkillEquip\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:39\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"skill_id_before\":\"103003,3\",\"role_id\":100114290,\"skill_off\":1,\"skill_type\":1,\"skill_id\":\"\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:39#050#SkillEquip"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"SkillEquip\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 01:42:40\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":40,\"skill_id_before\":\"104003,3\",\"role_id\":100114290,\"skill_off\":1,\"skill_type\":1,\"skill_id\":\"\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 01:42:40#050#SkillEquip"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"device_model\":\"HUAWEI MHA-AL00\",\"isp\":\"460028958883906\",\"role_level\":50,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 01:52:54\",\"network\":\"wifi\",\"scene\":\"2008\",\"device_width\":1920,\"online_time\":96,\"user_cash\":0,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"role_id\":100114290,\"ipv6\":\"fe80::80dc:4dff:fe6c:f985%dummy0\",\"exp_sum\":30,\"udid\":\"775198ddab824565\",\"exp\":104603,\"free_yuanbao_sum\":0,\"log_id\":\"LogoutRole\",\"os_ver\":\"8.0.0\",\"create_time\":1532570217,\"ip\":\"49.77.249.10\",\"item_sum\":[],\"money_sum\":152,\"user_token_money\":106,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"huawei\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"device_height\":1080,\"app_ver\":\"28141\",\"logout_time\":1542736374,\"os_name\":\"ad\",\"vip_level\":4,\"log_ds\":\"2018-11-21\",\"last_operation\":\"2008001\",\"coin\":2549}"
+        },
+        {
+            "logid": "2018-11-21 01:52:54#050#LogoutRole"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"device_model\":\"HUAWEI MHA-AL00\",\"nation\":86,\"isp\":\"460028958883906\",\"log_key\":\"\",\"role_level\":50,\"last_logout_time\":1542736374,\"log_ts\":\"2018-11-21 13:06:04\",\"offline_exp\":0,\"network\":\"wifi\",\"offline_money\":0,\"device_width\":1920,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"role_id\":100114290,\"ipv6\":\"fe80::80dc:4dff:fe6c:f985%dummy0\",\"udid\":\"775198ddab824565\",\"log_content\":\"\",\"log_id\":\"LoginRole\",\"os_ver\":\"8.0.0\",\"create_time\":1532570217,\"ip\":\"49.77.178.194\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"huawei\",\"u_dtls\":\"0\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"sum_money\":693,\"device_height\":1080,\"login_time\":1542776764,\"app_ver\":\"28141\",\"os_name\":\"ad\",\"offline_item\":[],\"vip_level\":5,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:04#050#LoginRole"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 13:06:04\",\"finish_time\":1542776764,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":27,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":27,\"role_id\":100114290,\"complete\":1,\"day\":6,\"car_id\":68,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:04#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"CrestProject\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"role_level\":50,\"project\":\"1049,1049,1049,1049,1049,1049,1049,1049,1049,1049,1051,1051,1051,1051,1051,1051,1051,1051,1051,1051;;\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:06:13\",\"finish_time\":1542776773}"
+        },
+        {
+            "logid": "2018-11-21 13:06:13#050#CrestProject"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"DailyTask\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"task_id\":1001,\"draw\":1,\"schedul\":1,\"log_ts\":\"2018-11-21 13:06:13\",\"finish_time\":1542776773,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181120\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:13#050#DailyTask"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,133001,1,1\",\"role_id\":100114290,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:06:15\",\"finish_time\":1542776775}"
+        },
+        {
+            "logid": "2018-11-21 13:06:15#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"122005,5,1;127005,5,1;134004,4,1;103003,3,1;104003,3,1;102002,2,1;105003,3,2;130005,5,2;205005,5,1;226005,5,1;133003,3,1;104003,3,1;133001,1,1\",\"role_id\":100114290,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:06:15\",\"finish_time\":1542776775}"
+        },
+        {
+            "logid": "2018-11-21 13:06:15#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 13:06:15\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"box_type\":1,\"role_id\":100114290,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_133001,1;98_203,2;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:15#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 13:06:15\",\"finish_time\":1542776775,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":1,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":1,\"role_id\":100114290,\"complete\":1,\"day\":4,\"car_id\":59,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:15#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,112001,1,1\",\"role_id\":100114290,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:06:17\",\"finish_time\":1542776777}"
+        },
+        {
+            "logid": "2018-11-21 13:06:17#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"122005,5,1;127005,5,1;134004,4,1;103003,3,1;104003,3,1;102002,2,1;105003,3,2;130005,5,2;205005,5,1;226005,5,1;133003,3,1;104003,3,1;133001,1,1;112001,1,1\",\"role_id\":100114290,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:06:17\",\"finish_time\":1542776777}"
+        },
+        {
+            "logid": "2018-11-21 13:06:17#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 13:06:17\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"box_type\":1,\"role_id\":100114290,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_112001,1;98_208,2;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:17#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 13:06:17\",\"finish_time\":1542776777,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":1,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":1,\"role_id\":100114290,\"complete\":1,\"day\":4,\"car_id\":59,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:17#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"item_id\":\"45-110\",\"cost_type\":3,\"channel\":\"huawei\",\"role_level\":50,\"cost_value\":6,\"log_ts\":\"2018-11-21 13:06:20\",\"item_num\":1,\"way\":\"DarwTrophyReward\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"player_id\":0,\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:20#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,133001,1,1\",\"role_id\":100114290,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:06:21\",\"finish_time\":1542776781}"
+        },
+        {
+            "logid": "2018-11-21 13:06:21#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"122005,5,1;127005,5,1;134004,4,1;103003,3,1;104003,3,1;102002,2,1;105003,3,2;130005,5,2;205005,5,1;226005,5,1;133003,3,1;104003,3,1;133001,1,2;112001,1,1\",\"role_id\":100114290,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:06:21\",\"finish_time\":1542776781}"
+        },
+        {
+            "logid": "2018-11-21 13:06:21#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 13:06:21\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"box_type\":1,\"role_id\":100114290,\"cost_yuanbao\":6,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_133001,1;98_212,2;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:21#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 13:06:21\",\"finish_time\":1542776781,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":2,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":2,\"role_id\":100114290,\"complete\":1,\"day\":7,\"car_id\":74,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:21#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"ReadMail\",\"log_id\":\"CrestFrag\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"num\":10,\"role_level\":50,\"log_ts\":\"2018-11-21 13:06:26\",\"finish_time\":1542776786,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"id\":300,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:26#050#CrestFrag"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"getLimitLoginRewards\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542776786633,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 13:06:26\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":25,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_300,10;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:26#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"amount\":25,\"channel\":\"huawei\",\"role_level\":50,\"money_type\":3,\"income_category\":2,\"log_ts\":\"2018-11-21 13:06:26\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:26#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"daily_liveness\":5,\"log_id\":\"DailyLiveness\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:06:29\",\"finish_time\":1542776789}"
+        },
+        {
+            "logid": "2018-11-21 13:06:29#050#DailyLiveness"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"DailyTask\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"task_id\":1001,\"draw\":2,\"log_ts\":\"2018-11-21 13:06:29\",\"finish_time\":1542776789,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:29#050#DailyTask"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 13:06:29\",\"finish_time\":1542776789,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"tb_num\":27,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"db_num\":27,\"role_id\":100114290,\"complete\":1,\"day\":6,\"car_id\":68,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:29#050#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"SubmitQuest\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542776789876,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 13:06:29\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"12_0,5;26_0,12;98_110,1;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:29#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"server\":1001,\"log_id\":\"WeeklyLiveness\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"weekly_liveness\":105,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"schedulDt\":\"20181121\",\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:06:29\",\"finish_time\":1542776789}"
+        },
+        {
+            "logid": "2018-11-21 13:06:29#050#WeeklyLiveness"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"GetGuildTaskReward\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"gain_time\":1542776795156,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 13:06:35\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"udid\":\"775198ddab824565\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"52_0,5;53_0,5;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:35#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ShopUpdate\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"update_type\":0,\"role_level\":50,\"update_cost\":0,\"log_ts\":\"2018-11-21 13:06:43\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"vip\":4,\"logtime\":1542776803744,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:43#050#ShopUpdate"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ShopUpdate\",\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"update_type\":0,\"role_level\":50,\"update_cost\":0,\"log_ts\":\"2018-11-21 13:06:48\",\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"role_id\":100114290,\"vip\":4,\"logtime\":1542776808024,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:06:48#050#ShopUpdate"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"350086000121309717@ad.huawei.win.163.com\",\"device_model\":\"HUAWEI MHA-AL00\",\"isp\":\"460028958883906\",\"role_level\":50,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 13:16:54\",\"network\":\"wifi\",\"scene\":\"2008\",\"device_width\":1920,\"online_time\":50,\"user_cash\":0,\"mac_addr\":\"14:9D:09:6D:7E:B5\",\"role_id\":100114290,\"ipv6\":\"fe80::80dc:4dff:fe6c:f985%dummy0\",\"exp_sum\":12,\"udid\":\"775198ddab824565\",\"exp\":104615,\"free_yuanbao_sum\":0,\"log_id\":\"LogoutRole\",\"os_ver\":\"8.0.0\",\"create_time\":1532570217,\"ip\":\"49.77.178.194\",\"item_sum\":[],\"money_sum\":0,\"user_token_money\":125,\"role_name\":\"\u0f3a\u5669\u0f12\u68a6\u0f3b\",\"app_channel\":\"huawei\",\"account_id\":\"350086000121309717@ad.huawei.win.163.com\",\"device_height\":1080,\"app_ver\":\"28141\",\"logout_time\":1542777414,\"os_name\":\"ad\",\"vip_level\":4,\"log_ds\":\"2018-11-21\",\"last_operation\":\"2008001\",\"coin\":2549}"
+        },
+        {
+            "logid": "2018-11-21 13:16:54#050#LogoutRole"
+        }
+    ]
+]

@@ -1,0 +1,549 @@
+2018-11-26 18:31:30,356 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=102707614
+&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:33,382 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=202025982
+&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:36,412 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=202823049&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:39,439 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=100724577&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:42,469 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=100724572&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:44,558 get_events.py [line:50] ERROR - ('Connection aborted.', error(54, 'Connection reset by peer')), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=202803494&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:44,568 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=100314657
+&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:48,737 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=202628942
+&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:49,751 get_events.py [line:50] ERROR - ('Connection aborted.', error(54, 'Connection reset by peer')), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=103628406&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:49,784 get_events.py [line:50] ERROR - ('Connection aborted.', error(54, 'Connection reset by peer')), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=103628405&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:49,808 get_events.py [line:50] ERROR - ('Connection aborted.', error(54, 'Connection reset by peer')), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=103628404&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:49,820 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=103628403&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:51,869 get_events.py [line:50] ERROR - ('Connection aborted.', error(54, 'Connection reset by peer')), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=203122969&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:51,879 get_events.py [line:50] ERROR - ('Connection aborted.', error(54, 'Connection reset by peer')), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=103628400&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:51,889 get_events.py [line:50] ERROR - ('Connection aborted.', error(54, 'Connection reset by peer')), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=103630344&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:51,898 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=201527786
+&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-26 18:31:55,003 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=103553331&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-27 09:24:45,418 get_events.py [line:50] ERROR - ('Connection aborted.', error(54, 'Connection reset by peer')), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=102707614
+&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-27 09:24:45,430 get_events.py [line:50] ERROR - ('Connection aborted.', error(54, 'Connection reset by peer')), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=202025982
+&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-27 09:24:45,439 get_events.py [line:50] ERROR - ('Connection aborted.', error(54, 'Connection reset by peer')), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=202823049&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-27 09:24:45,450 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=100724577&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-27 09:24:45,460 get_events.py [line:50] ERROR - ('Connection aborted.', error(54, 'Connection reset by peer')), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=100724572&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-27 09:24:45,472 get_events.py [line:50] ERROR - ('Connection aborted.', error(54, 'Connection reset by peer')), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=202803494&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-27 09:24:45,483 get_events.py [line:50] ERROR - ('Connection aborted.', error(54, 'Connection reset by peer')), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=100314657
+&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-27 09:24:48,544 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=202628942
+&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-27 09:24:51,573 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=103628406&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-27 09:24:54,602 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=103628405&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-27 09:24:57,631 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=103628404&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-27 09:25:00,661 get_events.py [line:50] ERROR - ('Connection aborted.', BadStatusLine("''",)), Traceback (most recent call last):
+  File "/Users/wangkai/GitHub/return-decomposition-for-matching/dataset/get_events.py", line 43, in fetch_one_day
+    r = requests.post(url, timeout=600)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/wangkai/anaconda3/envs/test_py2/lib/python2.7/site-packages/requests/adapters.py", line 488, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+, http://42.186.114.228:8080/roleseq/time?game=ball&role_info=103628403&start_time=2018-11-21&end_time=2018-11-21&event=none&dataNames=logid,origin_json
+2018-11-27 10:05:06,736 get_events.py [line:48] DEBUG - 102707614
+ done.
+2018-11-27 10:05:07,495 get_events.py [line:48] DEBUG - 202025982
+ done.
+2018-11-27 10:05:09,346 get_events.py [line:48] DEBUG - 202823049 done.
+2018-11-27 10:05:09,496 get_events.py [line:48] DEBUG - 100724577 done.
+2018-11-27 10:05:10,265 get_events.py [line:48] DEBUG - 100724572 done.
+2018-11-27 10:05:10,989 get_events.py [line:48] DEBUG - 202803494 done.
+2018-11-27 10:05:11,294 get_events.py [line:48] DEBUG - 100314657
+ done.
+2018-11-27 10:05:11,434 get_events.py [line:48] DEBUG - 202628942
+ done.
+2018-11-27 10:05:11,544 get_events.py [line:48] DEBUG - 103628406 done.
+2018-11-27 10:05:11,674 get_events.py [line:48] DEBUG - 103628405 done.
+2018-11-27 10:05:11,797 get_events.py [line:48] DEBUG - 103628404 done.
+2018-11-27 10:05:11,897 get_events.py [line:48] DEBUG - 103628403 done.
+2018-11-27 10:05:12,474 get_events.py [line:48] DEBUG - 203122969 done.
+2018-11-27 10:05:12,585 get_events.py [line:48] DEBUG - 103628400 done.
+2018-11-27 10:05:13,356 get_events.py [line:48] DEBUG - 103630344 done.
+2018-11-27 10:05:14,114 get_events.py [line:48] DEBUG - 201527786
+ done.
+2018-11-27 10:05:14,221 get_events.py [line:48] DEBUG - 103553331 done.
+2018-11-27 10:05:14,416 get_events.py [line:48] DEBUG - 201327620 done.
+2018-11-27 10:05:14,522 get_events.py [line:48] DEBUG - 201327621 done.
+2018-11-27 10:05:14,644 get_events.py [line:48] DEBUG - 103630343 done.
+2018-11-27 10:05:14,809 get_events.py [line:48] DEBUG - 203116108 done.
+2018-11-27 10:05:15,572 get_events.py [line:48] DEBUG - 202217126 done.
+2018-11-27 10:05:15,680 get_events.py [line:48] DEBUG - 203228606
+ done.
+2018-11-27 10:05:15,812 get_events.py [line:48] DEBUG - 103532264
+ done.
+2018-11-27 10:05:15,963 get_events.py [line:48] DEBUG - 100618524 done.
+2018-11-27 10:05:16,127 get_events.py [line:48] DEBUG - 201220761
+ done.
+2018-11-27 10:05:16,221 get_events.py [line:48] DEBUG - 202214479 done.
+2018-11-27 10:05:16,302 get_events.py [line:48] DEBUG - 103624186 done.
+2018-11-27 10:05:16,407 get_events.py [line:48] DEBUG - 203241897 done.
+2018-11-27 10:05:16,955 get_events.py [line:48] DEBUG - 200621683 done.
+2018-11-27 10:05:17,271 get_events.py [line:48] DEBUG - 200127739
+ done.
+2018-11-27 10:05:18,079 get_events.py [line:48] DEBUG - 202615751 done.
+2018-11-27 10:05:18,207 get_events.py [line:48] DEBUG - 103624188 done.
+2018-11-27 10:05:18,295 get_events.py [line:48] DEBUG - 203241899 done.
+2018-11-27 10:05:18,400 get_events.py [line:48] DEBUG - 103327429
+ done.
+2018-11-27 10:05:18,507 get_events.py [line:48] DEBUG - 203324763 done.
+2018-11-27 10:05:18,593 get_events.py [line:48] DEBUG - 103313451 done.
+2018-11-27 10:05:18,980 get_events.py [line:48] DEBUG - 203328650 done.
+2018-11-27 10:05:19,079 get_events.py [line:48] DEBUG - 203328651 done.
+2018-11-27 10:05:19,230 get_events.py [line:48] DEBUG - 203328654 done.
+2018-11-27 10:05:19,317 get_events.py [line:48] DEBUG - 103556129 done.
+2018-11-27 10:05:19,444 get_events.py [line:48] DEBUG - 203327495 done.
+2018-11-27 10:05:19,546 get_events.py [line:48] DEBUG - 203327494 done.
+2018-11-27 10:05:19,649 get_events.py [line:48] DEBUG - 203327496 done.
+2018-11-27 10:05:19,747 get_events.py [line:48] DEBUG - 103626969 done.
+2018-11-27 10:05:19,901 get_events.py [line:48] DEBUG - 203326526
+ done.
+2018-11-27 10:05:20,040 get_events.py [line:48] DEBUG - 203326729 done.
+2018-11-27 10:05:20,134 get_events.py [line:48] DEBUG - 103624235 done.
+2018-11-27 10:05:20,263 get_events.py [line:48] DEBUG - 203326720 done.
+2018-11-27 10:05:20,615 get_events.py [line:48] DEBUG - 203326721 done.
+2018-11-27 10:05:21,148 get_events.py [line:48] DEBUG - 203216892 done.
+2018-11-27 10:05:21,256 get_events.py [line:48] DEBUG - 103532841 done.
+2018-11-27 10:05:21,521 get_events.py [line:48] DEBUG - 201621325 done.
+2018-11-27 10:05:21,985 get_events.py [line:48] DEBUG - 102643475
+ done.
+2018-11-27 10:05:22,089 get_events.py [line:48] DEBUG - 102633408 done.
+2018-11-27 10:05:22,183 get_events.py [line:48] DEBUG - 103619201
+ done.
+2018-11-27 10:05:22,274 get_events.py [line:48] DEBUG - 203121437 done.
+2018-11-27 10:05:22,373 get_events.py [line:48] DEBUG - 102912391
+ done.
+2018-11-27 10:05:22,855 get_events.py [line:48] DEBUG - 203119416
+ done.
+2018-11-27 10:05:23,418 get_events.py [line:48] DEBUG - 103540578 done.
+2018-11-27 10:05:23,764 get_events.py [line:48] DEBUG - 103541226 done.
+2018-11-27 10:05:24,016 get_events.py [line:48] DEBUG - 103541224 done.
+2018-11-27 10:05:24,926 get_events.py [line:48] DEBUG - 200617702 done.
+2018-11-27 10:05:26,075 get_events.py [line:48] DEBUG - 100228447
+ done.
+2018-11-27 10:05:26,165 get_events.py [line:48] DEBUG - 103628185 done.
+2018-11-27 10:05:26,326 get_events.py [line:48] DEBUG - 103446303
+ done.
+2018-11-27 10:05:27,334 get_events.py [line:48] DEBUG - 202601809
+ done.
+2018-11-27 10:05:27,479 get_events.py [line:48] DEBUG - 203327238 done.
+2018-11-27 10:05:28,381 get_events.py [line:48] DEBUG - 202929026
+ done.
+2018-11-27 10:05:28,499 get_events.py [line:48] DEBUG - 203327231 done.
+2018-11-27 10:05:28,831 get_events.py [line:48] DEBUG - 203220501 done.
+2018-11-27 10:05:28,932 get_events.py [line:48] DEBUG - 203327232 done.
+2018-11-27 10:05:29,254 get_events.py [line:48] DEBUG - 203327236 done.
+2018-11-27 10:05:29,334 get_events.py [line:48] DEBUG - 103629439 done.
+2018-11-27 10:05:29,787 get_events.py [line:48] DEBUG - 200634289 done.
+2018-11-27 10:05:29,898 get_events.py [line:48] DEBUG - 103629431 done.
+2018-11-27 10:05:29,997 get_events.py [line:48] DEBUG - 103629433 done.
+2018-11-27 10:05:30,086 get_events.py [line:48] DEBUG - 203113545 done.
+2018-11-27 10:05:30,172 get_events.py [line:48] DEBUG - 103629435 done.
+2018-11-27 10:05:30,263 get_events.py [line:48] DEBUG - 103629434 done.
+2018-11-27 10:05:30,451 get_events.py [line:48] DEBUG - 103631795
+ done.
+2018-11-27 10:05:30,640 get_events.py [line:48] DEBUG - 201126634 done.
+2018-11-27 10:05:31,201 get_events.py [line:48] DEBUG - 200321973 done.
+2018-11-27 10:05:31,287 get_events.py [line:48] DEBUG - 103625555 done.
+2018-11-27 10:05:31,367 get_events.py [line:48] DEBUG - 103628402 done.

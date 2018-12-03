@@ -1,0 +1,1010 @@
+[
+    [
+        {
+            "origin_json": "{\"server\":1018,\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"device_model\":\"HUAWEI COR-AL10\",\"nation\":86,\"isp\":\"460014488410518\",\"log_key\":\"\",\"role_level\":36,\"last_logout_time\":1542703071,\"log_ts\":\"2018-11-21 20:45:49\",\"offline_exp\":0,\"network\":\"wifi\",\"offline_money\":0,\"device_width\":1500,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"role_id\":101817558,\"ipv6\":\"fe80::e8ab:6ff:fe23:d59f%dummy0\",\"udid\":\"7d9755b96cc003c8\",\"log_content\":\"\",\"log_id\":\"LoginRole\",\"os_ver\":\"8.1.0\",\"create_time\":1533003020,\"ip\":\"111.27.36.105\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"app_channel\":\"netease.mjcs_cpc3_dev\",\"u_dtls\":\"0\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"sum_money\":1,\"device_height\":720,\"login_time\":1542804349,\"app_ver\":\"28141\",\"os_name\":\"ad\",\"offline_item\":[],\"vip_level\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:45:49#036#LoginRole"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_level\":36,\"log_ts\":\"2018-11-21 20:45:49\",\"finish_time\":1542804349,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"tb_num\":27,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"db_num\":27,\"role_id\":101817558,\"complete\":1,\"day\":6,\"car_id\":68,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:45:49#036#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"server\":1018,\"log_id\":\"CrestProject\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"role_level\":36,\"project\":\"1088,1076,1076,1076,1076,1076,1076,1076,1076,1076,1109,1092,1072,1092,1072,1061,1070,1070,1049,1030,1054,1054,1054,1054,1054,1054,1066,1024,1054,1143;1104,1045,1068,1104,1016,1013,1087,1099,1026,1027,1109,1070,1030,1072,1072,1092,1092,1049,1070,1061,1054,1054,1054,1082,1081,1054,1066,1054,1143,1095;;\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:45:56\",\"finish_time\":1542804356}"
+        },
+        {
+            "logid": "2018-11-21 20:45:56#036#CrestProject"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"log_id\":\"DailyTask\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_level\":36,\"task_id\":1001,\"draw\":1,\"schedul\":1,\"log_ts\":\"2018-11-21 20:45:56\",\"finish_time\":1542804356,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"schedulDt\":\"20181120\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:45:56#036#DailyTask"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":\"DrawLoopLoginInfo\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"gain_time\":1542804358981,\"yuanbao\":0,\"role_level\":36,\"log_ts\":\"2018-11-21 20:45:58\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"udid\":\"7d9755b96cc003c8\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_450,4;\"}"
+        },
+        {
+            "logid": "2018-11-21 20:45:58#036#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"server\":1018,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,140002,2,1\",\"role_id\":101817558,\"channel\":2,\"role_level\":36,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:46:11\",\"finish_time\":1542804371}"
+        },
+        {
+            "logid": "2018-11-21 20:46:11#036#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"mode\":2,\"server\":1018,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"116004,4,1;114001,1,1;108001,1,1;129001,1,1;113001,1,1;110001,1,1;122002,2,1;121002,2,1;127003,3,1;101003,3,1;104003,3,1;131003,3,1;118002,2,1;120002,2,1;102001,1,1;130005,5,1;121003,3,1;122003,3,1;107001,1,1;109001,1,1;112001,1,1;110001,1,1;111004,4,1;108003,3,1;109001,1,1;122002,2,1;113003,3,1;117004,4,1;135004,4,1;109001,1,1;121001,1,1;129003,3,1;140002,2,1;137002,2,2;116003,3,2;137001,1,2;136001,1,3;101003,3,1;105001,1,1;132002,2,2;101001,1,3;118001,1,1;113001,1,1;131001,1,1;133001,1,1;133002,2,1;120001,1,3;118002,2,1;117001,1,1;136002,2,1;134001,1,1;133003,3,1;104001,1,1;102001,1,1;138001,1,1;116001,1,1;117003,3,1;103003,3,1;104003,3,1;105003,3,1;120003,3,1;132003,3,1;128001,1,1;127002,2,1;119001,1,1;140002,2,1\",\"role_id\":101817558,\"role_level\":36,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:46:11\",\"finish_time\":1542804371}"
+        },
+        {
+            "logid": "2018-11-21 20:46:11#036#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"cost_type\":3,\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:11\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"box_type\":2,\"role_id\":101817558,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_140002,1;98_202,11;98_201,1;1_0,398;\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:11#036#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":\"DrawTrophyReward\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:11\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"bonus_money\":398,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 20:46:11#036#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"amount\":398,\"channel\":\"netease.mjcs_cpc3_dev\",\"role_level\":36,\"money_type\":2,\"income_category\":2,\"log_ts\":\"2018-11-21 20:46:11\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:11#036#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"server\":1018,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,127001,1,1\",\"role_id\":101817558,\"channel\":2,\"role_level\":36,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:46:13\",\"finish_time\":1542804373}"
+        },
+        {
+            "logid": "2018-11-21 20:46:13#036#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"mode\":2,\"server\":1018,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"116004,4,1;114001,1,1;108001,1,1;129001,1,1;113001,1,1;110001,1,1;122002,2,1;121002,2,1;127003,3,1;101003,3,1;104003,3,1;131003,3,1;118002,2,1;120002,2,1;102001,1,1;130005,5,1;121003,3,1;122003,3,1;107001,1,1;109001,1,1;112001,1,1;110001,1,1;111004,4,1;108003,3,1;109001,1,1;122002,2,1;113003,3,1;117004,4,1;135004,4,1;109001,1,1;121001,1,1;129003,3,1;140002,2,1;137002,2,2;116003,3,2;137001,1,2;136001,1,3;101003,3,1;105001,1,1;132002,2,2;101001,1,3;118001,1,1;113001,1,1;131001,1,1;133001,1,1;133002,2,1;120001,1,3;118002,2,1;117001,1,1;136002,2,1;134001,1,1;133003,3,1;104001,1,1;102001,1,1;138001,1,1;116001,1,1;117003,3,1;103003,3,1;104003,3,1;105003,3,1;120003,3,1;132003,3,1;128001,1,1;127002,2,1;119001,1,1;140002,2,1;127001,1,1\",\"role_id\":101817558,\"role_level\":36,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:46:13\",\"finish_time\":1542804373}"
+        },
+        {
+            "logid": "2018-11-21 20:46:13#036#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"cost_type\":3,\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:13\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"box_type\":1,\"role_id\":101817558,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_127001,1;98_213,3;\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:13#036#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"server\":1018,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,112001,1,1\",\"role_id\":101817558,\"channel\":2,\"role_level\":36,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:46:15\",\"finish_time\":1542804375}"
+        },
+        {
+            "logid": "2018-11-21 20:46:15#036#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"mode\":2,\"server\":1018,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"116004,4,1;114001,1,1;108001,1,1;129001,1,1;113001,1,1;110001,1,1;122002,2,1;121002,2,1;127003,3,1;101003,3,1;104003,3,1;131003,3,1;118002,2,1;120002,2,1;102001,1,1;130005,5,1;121003,3,1;122003,3,1;107001,1,1;109001,1,1;112001,1,1;110001,1,1;111004,4,1;108003,3,1;109001,1,1;122002,2,1;113003,3,1;117004,4,1;135004,4,1;109001,1,1;121001,1,1;129003,3,1;140002,2,1;137002,2,2;116003,3,2;137001,1,2;136001,1,3;101003,3,1;105001,1,1;132002,2,2;101001,1,3;118001,1,1;113001,1,1;131001,1,1;133001,1,1;133002,2,1;120001,1,3;118002,2,1;117001,1,1;136002,2,1;134001,1,1;133003,3,1;104001,1,1;102001,1,1;138001,1,1;116001,1,1;117003,3,1;103003,3,1;104003,3,1;105003,3,1;120003,3,1;132003,3,1;128001,1,1;127002,2,1;119001,1,1;140002,2,1;127001,1,1;112001,1,1\",\"role_id\":101817558,\"role_level\":36,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:46:15\",\"finish_time\":1542804375}"
+        },
+        {
+            "logid": "2018-11-21 20:46:15#036#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"cost_type\":3,\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:15\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"box_type\":1,\"role_id\":101817558,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_112001,1;98_203,3;1_0,63;\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:15#036#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":\"DrawTrophyReward\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:15\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"bonus_money\":63,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 20:46:15#036#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"amount\":63,\"channel\":\"netease.mjcs_cpc3_dev\",\"role_level\":36,\"money_type\":2,\"income_category\":2,\"log_ts\":\"2018-11-21 20:46:15\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:15#036#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"server\":1018,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,114001,1,1\",\"role_id\":101817558,\"channel\":2,\"role_level\":36,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:46:16\",\"finish_time\":1542804376}"
+        },
+        {
+            "logid": "2018-11-21 20:46:16#036#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"mode\":2,\"server\":1018,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"116004,4,1;114001,1,1;108001,1,1;129001,1,1;113001,1,1;110001,1,1;122002,2,1;121002,2,1;127003,3,1;101003,3,1;104003,3,1;131003,3,1;118002,2,1;120002,2,1;102001,1,1;130005,5,1;121003,3,1;122003,3,1;107001,1,1;109001,1,1;112001,1,1;110001,1,1;111004,4,1;108003,3,1;109001,1,1;122002,2,1;113003,3,1;117004,4,1;135004,4,1;109001,1,1;121001,1,1;129003,3,1;140002,2,1;137002,2,2;116003,3,2;137001,1,2;136001,1,3;101003,3,1;105001,1,1;132002,2,2;101001,1,3;118001,1,1;113001,1,1;131001,1,1;133001,1,1;133002,2,1;120001,1,3;118002,2,1;117001,1,1;136002,2,1;134001,1,1;133003,3,1;104001,1,1;102001,1,1;138001,1,1;116001,1,1;117003,3,1;103003,3,1;104003,3,1;105003,3,1;120003,3,1;132003,3,1;128001,1,1;127002,2,1;119001,1,1;140002,2,1;127001,1,1;112001,1,1;114001,1,1\",\"role_id\":101817558,\"role_level\":36,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:46:16\",\"finish_time\":1542804376}"
+        },
+        {
+            "logid": "2018-11-21 20:46:16#036#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"cost_type\":3,\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:16\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"box_type\":1,\"role_id\":101817558,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_114001,1;98_209,2;31_0,1;\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:16#036#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"amount\":1,\"channel\":\"netease.mjcs_cpc3_dev\",\"role_level\":36,\"money_type\":3,\"income_category\":2,\"log_ts\":\"2018-11-21 20:46:16\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:16#036#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"log_id\":\"ShopUpdate\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"update_type\":0,\"role_level\":36,\"update_cost\":0,\"log_ts\":\"2018-11-21 20:46:22\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"vip\":0,\"logtime\":1542804382233,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:22#036#ShopUpdate"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"log_id\":\"ShopUpdate\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"update_type\":0,\"role_level\":36,\"update_cost\":0,\"log_ts\":\"2018-11-21 20:46:37\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"vip\":0,\"logtime\":1542804397120,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:37#036#ShopUpdate"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"server\":1018,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,121001,1,1\",\"role_id\":101817558,\"channel\":2,\"role_level\":36,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:46:40\",\"finish_time\":1542804400}"
+        },
+        {
+            "logid": "2018-11-21 20:46:40#036#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"mode\":2,\"server\":1018,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"116004,4,1;114001,1,1;108001,1,1;129001,1,1;113001,1,1;110001,1,1;122002,2,1;121002,2,1;127003,3,1;101003,3,1;104003,3,1;131003,3,1;118002,2,1;120002,2,1;102001,1,1;130005,5,1;121003,3,1;122003,3,1;107001,1,1;109001,1,1;112001,1,1;110001,1,1;111004,4,1;108003,3,1;109001,1,1;122002,2,1;113003,3,1;117004,4,1;135004,4,1;109001,1,1;121001,1,1;129003,3,1;140002,2,1;137002,2,2;116003,3,2;137001,1,2;136001,1,3;101003,3,1;105001,1,1;132002,2,2;101001,1,3;118001,1,1;113001,1,1;131001,1,1;133001,1,1;133002,2,1;120001,1,3;118002,2,1;117001,1,1;136002,2,1;134001,1,1;133003,3,1;104001,1,1;102001,1,1;138001,1,1;116001,1,1;117003,3,1;103003,3,1;104003,3,1;105003,3,1;120003,3,1;132003,3,1;128001,1,1;127002,2,1;119001,1,1;140002,2,1;127001,1,1;112001,1,1;114001,1,1;121001,1,1\",\"role_id\":101817558,\"role_level\":36,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:46:40\",\"finish_time\":1542804400}"
+        },
+        {
+            "logid": "2018-11-21 20:46:40#036#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"item_type\":\"mystery_item\",\"role_level\":36,\"other_price\":68,\"log_ts\":\"2018-11-21 20:46:40\",\"cost_money\":0,\"role_id\":101817558,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"price\":0,\"currency\":31,\"udid\":\"7d9755b96cc003c8\",\"left_free_yuanbao\":0,\"log_id\":\"ItemBuy\",\"yuanbao\":0,\"item_id\":\"35-121001\",\"count\":1,\"expire_time\":0,\"item_name\":\"mystery_item\",\"left_yuanbao\":0,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"app_channel\":\"netease.mjcs_cpc3_dev\",\"buy_time\":1542804400,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"shop_type\":2,\"log_ds\":\"2018-11-21\",\"free_yuanbao\":0}"
+        },
+        {
+            "logid": "2018-11-21 20:46:40#036#ItemBuy"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":\"BuyMysteryShopItem\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"gain_time\":1542804400596,\"yuanbao\":0,\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:40\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"udid\":\"7d9755b96cc003c8\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_121001,1;\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:40#036#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"log_id\":\"UserExpense\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"item_id\":\"35-121001\",\"cost_type\":3,\"channel\":\"netease.mjcs_cpc3_dev\",\"role_level\":36,\"cost_value\":68,\"log_ts\":\"2018-11-21 20:46:40\",\"item_num\":1,\"way\":\"BuyMysteryShopItem\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"player_id\":0,\"role_id\":101817558,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:40#036#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"log_id\":\"ShopUpdate\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"update_type\":0,\"role_level\":36,\"update_cost\":0,\"log_ts\":\"2018-11-21 20:46:41\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"vip\":0,\"logtime\":1542804401743,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:41#036#ShopUpdate"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":\"ReadMail\",\"log_id\":\"CrestFrag\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"num\":25,\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:48\",\"finish_time\":1542804408,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"id\":300,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:48#036#CrestFrag"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":\"DrawRepetitiveLoginReward\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"gain_time\":1542804408998,\"yuanbao\":0,\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:48\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"app_channel\":\"\",\"diamond\":158,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"udid\":\"7d9755b96cc003c8\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_173,3;98_300,25;\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:48#036#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"amount\":158,\"channel\":\"netease.mjcs_cpc3_dev\",\"role_level\":36,\"money_type\":3,\"income_category\":2,\"log_ts\":\"2018-11-21 20:46:48\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:48#036#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":\"ReadMail\",\"log_id\":\"CrestFrag\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"num\":5,\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:51\",\"finish_time\":1542804411,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"id\":300,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:51#036#CrestFrag"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":\"BuyPreferenceReward\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:51\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"bonus_money\":300,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 20:46:51#036#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":\"BuyPreferenceReward\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"gain_time\":1542804411874,\"yuanbao\":0,\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:51\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"udid\":\"7d9755b96cc003c8\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_300,5;\",\"coin\":null}"
+        },
+        {
+            "logid": "2018-11-21 20:46:51#036#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"amount\":300,\"channel\":\"netease.mjcs_cpc3_dev\",\"role_level\":36,\"money_type\":2,\"income_category\":2,\"log_ts\":\"2018-11-21 20:46:51\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:51#036#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":\"ReadMail\",\"log_id\":\"CrestFrag\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"num\":10,\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:53\",\"finish_time\":1542804413,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"id\":300,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:53#036#CrestFrag"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":\"getLimitLoginRewards\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"gain_time\":1542804413805,\"yuanbao\":0,\"role_level\":36,\"log_ts\":\"2018-11-21 20:46:53\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"app_channel\":\"\",\"diamond\":25,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"udid\":\"7d9755b96cc003c8\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_300,10;\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:53#036#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"amount\":25,\"channel\":\"netease.mjcs_cpc3_dev\",\"role_level\":36,\"money_type\":3,\"income_category\":2,\"log_ts\":\"2018-11-21 20:46:53\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:46:53#036#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"y_account_id\":\"\",\"server\":1018,\"log_id\":\"Chat\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"chat_time\":1542804454,\"y_obj\":\"\",\"channel\":5,\"role_level\":36,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 20:47:34\",\"content\":\"\u591a\u591a\u914d\u5408\",\"y_level\":\"\",\"scene\":\"ChatScene\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"y_name\":\"\",\"udid\":\"7d9755b96cc003c8\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:47:34#036#Chat"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"y_account_id\":\"\",\"server\":1018,\"log_id\":\"Chat\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"chat_time\":1542804471,\"y_obj\":\"\",\"channel\":5,\"role_level\":36,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 20:47:51\",\"content\":\"\u591a\u591a\u914d\u5408\",\"y_level\":\"\",\"scene\":\"ChatScene\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"y_name\":\"\",\"udid\":\"7d9755b96cc003c8\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:47:51#036#Chat"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2015,\"log_id\":\"GameStart\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"mentor\":\"11\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"rune_info\":{},\"skin\":1002,\"role_level\":1,\"game_type\":34,\"log_ts\":\"2018-11-21 20:48:17\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"skill_info\":[{\"level\":1,\"id\":211},{\"level\":1,\"id\":308},{\"level\":1,\"id\":210},{\"level\":1,\"id\":301}],\"start_time\":1542804497805,\"all_players\":\"28,38,13,17,11,18,33,29,4,12,16,37,23,8,36,39,30,25,2,21,5\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"player_id\":2,\"role_id\":101817558,\"map_id\":0,\"skin_attribute\":\"\",\"player_info\":{\"middle\":61.6,\"steal\":33.2,\"pass\":26.2,\"run\":47.2,\"rebound\":31.2,\"feverGauge\":20,\"threepoint\":37.2,\"feverRecovery\":20,\"dribble\":41.2,\"block\":36.2,\"dunknLayup\":34,\"near\":19.4,\"power\":30,\"jump\":50.6},\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:48:17#001#GameStart"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2015,\"log_id\":\"MatchEnd\",\"match_rank_adjust\":2191,\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"match_rank_real\":2196,\"end_time\":1542804497,\"role_level\":36,\"match_time\":39,\"team_id\":-1,\"log_ts\":\"2018-11-21 20:48:17\",\"evaluation_adjust\":0,\"home\":1,\"evaluation\":0,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"evaluation_real\":0,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"winning_strak\":1,\"match_type\":34,\"losing_strak\":0,\"class\":14,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:48:17#036#MatchEnd"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"home\",\"reason\":\"pickup\",\"log_id\":\"Conversion\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":178.25003051757812,\"game_score\":\"0:0\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:48:59\"}"
+        },
+        {
+            "logid": "2018-11-21 20:48:59#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"receiver_id\":103643436,\"game_remain_time\":176.873779296875,\"model_id\":2,\"log_ts\":\"2018-11-21 20:49:00\",\"mentor_id\":11,\"pass_type\":\"pass_short\",\"role_id\":101817558,\"skill_id\":6,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:49:00#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":175.68228149414062,\"skill_id\":23,\"mentor_run\":1,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:49:02\"}"
+        },
+        {
+            "logid": "2018-11-21 20:49:02#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":167.79067993164062,\"skill_id\":301,\"mentor_run\":1,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:49:09\"}"
+        },
+        {
+            "logid": "2018-11-21 20:49:09#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"receiver_id\":103643436,\"game_remain_time\":166.1072235107422,\"model_id\":2,\"log_ts\":\"2018-11-21 20:49:11\",\"mentor_id\":11,\"pass_type\":\"pass_short\",\"role_id\":101817558,\"skill_id\":6,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:49:11#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":164.89341735839844,\"skill_id\":23,\"mentor_run\":1,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:49:12\"}"
+        },
+        {
+            "logid": "2018-11-21 20:49:12#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Steal\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":158.48199462890625,\"model_id\":2,\"stealed_player\":200228385,\"log_ts\":\"2018-11-21 20:49:19\",\"result\":\"fail\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":8,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:49:19#000#Steal"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Steal\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":155.50405883789062,\"model_id\":2,\"stealed_player\":203017273,\"log_ts\":\"2018-11-21 20:49:22\",\"result\":\"fail\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":8,\"mentor_run\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:49:22#000#Steal"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":152.6529541015625,\"model_id\":2,\"log_ts\":\"2018-11-21 20:49:31\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":4,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 20:49:31#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":148.89585876464844,\"model_id\":2,\"log_ts\":\"2018-11-21 20:49:34\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":211,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 20:49:34#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":149.0615234375,\"skill_id\":211,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:49:34\"}"
+        },
+        {
+            "logid": "2018-11-21 20:49:34#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":139.975830078125,\"skill_id\":21,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:49:55\"}"
+        },
+        {
+            "logid": "2018-11-21 20:49:55#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":139.64805603027344,\"skill_id\":301,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:49:56\"}"
+        },
+        {
+            "logid": "2018-11-21 20:49:56#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":138.31106567382812,\"model_id\":2,\"log_ts\":\"2018-11-21 20:49:57\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":4,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 20:49:57#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"home\",\"reason\":\"goalin\",\"log_id\":\"Conversion\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":127.35009765625,\"game_score\":\"2:7\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:50:11\"}"
+        },
+        {
+            "logid": "2018-11-21 20:50:11#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"receiver_id\":103643436,\"game_remain_time\":126.40667724609375,\"model_id\":2,\"log_ts\":\"2018-11-21 20:50:15\",\"mentor_id\":11,\"pass_type\":\"pass_short\",\"role_id\":101817558,\"skill_id\":6,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:50:15#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"ShootCancel\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":126.69406127929688,\"model_id\":2,\"log_ts\":\"2018-11-21 20:50:15\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":107,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"layupndunk\"}"
+        },
+        {
+            "logid": "2018-11-21 20:50:15#000#ShootCancel"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":119.96755981445312,\"skill_id\":211,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:50:21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:50:21#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":119.8037109375,\"model_id\":2,\"log_ts\":\"2018-11-21 20:50:22\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":211,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"three_point\"}"
+        },
+        {
+            "logid": "2018-11-21 20:50:22#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Steal\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":107.15070343017578,\"model_id\":2,\"stealed_player\":203017273,\"log_ts\":\"2018-11-21 20:50:46\",\"result\":\"fail\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":8,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:50:46#000#Steal"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Steal\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":105.69628143310547,\"model_id\":2,\"stealed_player\":201529523,\"log_ts\":\"2018-11-21 20:50:48\",\"result\":\"fail\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":8,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:50:48#000#Steal"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":102.34510040283203,\"model_id\":2,\"log_ts\":\"2018-11-21 20:50:51\",\"blocked_player\":200228385,\"result\":\"fail\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:50:51#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"home\",\"reason\":\"goalin\",\"log_id\":\"Conversion\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":82.53438568115234,\"game_score\":\"5:15\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:51:20\"}"
+        },
+        {
+            "logid": "2018-11-21 20:51:20#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":82.4111099243164,\"skill_id\":21,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:51:23\"}"
+        },
+        {
+            "logid": "2018-11-21 20:51:23#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":82.10155487060547,\"skill_id\":301,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:51:24\"}"
+        },
+        {
+            "logid": "2018-11-21 20:51:24#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":80.97321319580078,\"skill_id\":213,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:51:25\"}"
+        },
+        {
+            "logid": "2018-11-21 20:51:25#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":79.5787582397461,\"model_id\":2,\"log_ts\":\"2018-11-21 20:51:26\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":213,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 20:51:26#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Steal\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":77.60933685302734,\"model_id\":2,\"stealed_player\":203017273,\"log_ts\":\"2018-11-21 20:51:34\",\"result\":\"fail\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":8,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:51:34#000#Steal"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Block\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":57.146888732910156,\"model_id\":2,\"log_ts\":\"2018-11-21 20:52:07\",\"blocked_player\":200228385,\"result\":\"fail\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":9,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:52:07#000#Block"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":52.097633361816406,\"model_id\":2,\"log_ts\":\"2018-11-21 20:52:18\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":211,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"three_point\"}"
+        },
+        {
+            "logid": "2018-11-21 20:52:18#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":52.26166534423828,\"skill_id\":211,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:52:18\"}"
+        },
+        {
+            "logid": "2018-11-21 20:52:18#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"home\",\"reason\":\"goalin\",\"log_id\":\"Conversion\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":39.901573181152344,\"game_score\":\"9:23\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:52:33\"}"
+        },
+        {
+            "logid": "2018-11-21 20:52:33#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":39.798240661621094,\"skill_id\":213,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:52:36\"}"
+        },
+        {
+            "logid": "2018-11-21 20:52:36#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":38.40105438232422,\"model_id\":2,\"log_ts\":\"2018-11-21 20:52:38\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":213,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 20:52:38#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"game_remain_time\":26.730491638183594,\"model_id\":2,\"log_ts\":\"2018-11-21 20:53:01\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":4,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"three_point\"}"
+        },
+        {
+            "logid": "2018-11-21 20:53:01#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"role_id\":101817558,\"game_remain_time\":14.742576599121094,\"skill_id\":23,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:53:13\"}"
+        },
+        {
+            "logid": "2018-11-21 20:53:13#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2030,\"log_id\":\"DailyTask\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_level\":36,\"task_id\":1012,\"draw\":1,\"schedul\":9,\"log_ts\":\"2018-11-21 20:53:37\",\"finish_time\":1542804817,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"schedulDt\":\"20181121\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:53:37#036#DailyTask"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"iconid\":25,\"game_result\":0,\"two_point_fieldgoal_num\":3,\"gtitle\":37,\"really_score\":2196,\"role_level\":36,\"skill_use_time\":[{\"skillID\":9,\"Count\":2},{\"skillID\":213,\"Count\":2},{\"skillID\":6,\"Count\":3},{\"skillID\":23,\"Count\":3},{\"skillID\":34,\"Count\":3},{\"skillID\":21,\"Count\":3},{\"skillID\":2,\"Count\":1},{\"skillID\":301,\"Count\":3},{\"skillID\":211,\"Count\":3},{\"skillID\":4,\"Count\":4},{\"skillID\":327,\"Count\":1},{\"skillID\":8,\"Count\":11}],\"evaluation\":0,\"matchUids\":\"\",\"three_point_shoot_num\":3,\"role_id\":101817558,\"mvp_point\":11.600000381469727,\"ai_player\":0,\"delta_rank\":-45,\"reb_num\":0,\"floor_num\":1,\"ballstealed_num\":0,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"ass_num\":0,\"withFriend\":\"\",\"overtime\":0,\"cmd\":\"GameEnd\",\"position\":\"SF\",\"frame\":38,\"inTeam\":0,\"server\":2030,\"balltouch_num\":8,\"distance\":0,\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"rank_class\":14,\"game_score\":\"11:28\",\"match_rank\":2151,\"game_type\":34,\"log_ts\":\"2018-11-21 20:53:37\",\"player_id\":\"2\",\"ballpass_num\":3,\"game_time\":0,\"blk_num\":0,\"steal_num\":0,\"match_type\":0,\"role_score\":9,\"mentor_use_time\":3,\"log_id\":\"GameEnd\",\"wideopen_num\":0,\"mvp\":0,\"end_time\":1542804817,\"two_point_shoot_num\":5,\"team\":0,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"ballblk_num\":1,\"delta_evaluation\":0,\"game_mode\":34,\"three_point_fieldgoal_num\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:53:37#036#GameEnd"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2030,\"log_id\":\"MentorsLog\",\"game_uuid\":\"4f69fadb322c275ab850abce58460de0\",\"end_time\":1542804817,\"role_level\":36,\"game_type\":34,\"log_ts\":\"2018-11-21 20:53:37\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"game_rank\":14,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"player_id\":\"2\",\"role_id\":101817558,\"montoid\":11,\"player_level\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:53:37#036#MentorsLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2030,\"d_role_name\":\"-1\",\"d_role_level\":0,\"s_device_model\":\"HUAWEI COR-AL10\",\"d_account_id\":\"-1\",\"s_prod_money\":0,\"log_ts\":\"2018-11-21 20:53:37\",\"s_exp\":0,\"d_cost_item\":[],\"d_prod_item\":[],\"s_cost_money\":0,\"d_os_ver\":\"-1\",\"s_os_ver\":\"8.1.0\",\"d_mac_addr\":\"-1\",\"s_cost_item\":[],\"s_udid\":\"7d9755b96cc003c8\",\"s_role_level\":36,\"d_old_accountid\":\"-1\",\"d_os_name\":\"-1\",\"log_id\":\"PVP\",\"use_time\":180,\"s_role_id\":101817558,\"begin_time\":1542804817486,\"s_role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"d_cost_money\":0,\"d_prod_money\":0,\"d_exp\":0,\"s_account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"d_udid\":\"-1\",\"s_old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"d_role_id\":\"-1\",\"s_os_name\":\"ad\",\"s_prod_item\":[],\"end_state\":0,\"s_mac_addr\":\"7C:A1:77:DD:3A:CF\",\"d_device_model\":\"-1\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:53:37#036#PVP"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2030,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_level\":36,\"log_ts\":\"2018-11-21 20:53:37\",\"finish_time\":1542804817,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"tb_num\":27,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"db_num\":27,\"role_id\":101817558,\"complete\":1,\"day\":6,\"car_id\":68,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:53:37#036#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2030,\"reason\":\"_battleEnd\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"gain_time\":1542804817666,\"yuanbao\":0,\"role_level\":36,\"log_ts\":\"2018-11-21 20:53:37\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"udid\":\"7d9755b96cc003c8\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"\"}"
+        },
+        {
+            "logid": "2018-11-21 20:53:37#036#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"steal\":0,\"role_level\":36,\"log_ts\":\"2018-11-21 20:53:47\",\"mode\":3,\"uid\":101817558,\"score\":\"11:28\",\"rebound\":0,\"role_id\":101817558,\"assists\":0,\"total_score\":9,\"block\":0,\"vip\":0,\"win\":0,\"log_id\":\"AIBattle\",\"twoPointTry\":0,\"playerName\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"end_time\":1542804827202,\"team\":0,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"threePointTry\":0,\"loose\":1,\"guid\":\"101817558_1018_1542804827202\",\"three_num\":1,\"log_ds\":\"2018-11-21\",\"two_num\":3,\"playerid\":2}"
+        },
+        {
+            "logid": "2018-11-21 20:53:47#036#AIBattle"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"account_id2\":\"aebfx3uwlq5qn5v3@ad.netease.win.163.com\",\"reason\":\"\",\"r_time\":1542804838630,\"chat_time\":1542804838630,\"role_level\":36,\"log_ts\":\"2018-11-21 20:53:58\",\"role_id2\":103643436,\"r_way\":4,\"mac_addr2\":\"44:9E:F9:19:FD:CF\",\"role_id\":101817558,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"udid2\":\"86f69e11c490d7cf\",\"udid\":\"7d9755b96cc003c8\",\"r_type\":[2],\"log_id\":\"CheatReport\",\"u_vip1\":\"\",\"ip\":\"111.27.36.105\",\"u_vip2\":\"\",\"ip2\":\"220.195.67.13\",\"chat_content\":\"\",\"server_id\":1018,\"role_name\":101817558,\"role_level2\":16,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_name2\":\"\u5353\u8d8a\u4e44\u5361\u91cc\u65af\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:53:58#036#CheatReport"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"server\":1018,\"log_id\":\"CrestProject\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"role_level\":36,\"project\":\"1088,1076,1076,1076,1076,1076,1076,1076,1076,1076,1109,1092,1072,1092,1072,1061,1070,1070,1049,1030,1054,1054,1054,1054,1054,1054,1066,1024,1054,1143;1104,1045,1068,1104,1016,1013,1087,1099,1026,1027,1109,1070,1030,1072,1072,1092,1092,1049,1070,1061,1054,1054,1054,1082,1081,1054,1066,1054,1143,1095;;\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:54:01\",\"finish_time\":1542804841}"
+        },
+        {
+            "logid": "2018-11-21 20:54:01#036#CrestProject"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"y_account_id\":\"\",\"server\":1018,\"log_id\":\"Chat\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"chat_time\":1542804864,\"y_obj\":\"\",\"channel\":5,\"role_level\":36,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 20:54:24\",\"content\":\"\u591a\u591a\u914d\u5408\",\"y_level\":\"\",\"scene\":\"ChatScene\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"y_name\":\"\",\"udid\":\"7d9755b96cc003c8\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:54:24#036#Chat"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1034,\"log_id\":\"GameStart\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"mentor\":\"11\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"rune_info\":{},\"skin\":1002,\"role_level\":1,\"game_type\":34,\"log_ts\":\"2018-11-21 20:54:46\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"skill_info\":[{\"level\":1,\"id\":211},{\"level\":1,\"id\":308},{\"level\":1,\"id\":210},{\"level\":1,\"id\":212}],\"start_time\":1542804886470,\"all_players\":\"28,38,13,17,11,18,33,29,4,12,16,37,23,8,36,39,30,25,2,21,5\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"player_id\":2,\"role_id\":101817558,\"map_id\":0,\"skin_attribute\":\"\",\"player_info\":{\"middle\":61.6,\"steal\":33.2,\"pass\":26.2,\"run\":47.2,\"rebound\":31.2,\"feverGauge\":20,\"threepoint\":37.2,\"feverRecovery\":20,\"dribble\":41.2,\"block\":36.2,\"dunknLayup\":34,\"near\":19.4,\"power\":30,\"jump\":50.6},\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:54:46#001#GameStart"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1034,\"log_id\":\"MatchEnd\",\"match_rank_adjust\":2196,\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"match_rank_real\":2151,\"end_time\":1542804886,\"role_level\":36,\"match_time\":34,\"team_id\":-1,\"log_ts\":\"2018-11-21 20:54:46\",\"evaluation_adjust\":0,\"home\":1,\"evaluation\":0,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"evaluation_real\":0,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"winning_strak\":0,\"match_type\":34,\"losing_strak\":1,\"class\":14,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:54:46#036#MatchEnd"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"game_remain_time\":150.9677734375,\"model_id\":2,\"log_ts\":\"2018-11-21 20:56:10\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":211,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 20:56:10#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":151.13168334960938,\"skill_id\":211,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:56:10\"}"
+        },
+        {
+            "logid": "2018-11-21 20:56:10#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"home\",\"reason\":\"goalin\",\"log_id\":\"Conversion\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":145.58876037597656,\"game_score\":\"4:6\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:56:24\"}"
+        },
+        {
+            "logid": "2018-11-21 20:56:24#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":143.3912353515625,\"skill_id\":21,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:56:29\"}"
+        },
+        {
+            "logid": "2018-11-21 20:56:29#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":140.9693145751953,\"skill_id\":21,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:56:32\"}"
+        },
+        {
+            "logid": "2018-11-21 20:56:32#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"game_remain_time\":139.40792846679688,\"model_id\":2,\"log_ts\":\"2018-11-21 20:56:33\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":4,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 20:56:33#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":120.37142944335938,\"skill_id\":21,\"mentor_run\":1,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:56:58\"}"
+        },
+        {
+            "logid": "2018-11-21 20:56:58#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":120.04338073730469,\"skill_id\":308,\"mentor_run\":1,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:56:59\"}"
+        },
+        {
+            "logid": "2018-11-21 20:56:59#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":117.70310974121094,\"skill_id\":21,\"mentor_run\":1,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:57:01\"}"
+        },
+        {
+            "logid": "2018-11-21 20:57:01#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"game_remain_time\":116.11758422851562,\"model_id\":2,\"log_ts\":\"2018-11-21 20:57:03\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":4,\"mentor_run\":1,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 20:57:03#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":111.02973937988281,\"skill_id\":21,\"mentor_run\":1,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:57:08\"}"
+        },
+        {
+            "logid": "2018-11-21 20:57:08#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":108.30287170410156,\"skill_id\":21,\"mentor_run\":1,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:57:11\"}"
+        },
+        {
+            "logid": "2018-11-21 20:57:11#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":107.21473693847656,\"skill_id\":213,\"mentor_run\":1,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:57:12\"}"
+        },
+        {
+            "logid": "2018-11-21 20:57:12#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"game_remain_time\":105.8173828125,\"model_id\":2,\"log_ts\":\"2018-11-21 20:57:13\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":213,\"mentor_run\":1,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 20:57:13#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"home\",\"reason\":\"goalin\",\"log_id\":\"Conversion\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":88.50230407714844,\"game_score\":\"10:12\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:57:58\"}"
+        },
+        {
+            "logid": "2018-11-21 20:57:58#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user_AI\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"receiver_id\":202815591,\"game_remain_time\":86.81654357910156,\"model_id\":2,\"log_ts\":\"2018-11-21 20:58:02\",\"mentor_id\":11,\"pass_type\":\"pass_short\",\"role_id\":101817558,\"skill_id\":6,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:58:02#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user_AI\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":87.64030456542969,\"skill_id\":21,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:58:02\"}"
+        },
+        {
+            "logid": "2018-11-21 20:58:02#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"rebound_gap\":0.0,\"log_id\":\"Rebound\",\"rebound_type\":\"normal\",\"role_type\":\"user_AI\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"game_remain_time\":75.70880126953125,\"model_id\":2,\"log_ts\":\"2018-11-21 20:58:14\",\"result\":\"fail\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":1,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:58:14#000#Rebound"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"receiver_id\":202608197,\"game_remain_time\":61.84873962402344,\"model_id\":2,\"log_ts\":\"2018-11-21 20:58:33\",\"mentor_id\":11,\"pass_type\":\"pass_short\",\"role_id\":101817558,\"skill_id\":6,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:58:33#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":62.66876220703125,\"skill_id\":21,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:58:33\"}"
+        },
+        {
+            "logid": "2018-11-21 20:58:33#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Pass\",\"role_type\":\"user_AI\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"receiver_id\":202608197,\"game_remain_time\":46.023101806640625,\"model_id\":2,\"log_ts\":\"2018-11-21 20:58:55\",\"mentor_id\":11,\"pass_type\":\"pass_short\",\"role_id\":101817558,\"skill_id\":6,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:58:55#000#Pass"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user_AI\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":46.82557678222656,\"skill_id\":21,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:58:55\"}"
+        },
+        {
+            "logid": "2018-11-21 20:58:55#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"home\",\"reason\":\"goalin\",\"log_id\":\"Conversion\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":38.94136047363281,\"game_score\":\"10:18\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:59:05\"}"
+        },
+        {
+            "logid": "2018-11-21 20:59:05#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Skill\",\"mentor_id\":11,\"role_type\":\"user_AI\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":37.54551696777344,\"skill_id\":21,\"mentor_run\":0,\"model_id\":2,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:59:10\"}"
+        },
+        {
+            "logid": "2018-11-21 20:59:10#000#Skill"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user_AI\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"game_remain_time\":36.31205749511719,\"model_id\":2,\"log_ts\":\"2018-11-21 20:59:11\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":4,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"middle\"}"
+        },
+        {
+            "logid": "2018-11-21 20:59:11#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"log_id\":\"Steal\",\"role_type\":\"user\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"game_remain_time\":26.261856079101562,\"model_id\":2,\"stealed_player\":202239446,\"log_ts\":\"2018-11-21 20:59:21\",\"result\":\"fail\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":8,\"mentor_run\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 20:59:21#000#Steal"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"new_owner\":\"home\",\"reason\":\"pickup\",\"log_id\":\"Conversion\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"role_id\":101817558,\"game_remain_time\":6.3013763427734375,\"game_score\":\"10:22\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 20:59:53\"}"
+        },
+        {
+            "logid": "2018-11-21 20:59:53#000#Conversion"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"marked\":\"normal\",\"log_id\":\"Shoot\",\"role_type\":\"user_AI\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"game_remain_time\":5.6855926513671875,\"model_id\":2,\"log_ts\":\"2018-11-21 20:59:54\",\"result\":\"nogoal\",\"mentor_id\":11,\"role_id\":101817558,\"skill_id\":4,\"mentor_run\":0,\"log_ds\":\"2018-11-21\",\"shoot_type\":\"near\"}"
+        },
+        {
+            "logid": "2018-11-21 20:59:54#000#Shoot"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"iconid\":25,\"game_result\":0,\"two_point_fieldgoal_num\":3,\"gtitle\":37,\"really_score\":2151,\"role_level\":36,\"skill_use_time\":[{\"skillID\":2,\"Count\":1},{\"skillID\":8,\"Count\":3},{\"skillID\":12,\"Count\":2},{\"skillID\":34,\"Count\":1},{\"skillID\":1,\"Count\":1},{\"skillID\":22,\"Count\":4},{\"skillID\":308,\"Count\":1},{\"skillID\":21,\"Count\":10},{\"skillID\":211,\"Count\":1},{\"skillID\":4,\"Count\":4},{\"skillID\":213,\"Count\":1},{\"skillID\":6,\"Count\":3}],\"evaluation\":0,\"matchUids\":\"\",\"three_point_shoot_num\":0,\"role_id\":101817558,\"mvp_point\":9.600000381469727,\"ai_player\":0,\"delta_rank\":-45,\"reb_num\":0,\"floor_num\":1,\"ballstealed_num\":0,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"ass_num\":0,\"withFriend\":\"\",\"overtime\":0,\"cmd\":\"GameEnd\",\"position\":\"SF\",\"frame\":38,\"inTeam\":0,\"server\":2028,\"balltouch_num\":6,\"distance\":0,\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"rank_class\":14,\"game_score\":\"10:24\",\"match_rank\":2106,\"game_type\":34,\"log_ts\":\"2018-11-21 21:00:02\",\"player_id\":\"2\",\"ballpass_num\":3,\"game_time\":0,\"blk_num\":0,\"steal_num\":0,\"match_type\":0,\"role_score\":6,\"mentor_use_time\":7,\"log_id\":\"GameEnd\",\"wideopen_num\":0,\"mvp\":0,\"end_time\":1542805202,\"two_point_shoot_num\":6,\"team\":0,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"ballblk_num\":1,\"delta_evaluation\":0,\"game_mode\":34,\"three_point_fieldgoal_num\":0,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 21:00:02#036#GameEnd"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2028,\"log_id\":\"MentorsLog\",\"game_uuid\":\"0a3d27f45ccef52d9abc959d3ca2fa88\",\"end_time\":1542805202,\"role_level\":36,\"game_type\":34,\"log_ts\":\"2018-11-21 21:00:02\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"game_rank\":14,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"player_id\":\"2\",\"role_id\":101817558,\"montoid\":11,\"player_level\":1,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 21:00:02#036#MentorsLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2028,\"d_role_name\":\"-1\",\"d_role_level\":0,\"s_device_model\":\"HUAWEI COR-AL10\",\"d_account_id\":\"-1\",\"s_prod_money\":0,\"log_ts\":\"2018-11-21 21:00:02\",\"s_exp\":0,\"d_cost_item\":[],\"d_prod_item\":[],\"s_cost_money\":0,\"d_os_ver\":\"-1\",\"s_os_ver\":\"8.1.0\",\"d_mac_addr\":\"-1\",\"s_cost_item\":[],\"s_udid\":\"7d9755b96cc003c8\",\"s_role_level\":36,\"d_old_accountid\":\"-1\",\"d_os_name\":\"-1\",\"log_id\":\"PVP\",\"use_time\":180,\"s_role_id\":101817558,\"begin_time\":1542805202738,\"s_role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"d_cost_money\":0,\"d_prod_money\":0,\"d_exp\":0,\"s_account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"d_udid\":\"-1\",\"s_old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"d_role_id\":\"-1\",\"s_os_name\":\"ad\",\"s_prod_item\":[],\"end_state\":0,\"s_mac_addr\":\"7C:A1:77:DD:3A:CF\",\"d_device_model\":\"-1\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 21:00:02#036#PVP"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2028,\"reason\":\"_battleEnd\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"gain_time\":1542805202918,\"yuanbao\":0,\"role_level\":36,\"log_ts\":\"2018-11-21 21:00:02\",\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_id\":101817558,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"udid\":\"7d9755b96cc003c8\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"\"}"
+        },
+        {
+            "logid": "2018-11-21 21:00:02#036#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":2028,\"log_id\":\"ReachCarnival\",\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"role_level\":36,\"log_ts\":\"2018-11-21 21:00:04\",\"finish_time\":1542805204,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"tb_num\":27,\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"db_num\":27,\"role_id\":101817558,\"complete\":1,\"day\":6,\"car_id\":68,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 21:00:04#036#ReachCarnival"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1018,\"old_accountid\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"device_model\":\"HUAWEI COR-AL10\",\"isp\":\"460014488410518\",\"role_level\":36,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 21:09:18\",\"network\":\"wifi\",\"scene\":\"2007\",\"device_width\":1500,\"online_time\":809,\"user_cash\":0,\"mac_addr\":\"7C:A1:77:DD:3A:CF\",\"role_id\":101817558,\"ipv6\":\"fe80::e8ab:6ff:fe23:d59f%dummy0\",\"exp_sum\":0,\"udid\":\"7d9755b96cc003c8\",\"exp\":16500,\"free_yuanbao_sum\":0,\"log_id\":\"LogoutRole\",\"os_ver\":\"8.1.0\",\"create_time\":1533003020,\"ip\":\"111.27.36.105\",\"item_sum\":[],\"money_sum\":761,\"user_token_money\":1563,\"role_name\":\"\u793e\u4f1a\u4f60\u6770\u5f1f\",\"app_channel\":\"netease.mjcs_cpc3_dev\",\"account_id\":\"aebfwx6evi3xylny@ad.netease.win.163.com\",\"device_height\":720,\"app_ver\":\"28141\",\"logout_time\":1542805758,\"os_name\":\"ad\",\"vip_level\":0,\"log_ds\":\"2018-11-21\",\"last_operation\":\"2007002\",\"coin\":4580}"
+        },
+        {
+            "logid": "2018-11-21 21:09:18#036#LogoutRole"
+        }
+    ]
+]

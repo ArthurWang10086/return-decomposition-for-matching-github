@@ -1,0 +1,426 @@
+[
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"device_model\":\"HUAWEI COL-AL10\",\"nation\":86,\"isp\":\"460031410003947\",\"log_key\":\"\",\"role_level\":50,\"last_logout_time\":1542723551,\"log_ts\":\"2018-11-21 13:58:50\",\"offline_exp\":0,\"network\":\"4G\",\"offline_money\":0,\"device_width\":1460,\"mac_addr\":\"0C:70:4A:8E:56:32\",\"role_id\":100114143,\"ipv6\":\"fe80::ec16:80ff:fe7b:d268%dummy0\",\"udid\":\"706ef43121c5c9ae\",\"log_content\":\"\",\"log_id\":\"LoginRole\",\"os_ver\":\"8.1.0\",\"create_time\":1532570190,\"ip\":\"36.23.225.113\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"app_channel\":\"netease\",\"u_dtls\":\"0\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"sum_money\":178,\"device_height\":720,\"login_time\":1542779930,\"app_ver\":\"28141\",\"os_name\":\"ad\",\"offline_item\":[],\"vip_level\":4,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:58:50#050#LoginRole"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"server\":1001,\"log_id\":\"CrestProject\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"role_level\":50,\"project\":\"1129,1129,1129,1129,1045,1105,1129,1075,1087,1075,1100,1100,1070,1059,1100,1100,1077,1100,1100,1100,1096,1114,1114,1114,1066,1114,1066,1114,1114,1114;1076,1076,1076,1129,1129,1129,1076,1046,1076,1076,1077,1100,1100,1100,1100,1100,1100,1100,1059,1070,1096,1114,1114,1114,1114,1114,1114,1066,1114,1066;\",\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:58:59\",\"finish_time\":1542779939}"
+        },
+        {
+            "logid": "2018-11-21 13:58:59#050#CrestProject"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"DailyTask\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_level\":50,\"task_id\":1001,\"draw\":1,\"schedul\":1,\"log_ts\":\"2018-11-21 13:58:59\",\"finish_time\":1542779939,\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"schedulDt\":\"20181120\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:58:59#050#DailyTask"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"DrawLoopLoginInfo\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"gain_time\":1542779941513,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:01\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"mac_addr\":\"0C:70:4A:8E:56:32\",\"udid\":\"706ef43121c5c9ae\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_450,4;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:01#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,117002,2,1\",\"role_id\":100114143,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:59:11\",\"finish_time\":1542779951}"
+        },
+        {
+            "logid": "2018-11-21 13:59:11#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"121003,3,1;129003,3,1;122004,4,1;130004,4,1;109003,3,1;119001,1,1;112003,3,1;101004,4,1;103003,3,1;131003,3,1;134003,3,1;118002,2,1;122004,4,1;109004,4,1;110004,4,1;116004,4,1;122004,4,1;126004,4,1;113005,5,1;133004,4,1;122003,3,1;102004,4,1;128004,4,1;127004,4,1;103004,4,1;104002,2,1;132002,2,1;126002,2,1;110001,1,3;129003,3,1;129001,1,1;136001,1,2;122003,3,1;133001,1,7;107001,1,2;119001,1,1;117001,1,1;140003,3,2;110003,3,1;128002,2,2;109001,1,2;122002,2,3;122001,1,5;112001,1,1;111002,2,1;134001,1,4;130003,3,1;126001,1,2;121001,1,2;132001,1,2;130001,1,2;104001,1,2;101001,1,3;116003,3,1;111001,1,1;103001,1,1;127003,3,1;137002,2,1;120001,1,1;114001,1,2;117002,2,2;128003,3,1;102001,1,1;103002,2,1;135001,1,1;131002,2,1\",\"role_id\":100114143,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:59:11\",\"finish_time\":1542779951}"
+        },
+        {
+            "logid": "2018-11-21 13:59:11#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:11\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"box_type\":2,\"role_id\":100114143,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_117002,1;98_206,15;98_201,1;98_32097,1;98_450,2;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:11#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,104001,1,1\",\"role_id\":100114143,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:59:13\",\"finish_time\":1542779953}"
+        },
+        {
+            "logid": "2018-11-21 13:59:13#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"121003,3,1;129003,3,1;122004,4,1;130004,4,1;109003,3,1;119001,1,1;112003,3,1;101004,4,1;103003,3,1;131003,3,1;134003,3,1;118002,2,1;122004,4,1;109004,4,1;110004,4,1;116004,4,1;122004,4,1;126004,4,1;113005,5,1;133004,4,1;122003,3,1;102004,4,1;128004,4,1;127004,4,1;103004,4,1;104002,2,1;132002,2,1;126002,2,1;110001,1,3;129003,3,1;129001,1,1;136001,1,2;122003,3,1;133001,1,7;107001,1,2;119001,1,1;117001,1,1;140003,3,2;110003,3,1;128002,2,2;109001,1,2;122002,2,3;122001,1,5;112001,1,1;111002,2,1;134001,1,4;130003,3,1;126001,1,2;121001,1,2;132001,1,2;130001,1,2;104001,1,3;101001,1,3;116003,3,1;111001,1,1;103001,1,1;127003,3,1;137002,2,1;120001,1,1;114001,1,2;117002,2,2;128003,3,1;102001,1,1;103002,2,1;135001,1,1;131002,2,1\",\"role_id\":100114143,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:59:13\",\"finish_time\":1542779953}"
+        },
+        {
+            "logid": "2018-11-21 13:59:13#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:13\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"box_type\":1,\"role_id\":100114143,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_104001,1;98_211,2;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:13#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,119001,1,1\",\"role_id\":100114143,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:59:14\",\"finish_time\":1542779954}"
+        },
+        {
+            "logid": "2018-11-21 13:59:14#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"121003,3,1;129003,3,1;122004,4,1;130004,4,1;109003,3,1;119001,1,1;112003,3,1;101004,4,1;103003,3,1;131003,3,1;134003,3,1;118002,2,1;122004,4,1;109004,4,1;110004,4,1;116004,4,1;122004,4,1;126004,4,1;113005,5,1;133004,4,1;122003,3,1;102004,4,1;128004,4,1;127004,4,1;103004,4,1;104002,2,1;132002,2,1;126002,2,1;110001,1,3;129003,3,1;129001,1,1;136001,1,2;122003,3,1;133001,1,7;107001,1,2;119001,1,2;117001,1,1;140003,3,2;110003,3,1;128002,2,2;109001,1,2;122002,2,3;122001,1,5;112001,1,1;111002,2,1;134001,1,4;130003,3,1;126001,1,2;121001,1,2;132001,1,2;130001,1,2;104001,1,3;101001,1,3;116003,3,1;111001,1,1;103001,1,1;127003,3,1;137002,2,1;120001,1,1;114001,1,2;117002,2,2;128003,3,1;102001,1,1;103002,2,1;135001,1,1;131002,2,1\",\"role_id\":100114143,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:59:14\",\"finish_time\":1542779954}"
+        },
+        {
+            "logid": "2018-11-21 13:59:14#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:14\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"box_type\":1,\"role_id\":100114143,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_119001,1;98_205,3;98_32075,1;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:14#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,109001,1,1\",\"role_id\":100114143,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:59:16\",\"finish_time\":1542779956}"
+        },
+        {
+            "logid": "2018-11-21 13:59:16#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"121003,3,1;129003,3,1;122004,4,1;130004,4,1;109003,3,1;119001,1,1;112003,3,1;101004,4,1;103003,3,1;131003,3,1;134003,3,1;118002,2,1;122004,4,1;109004,4,1;110004,4,1;116004,4,1;122004,4,1;126004,4,1;113005,5,1;133004,4,1;122003,3,1;102004,4,1;128004,4,1;127004,4,1;103004,4,1;104002,2,1;132002,2,1;126002,2,1;110001,1,3;129003,3,1;129001,1,1;136001,1,2;122003,3,1;133001,1,7;107001,1,2;119001,1,2;117001,1,1;140003,3,2;110003,3,1;128002,2,2;109001,1,3;122002,2,3;122001,1,5;112001,1,1;111002,2,1;134001,1,4;130003,3,1;126001,1,2;121001,1,2;132001,1,2;130001,1,2;104001,1,3;101001,1,3;116003,3,1;111001,1,1;103001,1,1;127003,3,1;137002,2,1;120001,1,1;114001,1,2;117002,2,2;128003,3,1;102001,1,1;103002,2,1;135001,1,1;131002,2,1\",\"role_id\":100114143,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:59:16\",\"finish_time\":1542779956}"
+        },
+        {
+            "logid": "2018-11-21 13:59:16#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:16\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"box_type\":1,\"role_id\":100114143,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_109001,1;98_202,2;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:16#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"server\":1001,\"log_id\":\"GetUserSkillChannelLog\",\"all_skill\":\"2,103001,1,1\",\"role_id\":100114143,\"channel\":2,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:59:18\",\"finish_time\":1542779958}"
+        },
+        {
+            "logid": "2018-11-21 13:59:18#050#GetUserSkillChannelLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"mode\":2,\"server\":1001,\"log_id\":\"GetUserSkillLog\",\"all_skill\":\"121003,3,1;129003,3,1;122004,4,1;130004,4,1;109003,3,1;119001,1,1;112003,3,1;101004,4,1;103003,3,1;131003,3,1;134003,3,1;118002,2,1;122004,4,1;109004,4,1;110004,4,1;116004,4,1;122004,4,1;126004,4,1;113005,5,1;133004,4,1;122003,3,1;102004,4,1;128004,4,1;127004,4,1;103004,4,1;104002,2,1;132002,2,1;126002,2,1;110001,1,3;129003,3,1;129001,1,1;136001,1,2;122003,3,1;133001,1,7;107001,1,2;119001,1,2;117001,1,1;140003,3,2;110003,3,1;128002,2,2;109001,1,3;122002,2,3;122001,1,5;112001,1,1;111002,2,1;134001,1,4;130003,3,1;126001,1,2;121001,1,2;132001,1,2;130001,1,2;104001,1,3;101001,1,3;116003,3,1;111001,1,1;103001,1,2;127003,3,1;137002,2,1;120001,1,1;114001,1,2;117002,2,2;128003,3,1;102001,1,1;103002,2,1;135001,1,1;131002,2,1\",\"role_id\":100114143,\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:59:18\",\"finish_time\":1542779958}"
+        },
+        {
+            "logid": "2018-11-21 13:59:18#050#GetUserSkillLog"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"OpenGiftBox\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"cost_type\":3,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:18\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"box_type\":1,\"role_id\":100114143,\"cost_yuanbao\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"35_103001,1;98_206,2;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:18#050#OpenGiftBox"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"ReadMail\",\"log_id\":\"CrestFrag\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"num\":25,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:24\",\"finish_time\":1542779964,\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"id\":300,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:24#050#CrestFrag"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"DrawRepetitiveLoginReward\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"gain_time\":1542779964022,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:24\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"app_channel\":\"\",\"diamond\":158,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"mac_addr\":\"0C:70:4A:8E:56:32\",\"udid\":\"706ef43121c5c9ae\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_173,3;98_300,25;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:24#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"amount\":158,\"channel\":\"netease\",\"role_level\":50,\"money_type\":3,\"income_category\":2,\"log_ts\":\"2018-11-21 13:59:24\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:24#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"ReadMail\",\"log_id\":\"CrestFrag\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"num\":5,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:28\",\"finish_time\":1542779968,\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"id\":300,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:28#050#CrestFrag"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"BuyPreferenceReward\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:28\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"bonus_money\":300,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 13:59:28#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"BuyPreferenceReward\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"gain_time\":1542779968974,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:28\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"mac_addr\":\"0C:70:4A:8E:56:32\",\"udid\":\"706ef43121c5c9ae\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_300,5;\",\"coin\":null}"
+        },
+        {
+            "logid": "2018-11-21 13:59:28#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"amount\":300,\"channel\":\"netease\",\"role_level\":50,\"money_type\":2,\"income_category\":2,\"log_ts\":\"2018-11-21 13:59:28\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:28#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"ReadMail\",\"log_id\":\"CrestFrag\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"num\":10,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:31\",\"finish_time\":1542779971,\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"id\":300,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:31#050#CrestFrag"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"getLimitLoginRewards\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"gain_time\":1542779971221,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:31\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"app_channel\":\"\",\"diamond\":25,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"mac_addr\":\"0C:70:4A:8E:56:32\",\"udid\":\"706ef43121c5c9ae\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_300,10;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:31#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"amount\":25,\"channel\":\"netease\",\"role_level\":50,\"money_type\":3,\"income_category\":2,\"log_ts\":\"2018-11-21 13:59:31\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:31#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"ReadMail\",\"log_id\":\"CrestFrag\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"num\":5,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:37\",\"finish_time\":1542779977,\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"id\":300,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:37#050#CrestFrag"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"item_type\":\"shop_item\",\"role_level\":50,\"other_price\":-1,\"log_ts\":\"2018-11-21 13:59:37\",\"cost_money\":0,\"role_id\":100114143,\"mac_addr\":\"0C:70:4A:8E:56:32\",\"price\":0,\"currency\":1,\"udid\":\"706ef43121c5c9ae\",\"left_free_yuanbao\":11,\"log_id\":\"ItemBuy\",\"yuanbao\":0,\"item_id\":\"98-163\",\"count\":1,\"expire_time\":0,\"item_name\":\"shop_item\",\"left_yuanbao\":11,\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"app_channel\":\"netease\",\"buy_time\":1542779977,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"shop_type\":1,\"log_ds\":\"2018-11-21\",\"free_yuanbao\":0}"
+        },
+        {
+            "logid": "2018-11-21 13:59:37#050#ItemBuy"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"BuyShopItem\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:37\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"bonus_money\":0,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 13:59:37#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"BuyShopItem\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"gain_time\":1542779977227,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:37\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"mac_addr\":\"0C:70:4A:8E:56:32\",\"udid\":\"706ef43121c5c9ae\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_300,5;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:37#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"item_id\":\"98-163\",\"cost_type\":1,\"channel\":\"netease\",\"role_level\":50,\"cost_value\":0,\"log_ts\":\"2018-11-21 13:59:37\",\"item_num\":1,\"way\":\"BuyShopItem\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"player_id\":0,\"role_id\":100114143,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:37#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"item_type\":\"shop_item\",\"role_level\":50,\"other_price\":-1,\"log_ts\":\"2018-11-21 13:59:39\",\"cost_money\":0,\"role_id\":100114143,\"mac_addr\":\"0C:70:4A:8E:56:32\",\"price\":0,\"currency\":1,\"udid\":\"706ef43121c5c9ae\",\"left_free_yuanbao\":11,\"log_id\":\"ItemBuy\",\"yuanbao\":0,\"item_id\":\"98-164\",\"count\":1,\"expire_time\":0,\"item_name\":\"shop_item\",\"left_yuanbao\":11,\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"app_channel\":\"netease\",\"buy_time\":1542779979,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"shop_type\":1,\"log_ds\":\"2018-11-21\",\"free_yuanbao\":0}"
+        },
+        {
+            "logid": "2018-11-21 13:59:39#050#ItemBuy"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"BuyShopItem\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:39\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"bonus_money\":0,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 13:59:39#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"BuyShopItem\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"gain_time\":1542779979145,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:39\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"app_channel\":\"\",\"diamond\":13,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"mac_addr\":\"0C:70:4A:8E:56:32\",\"udid\":\"706ef43121c5c9ae\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:39#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"item_id\":\"98-164\",\"cost_type\":1,\"channel\":\"netease\",\"role_level\":50,\"cost_value\":0,\"log_ts\":\"2018-11-21 13:59:39\",\"item_num\":1,\"way\":\"BuyShopItem\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"player_id\":0,\"role_id\":100114143,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:39#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":99,\"log_id\":\"UserIncome\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"amount\":13,\"channel\":\"netease\",\"role_level\":50,\"money_type\":3,\"income_category\":2,\"log_ts\":\"2018-11-21 13:59:39\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:39#050#UserIncome"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ShopUpdate\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"update_type\":0,\"role_level\":50,\"update_cost\":0,\"log_ts\":\"2018-11-21 13:59:41\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"vip\":3,\"logtime\":1542779981344,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:41#050#ShopUpdate"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"item_type\":\"mystery_item\",\"role_level\":50,\"other_price\":20,\"log_ts\":\"2018-11-21 13:59:43\",\"cost_money\":0,\"role_id\":100114143,\"mac_addr\":\"0C:70:4A:8E:56:32\",\"price\":0,\"currency\":31,\"udid\":\"706ef43121c5c9ae\",\"left_free_yuanbao\":11,\"log_id\":\"ItemBuy\",\"yuanbao\":0,\"item_id\":\"98-201\",\"count\":1,\"expire_time\":0,\"item_name\":\"mystery_item\",\"left_yuanbao\":11,\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"app_channel\":\"netease\",\"buy_time\":1542779983,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"shop_type\":2,\"log_ds\":\"2018-11-21\",\"free_yuanbao\":0}"
+        },
+        {
+            "logid": "2018-11-21 13:59:43#050#ItemBuy"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"BuyMysteryShopItem\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"gain_time\":1542779983675,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:43\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"mac_addr\":\"0C:70:4A:8E:56:32\",\"udid\":\"706ef43121c5c9ae\",\"exp\":0,\"log_ds\":\"2018-11-21\",\"rewards\":\"98_201,1;\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:43#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"item_id\":\"98-201\",\"cost_type\":3,\"channel\":\"netease\",\"role_level\":50,\"cost_value\":20,\"log_ts\":\"2018-11-21 13:59:43\",\"item_num\":1,\"way\":\"BuyMysteryShopItem\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"player_id\":0,\"role_id\":100114143,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:43#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"ShopUpdate\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"update_type\":0,\"role_level\":50,\"update_cost\":0,\"log_ts\":\"2018-11-21 13:59:46\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"vip\":3,\"logtime\":1542779986403,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:46#050#ShopUpdate"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"server\":1001,\"daily_liveness\":5,\"log_id\":\"DailyLiveness\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"schedulDt\":\"20181121\",\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:59:52\",\"finish_time\":1542779992}"
+        },
+        {
+            "logid": "2018-11-21 13:59:52#050#DailyLiveness"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"DailyTask\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_level\":50,\"task_id\":1001,\"draw\":2,\"log_ts\":\"2018-11-21 13:59:52\",\"finish_time\":1542779992,\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"schedulDt\":\"20181121\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:52#050#DailyTask"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"SubmitQuest\",\"log_id\":\"SA_Monitor\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"gain_time\":1542779992230,\"yuanbao\":0,\"role_level\":50,\"log_ts\":\"2018-11-21 13:59:52\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"app_channel\":\"\",\"diamond\":0,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"mac_addr\":\"0C:70:4A:8E:56:32\",\"udid\":\"706ef43121c5c9ae\",\"exp\":12,\"log_ds\":\"2018-11-21\",\"rewards\":\"\"}"
+        },
+        {
+            "logid": "2018-11-21 13:59:52#050#SA_Monitor"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"server\":1001,\"log_id\":\"WeeklyLiveness\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"weekly_liveness\":45,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"schedulDt\":\"20181121\",\"role_level\":50,\"log_ds\":\"2018-11-21\",\"log_ts\":\"2018-11-21 13:59:52\",\"finish_time\":1542779992}"
+        },
+        {
+            "logid": "2018-11-21 13:59:52#050#WeeklyLiveness"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"DailyTask\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_level\":50,\"task_id\":1002,\"draw\":1,\"schedul\":1000,\"log_ts\":\"2018-11-21 14:00:29\",\"finish_time\":1542780029,\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"schedulDt\":\"20181121\",\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 14:00:29#050#DailyTask"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"Potential\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"cost\":\"98_201,2;98_206,20;98_207,20;1_0,1100;\",\"role_level\":50,\"type\":1,\"log_ts\":\"2018-11-21 14:00:29\",\"potential_level\":7,\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"potential\":1095,\"log_ds\":\"2018-11-21\",\"player\":34}"
+        },
+        {
+            "logid": "2018-11-21 14:00:29#050#Potential"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"reason\":\"UpdateLevelPotency\",\"log_id\":\"ResourceChange\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_level\":50,\"log_ts\":\"2018-11-21 14:00:29\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"bonus_money\":-1100,\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"role_id\":100114143,\"bonus_exp\":0,\"log_ds\":\"2018-11-21\",\"bonus_item\":[]}"
+        },
+        {
+            "logid": "2018-11-21 14:00:29#050#ResourceChange"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"log_id\":\"UserExpense\",\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"item_id\":\"24-1095\",\"cost_type\":1,\"channel\":\"netease\",\"role_level\":50,\"cost_value\":1100,\"log_ts\":\"2018-11-21 14:00:29\",\"item_num\":1,\"way\":\"UpdateLevelPotency\",\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"player_id\":34,\"role_id\":100114143,\"log_ds\":\"2018-11-21\"}"
+        },
+        {
+            "logid": "2018-11-21 14:00:29#050#UserExpense"
+        }
+    ],
+    [
+        {
+            "origin_json": "{\"server\":1001,\"old_accountid\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"device_model\":\"HUAWEI COL-AL10\",\"isp\":\"460031410003947\",\"role_level\":50,\"axis\":\"(0,0,0)\",\"log_ts\":\"2018-11-21 14:10:25\",\"network\":\"4G\",\"scene\":\"2001\",\"device_width\":1460,\"online_time\":95,\"user_cash\":11,\"mac_addr\":\"0C:70:4A:8E:56:32\",\"role_id\":100114143,\"ipv6\":\"fe80::ec16:80ff:fe7b:d268%dummy0\",\"exp_sum\":12,\"udid\":\"706ef43121c5c9ae\",\"exp\":50133,\"free_yuanbao_sum\":0,\"log_id\":\"LogoutRole\",\"os_ver\":\"8.1.0\",\"create_time\":1532570190,\"ip\":\"36.23.225.113\",\"item_sum\":[],\"money_sum\":300,\"user_token_money\":1129,\"role_name\":\"\u6447\u5934\u6643\u8111\u5e93\",\"app_channel\":\"netease\",\"account_id\":\"aebfrt5pbynyk6ry@ad.netease.win.163.com\",\"device_height\":720,\"app_ver\":\"28141\",\"logout_time\":1542780625,\"os_name\":\"ad\",\"vip_level\":3,\"log_ds\":\"2018-11-21\",\"last_operation\":\"2001012\",\"coin\":185486}"
+        },
+        {
+            "logid": "2018-11-21 14:10:25#050#LogoutRole"
+        }
+    ]
+]
