@@ -131,9 +131,9 @@ class RRModel(object):
         if use_time_input:
             timestep_encoder = TriangularValueEncoding(max_value=max_timestep, triangle_span=int(max_timestep / 10))
 
-        states_placeholder = tf.placeholder(shape=(n_batch, max_timestep, state_shape), dtype=tf.float32)
-        actions_placeholder = tf.placeholder(shape=(n_batch, max_timestep, n_actions), dtype=tf.float32)
-        rewards_placeholder = tf.placeholder(shape=(n_batch, max_timestep, 1), dtype=tf.float32)
+        states_placeholder = tf.placeholder(shape=(n_batch, None, state_shape), dtype=tf.float32)
+        actions_placeholder = tf.placeholder(shape=(n_batch, None, n_actions), dtype=tf.float32)
+        rewards_placeholder = tf.placeholder(shape=(n_batch, None, 1), dtype=tf.float32)
         state_shape_per_ts = (n_batch, 1, state_shape)
         action_shape_per_ts = (n_batch, 1, n_actions)
         # true_internal_rewards_placeholder = tf.placeholder(shape=(n_batch, None, 1), dtype=tf.float32)
@@ -260,7 +260,7 @@ class RRModel(object):
 
         return_prediction = tf.reduce_sum(rr_returns['predictions'][0, :, 0])
         true_return = tf.reduce_sum(targets[0, :, 0])
-        AUCW = true_return*max_timestep - tf.reduce_sum(tf.reshape(rr_returns['predictions'][0, :, 0],[-1])*tf.cast((tf.range(max_timestep)[::-1]+1),tf.float32))
+        AUCW = true_return*tf.cast(n_timesteps,tf.float32) - tf.reduce_sum(tf.reshape(rr_returns['predictions'][0, :, 0],[-1])*tf.cast((tf.range(n_timesteps+1)[::-1]+1),tf.float32))
         reward_prediction_error = tf.square(true_return - return_prediction)
         # auxiliary_losses = tf.reduce_mean(tf.square(targets[0, :, 1:] - rr_returns['predictions'][0, :, 1:]),
         #                                   axis=1)
@@ -406,7 +406,8 @@ def generate_sample3(padding=False, fix_state_offset=True, random_start=False, *
         start_state = np.random.choice([-1, 1], 1, [0.5, 0.5])[0]
 
     # Create random actions
-    actions = rnd_gen.randint(low=0, high=2, size=(max_timestep,))
+    import random
+    actions = rnd_gen.randint(low=0, high=2, size=(max_timestep if random.random()>0.5 else max_timestep+10,))
     return '0'+'@'+','.join([str(x) for x in actions.tolist()])
 
 
@@ -434,8 +435,8 @@ def test(args):
     model = RRModel(state_shape=13, n_actions=2, max_timestep=50, regularize_coef=args.regularize_coef,
                     entropy_coef=args.entropy_coef, entropy_temperature=args.entropy_temperature,
                     use_time_input=args.use_time_input)
-    f = open('dataset2.txt','r')
-    f_test = open('dataset_test.txt','r')
+    f = open('../dataset/coin/dataset2.txt','r')
+    # f_test = open('dataset_test.txt','r')
     import  json
     # test_data = [json.loads(x) for x in f_test.read().split('\n')]
     return_train  = []
@@ -567,6 +568,6 @@ if __name__ == '__main__':
     avg_loss = 0
     start_state = 0
     mse = 0
-    dataset_generate('../dataset/coin/dataset2.txt')
+    # dataset_generate('../dataset/coin/dataset2.txt')
     # run(args)
-    # test(args)
+    test(args)

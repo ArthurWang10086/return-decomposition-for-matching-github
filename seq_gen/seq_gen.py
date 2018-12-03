@@ -3,7 +3,9 @@
 
 import json
 import os
-
+from multiprocessing import Process, JoinableQueue
+import multiprocessing
+import  actionEncode
 # Block   blocked_player  skill_id  result
 # Rebound   result  skill_id  rebound_type
 # Steal  result stealed_player skill_id
@@ -20,12 +22,11 @@ import os
 # GameObInfo
 # ShootCancel  result  skill_id  shoot_type
 
+EncodeMap = actionEncode.EncodeMap
 
-
-EncodeMap = {'GameStart': 1, 'GameEnd': 2, 'MatchEnd': 3, 'Pass': 4, 'Skill': 5, 'Shoot': 6, 'Conversion': 7, 'Block': 8, 'Steal': 9, 'Rebound': 10, 'MentorsLog': 11, 'CheckAninTime': 12, 'ReserveAction': 13, 'GameObInfo': 14,'ShootCancel':15}
-
-
-def seq_gen_1(filepath,outpath):
+def seq_gen_1(ds):
+    filepath = '../dataset/process_data/%s'%(ds)
+    outpath = '../dataset/ball/%s'%(ds)
     L=[]
     with open(filepath+'.txt','r') as f:
         datas = f.read().split('\n')
@@ -39,32 +40,39 @@ def seq_gen_1(filepath,outpath):
         f.write('\n'.join(L))
 
 
-def seq_gen_2(filepath,outpath):
+def seq_gen_2(ds):
+    filepath = '../dataset/process_data/%s'%(ds)
+    outpath = '../dataset/ball/%s'%(ds)
     L=[]
     with open(filepath+'.txt','r') as f:
         datas = f.read().split('\n')
         for data in datas:
             tmp = []
             for i,x in enumerate(data.split(';')):
-                print(len(x.split('@')))
-                print(x)
                 result = x.split('@')[1]
                 result = '1' if int(result)>0 else '-1'
                 for action in x.split('@')[2].split(','):
                     # print(action[:19])
                     #action_id = logid + role_idx * len(logids)
-                    tmp.append((action[:19],EncodeMap[action.split(':')[-1]]+i*len(EncodeMap)))
+                    if action.split(':')[-1] in EncodeMap:
+                        tmp.append((action[:19],EncodeMap[action.split(':')[-1]]+i*len(EncodeMap)))
             sorted(tmp,key=lambda x : x[0])
-            L.append(result+'@'+','.join([str(x[1]) for x in tmp]))
+            L.append('1'+'@'+','.join([str(x[1]) for x in tmp]))
 
     with open(outpath+'.txt','w') as f:
         f.write('\n'.join(L))
 
 
 if __name__ == '__main__':
-    filepath = '../dataset/process_data/2018-11-21'
-    outpath = '../dataset/ball/2018-11-21'
-    seq_gen_2(filepath,outpath)
+    pool = multiprocessing.Pool(processes=1)
+    days = ['2018-11-01','2018-11-02','2018-11-03','2018-11-04','2018-11-05']
+    q = JoinableQueue()
+    for ds in days:
+        pool.apply_async(seq_gen_2, args=(ds, ))
+    pool.close()
+    pool.join()
+
+
 
 
 

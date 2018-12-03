@@ -6,7 +6,7 @@ import os
 import logging
 import logging.handlers
 
-DATE='2018-11-21'
+DATE='2018-11-05'
 LOG_FILE = 'get_new_roleids.log'          # 日志文件
 SCRIPT_FILE = 'get_new_roleids'  # 脚本文件
 LOG_LEVEL = logging.INFO                                                    # 日志级别
@@ -33,8 +33,8 @@ def init_log():
 # '''
 GAME_RECORD_SQL = \
     '''
-    select concat_ws(',',collect_set(cast(role_id as string))) from balldb.ods_gameend where ds='2018-11-10' and length(role_id)>5 group by game_uuid  having count(*)=6
-    '''
+    select concat_ws(',',collect_set(cast(role_id as string))) from balldb.ods_gameend where ds='%s' and length(role_id)>5 group by game_uuid  having count(*)=6
+    '''%(DATE)
 
 
 class HiveClient:
