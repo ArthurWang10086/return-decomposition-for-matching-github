@@ -19,12 +19,13 @@
 
 import json
 import os
+from multiprocessing import Process, JoinableQueue
+import multiprocessing
 
-if __name__ == '__main__':
+def process(ds):
     D = {}
-    D1 = {}
-    filepath = '../dataset/behaviors_sql/2018-11-21'
-    outpath = '../dataset/process_data/2018-11-21'
+    filepath = '../dataset/behaviors_sql/%s'%(ds)
+    outpath = '../dataset/process_data/%s'%(ds)
     role_ids = filter(lambda x:len(x)==9,[x.split('.')[0] for x in os.listdir(filepath)])
     for role_id in role_ids:
         with open(filepath+'/%s.json'%(role_id),'r') as f:
@@ -74,10 +75,22 @@ if __name__ == '__main__':
             if game_result == '0':
                 D2[gameid].append(role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id'] for x in D[gameid][role_id]]))
 
-
     with open(outpath+'.txt','w') as f:
         L = [';'.join(D2[x]) for x in D2 ]
         f.write('\n'.join(L))
+
+
+if __name__ == '__main__':
+    pool = multiprocessing.Pool(processes=1)
+    days = ['2018-11-01','2018-11-02','2018-11-03','2018-11-04','2018-11-05']
+    q = JoinableQueue()
+    for ds in days:
+        pool.apply_async(process, args=(ds, ))
+    pool.close()
+    pool.join()
+
+
+
 
 
 
