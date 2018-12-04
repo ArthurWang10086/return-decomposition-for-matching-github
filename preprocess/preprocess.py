@@ -103,8 +103,12 @@ def process(ds):
         except Exception:
             pass
 
+    print(ds,len(D2))
+    L = list(filter(lambda x:len(D2[x])==6 ,D.keys()))
+    print(ds,len(L))
+
     with open(outpath+'.txt','w') as f:
-        L = [';'.join(D2[x]) for x in D2 ]
+        L = [';'.join(D2[x]) for x in L ]
         f.write('\n'.join(L))
 
 
