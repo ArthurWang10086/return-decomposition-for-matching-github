@@ -11,7 +11,7 @@
 # ShootCancel  result  skill_id  shoot_type
 
 
-import json
+import simplejson as json
 import os
 from multiprocessing import Process, JoinableQueue
 import multiprocessing
@@ -48,7 +48,7 @@ def process(ds):
     D = {}
     filepath = '../dataset/behaviors_sql/%s'%(ds)
     outpath = '../dataset/process_data/%s'%(ds)
-    role_ids = filter(lambda x:len(x)==9,[x.split('.')[0] for x in os.listdir(filepath)])
+    role_ids = list(filter(lambda x:len(x)==9,[x.split('.')[0] for x in os.listdir(filepath)]))
     for role_id in role_ids:
         with open(filepath+'/%s.json'%(role_id),'r') as f:
             try:
@@ -79,25 +79,29 @@ def process(ds):
 
     #清洗比赛
     print(ds,len(D))
-    L = filter(lambda x:len(D[x])==6 ,D.keys())
+    json.dump(D, open(ds+'.dict', "w"))
+    L = list(filter(lambda x:len(D[x])==6 ,D.keys()))
     print(ds,len(L))
 
     D2={}
     for gameid in L:
         D2[gameid] = []
-        for role_id in D[gameid]:
-            # GameEnd_count = sum([1 if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
-            # GameStart_count = sum([1 if 'GameStart' in x else 0 for x in D[gameid][role_id]])
-            game_result = str(max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]]))
-            if game_result == '1':
-                D2[gameid].append(role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info(json.loads(x)) for x in D[gameid][role_id]]))
+        try:
+            for role_id in D[gameid]:
+                # GameEnd_count = sum([1 if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
+                # GameStart_count = sum([1 if 'GameStart' in x else 0 for x in D[gameid][role_id]])
+                game_result = str(max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]]))
+                if game_result == '1':
+                    D2[gameid].append(role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info(json.loads(x)) for x in D[gameid][role_id]]))
 
-        for role_id in D[gameid]:
-            # GameEnd_count = sum([1 if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
-            # GameStart_count = sum([1 if 'GameStart' in x else 0 for x in D[gameid][role_id]])
-            game_result = str(max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]]))
-            if game_result == '0':
-                D2[gameid].append(role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info(json.loads(x)) for x in D[gameid][role_id]]))
+            for role_id in D[gameid]:
+                # GameEnd_count = sum([1 if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
+                # GameStart_count = sum([1 if 'GameStart' in x else 0 for x in D[gameid][role_id]])
+                game_result = str(max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]]))
+                if game_result == '0':
+                    D2[gameid].append(role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info(json.loads(x)) for x in D[gameid][role_id]]))
+        except Exception:
+            pass
 
     with open(outpath+'.txt','w') as f:
         L = [';'.join(D2[x]) for x in D2 ]
@@ -105,8 +109,8 @@ def process(ds):
 
 
 if __name__ == '__main__':
-    pool = multiprocessing.Pool(processes=5)
-    days = ['2018-11-01','2018-11-02','2018-11-03','2018-11-04','2018-11-05']
+    pool = multiprocessing.Pool(processes=1)
+    days = ['2018-11-01']
     q = JoinableQueue()
     for ds in days:
         pool.apply_async(process, args=(ds, ))
