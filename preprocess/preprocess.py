@@ -78,7 +78,9 @@ def process(ds):
     #             D1[gameid].pop(role_id)
 
     #清洗比赛
+    print(ds,len(D))
     L = filter(lambda x:len(D[x])==6 ,D.keys())
+    print(ds,len(L))
 
     D2={}
     for gameid in L:
