@@ -79,7 +79,7 @@ def process(ds):
 
     #清洗比赛
     print(ds,len(D))
-    json.dump(D, open(ds+'.dict', "w"))
+    # json.dump(D, open(ds+'.dict', "w"))
     L = list(filter(lambda x:len(D[x])==6 ,D.keys()))
     print(ds,len(L))
 
@@ -103,12 +103,10 @@ def process(ds):
         except Exception:
             pass
 
-    print(ds,len(D2))
-    L = list(filter(lambda x:len(D2[x])==6 ,D.keys()))
-    print(ds,len(L))
+    print(len(D2))
 
     with open(outpath+'.txt','w') as f:
-        L = [';'.join(D2[x]) for x in L ]
+        L = [';'.join(D2[x]) for x in D2]
         f.write('\n'.join(L))
 
 
