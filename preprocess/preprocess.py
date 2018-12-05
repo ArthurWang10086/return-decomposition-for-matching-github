@@ -101,6 +101,7 @@ def process(ds):
                 if game_result == '0':
                     D2[gameid].append(role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info(json.loads(x)) for x in D[gameid][role_id]]))
         except Exception:
+            D2.pop(gameid)
             pass
 
     print(len(D2))
