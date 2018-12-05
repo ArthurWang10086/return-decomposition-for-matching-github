@@ -49,6 +49,7 @@ def process(ds):
     filepath = '../dataset/behaviors_sql/%s'%(ds)
     outpath = '../dataset/process_data/%s'%(ds)
     role_ids = list(filter(lambda x:len(x)==9,[x.split('.')[0] for x in os.listdir(filepath)]))
+    role_ids = [str(x) for x in [203209669,203111831,202801535,202931644,203124657,203028741,203230178,203223545,202604063,201421056,200317318,100519307]]
     for role_id in role_ids:
         with open(filepath+'/%s.json'%(role_id),'r') as f:
             try:
