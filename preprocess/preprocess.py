@@ -23,23 +23,23 @@ def extraction_info(info):
     id = info['log_id']
     if id=='Pass':
         # return '#'.join([str(x) for x in [id,info['receiver_id'],info['skill_id'],info['pass_type']]])
-        return '#'.join([str(x) for x in [id,info['skill_id'],info['pass_type']]])
+        return '#'.join([str(x) for x in [id,'None',info['pass_type'],info['skill_id']]])
     elif id == 'Skill':
-        return '#'.join([str(x) for x in [id,info['skill_id']]])
+        return '#'.join([str(x) for x in [id,'None','None',info['skill_id']]])
     elif id == 'Shoot':
-        return '#'.join([str(x) for x in [id,info['skill_id'],info['result'],info['shoot_type']]])
+        return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
     elif id == 'Conversion':
-        return '#'.join([str(x) for x in [id,info['reason']]])
+        return '#'.join([str(x) for x in [id,'None',info['reason'],'None']])
     elif id == 'Block':
         # return '#'.join([str(x) for x in [id,info['blocked_player'],info['skill_id'],info['result']]])
-        return '#'.join([str(x) for x in [id,info['skill_id'],info['result']]])
+        return '#'.join([str(x) for x in [id,info['result'],'None',info['skill_id']]])
     elif id == 'Steal':
         # return '#'.join([str(x) for x in [id,info['stealed_player'],info['skill_id'],info['result']]])
-        return '#'.join([str(x) for x in [id,info['skill_id'],info['result']]])
+        return '#'.join([str(x) for x in [id,info['result'],'None',info['skill_id']]])
     elif id == 'Rebound':
-        return '#'.join([str(x) for x in [id,info['rebound_type'],info['skill_id'],info['result']]])
+        return '#'.join([str(x) for x in [id,info['result'],info['rebound_type'],info['skill_id']]])
     elif id == 'ShootCancel':
-        return '#'.join([str(x) for x in [id,info['result'],info['skill_id'],info['shoot_type']]])
+        return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
     else:
         return ''
 
