@@ -54,7 +54,7 @@ def process(ds):
             try:
                 datas = json.loads(f.read())
                 for data in datas :
-                    if 'game_uuid' in data[0]['origin_json']:
+                    if 'game_uuid' in data[0]['origin_json'] :
                         gameid = json.loads(data[0]['origin_json'])['game_uuid']
                         if gameid in D:
                             if role_id in D[gameid] :
@@ -67,18 +67,21 @@ def process(ds):
             except Exception:
                 pass
     #清洗序列
-    # import copy
-    # D1 = copy.deepcopy(D)
-    # for gameid in D:
-    #     for role_id in D[gameid]:
-    #         GameEnd_count = sum([1 if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
-    #         GameStart_count = sum([1 if 'GameStart' in x else 0 for x in D[gameid][role_id]])
-    #         game_result = max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
-    #         if GameEnd_count!=1 or GameStart_count!=1 or game_result not in [0,1]:
-    #             D1[gameid].pop(role_id)
+    import copy
+    D1 = copy.deepcopy(D)
+    for gameid in D:
+        for role_id in D[gameid]:
+            GameEnd_count = sum([1 if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
+            GameStart_count = sum([1 if 'GameStart' in x else 0 for x in D[gameid][role_id]])
+            game_result = max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
+            game_type = max([int(json.loads(x)['game_type']) if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
+            if GameEnd_count!=1 or GameStart_count!=1 or game_result not in [0,1] or game_type!=2 :
+                D1[gameid].pop(role_id)
 
     #清洗比赛
     print(ds,len(D))
+    del D
+    D = D1
     # json.dump(D, open(ds+'.dict', "w"))
     L = list(filter(lambda x:len(D[x])==6 ,D.keys()))
     print(ds,len(L))
