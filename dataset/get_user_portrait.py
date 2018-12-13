@@ -33,7 +33,7 @@ def init_log():
 # '''
 GAME_RECORD_SQL = \
     '''
-    SELECT * from balldb.ods_gametime_31_rltm_his where ds='%s'  limit 100
+    SELECT * from balldb.ods_gametime_62_rltm_his where ds='%s'
     '''%(DATE)
 
 
