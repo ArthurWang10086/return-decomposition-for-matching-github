@@ -122,12 +122,9 @@ if __name__ == '__main__':
     for i in range((end_time-start_time).days+1):
         check_date = start_time + datetime.timedelta(days=i)
         game_record_file = SAVE_FOLDER + '/' + check_date.strftime('%Y-%m-%d') + ".csv"
-        if os.path.exists(game_record_file):
-            logger.info("game_record_file ({}) already exists, skip.".format(game_record_file))
-        else:
-            logger.info("game_record_file ({}) doesn't exist, start to download.".format(game_record_file))
-            game_record_sql = GAME_RECORD_SQL.format(check_date.strftime('%Y-%m-%d'))
-            print(game_record_sql)
-            hive_client.pull_data(game_record_sql, game_record_file)
+        logger.info("game_record_file ({}) doesn't exist, start to download.".format(game_record_file))
+        game_record_sql = GAME_RECORD_SQL.format(check_date.strftime('%Y-%m-%d'))
+        print(game_record_sql)
+        hive_client.pull_data(game_record_sql, game_record_file)
     hive_client.close()
     print('done')
