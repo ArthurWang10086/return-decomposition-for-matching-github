@@ -95,14 +95,14 @@ def process(ds):
                 # GameStart_count = sum([1 if 'GameStart' in x else 0 for x in D[gameid][role_id]])
                 game_result = str(max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]]))
                 if game_result == '1':
-                    D2[gameid].append(role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info(json.loads(x)) for x in D[gameid][role_id]]))
+                    D2[gameid].append(gameid+'|'+role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info(json.loads(x)) for x in D[gameid][role_id]]))
 
             for role_id in D[gameid]:
                 # GameEnd_count = sum([1 if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
                 # GameStart_count = sum([1 if 'GameStart' in x else 0 for x in D[gameid][role_id]])
                 game_result = str(max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]]))
                 if game_result == '0':
-                    D2[gameid].append(role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info(json.loads(x)) for x in D[gameid][role_id]]))
+                    D2[gameid].append(gameid+'|'+role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info(json.loads(x)) for x in D[gameid][role_id]]))
         except Exception:
             D2.pop(gameid)
             pass
