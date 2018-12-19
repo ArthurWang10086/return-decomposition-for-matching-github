@@ -53,12 +53,6 @@ def test(args):
 
     def generate_sample2(padding=False, fix_state_offset=True, random_start=False, *args, **kwargs):
         """Even state move right or odd state move left, give reward 1."""
-        nonlocal start_state
-        if random_start:
-            # start_state = np.random.randint(-2, 2, 1)[0]
-            start_state = np.random.choice([-1, 1], 1, [0.5, 0.5])[0]
-
-
         # Create random actions
         actions = np.asarray(rnd_gen.randint(low=0, high=2, size=(max_timestep,)), dtype=np.float32)
         actions_onehot = np.zeros((max_timestep, 2), dtype=np.float32)
