@@ -80,7 +80,6 @@ def process(ds):
 
     #清洗比赛
     print(ds,len(D))
-    del D
     D = D1
     # json.dump(D, open(ds+'.dict', "w"))
     L = list(filter(lambda x:len(D[x])==6 ,D.keys()))
