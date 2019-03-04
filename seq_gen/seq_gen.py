@@ -22,12 +22,12 @@ import  actionEncode
 # GameObInfo
 # ShootCancel  result  skill_id  shoot_type
 
-EncodeMap = actionEncode.EncodeMap
 
 def seq_gen_1(ds):
     filepath = '../dataset/process_data/%s'%(ds)
     outpath = '../dataset/ball/%s'%(ds)
     L=[]
+    EncodeMap = actionEncode.EncodeMap
     with open(filepath+'.txt','r') as f:
         datas = f.read().split('\n')
         for data in datas:
@@ -44,33 +44,115 @@ def seq_gen_2(ds):
     filepath = '../dataset/process_data/%s'%(ds)
     outpath = '../dataset/ball/%s'%(ds)
     L=[]
-    with open(filepath+'.txt','r') as f:
-        datas = f.read().split('\n')
-        for data in datas:
-            tmp = []
-            for i,x in enumerate(data.split(';')):
-                result = x.split('@')[1]
-                result = '1' if int(result)>0 else '-1'
-                for action in x.split('@')[2].split(','):
-                    # print(action[:19])
-                    #action_id = logid + role_idx * len(logids)
-                    if action.split(':')[-1] in EncodeMap:
-                        tmp.append((action[:19],EncodeMap[action.split(':')[-1]]+i*len(EncodeMap)))
-            sorted(tmp,key=lambda x : x[0])
+    EncodeMap = actionEncode.EncodeMap
+    EncodeMap2 = actionEncode.EncodeMap2
+    f = open(filepath+'.txt','r')
+    datas = f.read().split('\n')
+    for data in datas:
+        tmp = []
+        for i,x in enumerate(data.split(';')):
+            result = x.split('@')[1]
+            result = '1' if int(result)>0 else '-1'
+            for action in x.split('@')[2].split(','):
+                if len(action.split(':')[-1])>0:
+                    tmp.append((action[:19],str(i)+':'+action.split(':')[-1]))
+        sorted(tmp,key=lambda x : x[0])
+        if len(tmp)>1:
             L.append('1'+'@'+','.join([str(x[1]) for x in tmp]))
 
     with open(outpath+'.txt','w') as f:
         f.write('\n'.join(L))
 
+def seq_gen_3(ds):
+    filepath = '../dataset/process_data/%s'%(ds)
+    outpath = '../dataset/ball/%s'%(ds)
+    L=[]
+    EncodeMap = actionEncode.EncodeMap
+    EncodeMap2 = actionEncode.EncodeMap2
+    f = open(filepath+'.txt','r')
+    datas = f.read().split('\n')
+    for data in datas:
+        tmp = []
+        scores=[]
+        for i,x in enumerate(data.split(';')):
+            score=0
+            result = x.split('@')[1]
+            result = '1' if int(result)>0 else '-1'
+            for action in x.split('@')[2].split(','):
+                if len(action.split(':')[-1])>0 and ('Conversion#None#goalin#None' in action.split(':')[-1]):
+                    playerid = 0 if i <3 else 5
+                    tmp.append((action[:19],str(playerid)+':'+action.split(':')[-1]))
+                    score += 1 if 'Conversion#None#goalin#None' in action.split(':')[-1] else 0
+            scores.append(score)
+        tmp = sorted(tmp,key=lambda x : x[0])
+        diffscore = sum(scores[3:])-sum(scores[:3])
+        # diffscore = sum(scores)
+        if len(tmp)>1:
+            L.append(str(diffscore)+'@'+','.join([str(x[1]) for x in tmp]))
+        tmp = []
+        scores=[]
+        for i,x in enumerate(data.split(';')):
+            score=0
+            result = x.split('@')[1]
+            result = '1' if int(result)>0 else '-1'
+            for action in x.split('@')[2].split(','):
+                if len(action.split(':')[-1])>0 and ('Conversion#None#goalin#None' in action.split(':')[-1]):
+                    playerid = 0 if i <3 else 5
+                    tmp.append((action[:19],str(5-playerid)+':'+action.split(':')[-1]))
+                    score += 1 if 'Conversion#None#goalin#None' in action.split(':')[-1] else 0
+            scores.append(score)
+        tmp = sorted(tmp,key=lambda x : x[0])
+        diffscore = -(sum(scores[3:])-sum(scores[:3]))
+        if len(tmp)>1:
+            L.append(str(diffscore)+'@'+','.join([str(x[1]) for x in tmp]))
+
+
+        # tmp = []
+        # scores=[]
+        # for i,x in enumerate(data.split(';')):
+        #     score=0
+        #     result = x.split('@')[1]
+        #     result = '1' if int(result)>0 else '-1'
+        #     for action in x.split('@')[2].split(','):
+        #         if len(action.split(':')[-1])>0 and ('Conversion' in action.split(':')[-1]):
+        #             playerid = 0 if i <3 else 5
+        #             tmp.append((action[:19],str(playerid)+':'+action.split(':')[-1]))
+        #             score += 1 if 'Conversion#None#goalin#None' in action.split(':')[-1] else 0
+        #     scores.append(score)
+        # tmp = sorted(tmp,key=lambda x : x[0])
+        # diffscore = sum(scores[3:])-sum(scores[:3])
+        # # diffscore = sum(scores)
+        # if len(tmp)>1:
+        #     L.append(str(diffscore)+'@'+','.join([str(x[1]) for x in tmp]))
+        # tmp = []
+        # scores=[]
+        # for i,x in enumerate(data.split(';')):
+        #     score=0
+        #     result = x.split('@')[1]
+        #     result = '1' if int(result)>0 else '-1'
+        #     for action in x.split('@')[2].split(','):
+        #         if len(action.split(':')[-1])>0 and ('Conversion' in action.split(':')[-1]):
+        #             playerid = 0 if i <3 else 5
+        #             tmp.append((action[:19],str(5-playerid)+':'+action.split(':')[-1]))
+        #             score += 1 if 'Conversion#None#goalin#None' in action.split(':')[-1] else 0
+        #     scores.append(score)
+        # tmp = sorted(tmp,key=lambda x : x[0])
+        # diffscore = -(sum(scores[3:])-sum(scores[:3]))
+        # if len(tmp)>1:
+        #     L.append(str(diffscore)+'@'+','.join([str(x[1]) for x in tmp]))
+
+    with open(outpath+'.diff.txt','w') as f:
+        f.write('\n'.join(L[:1000]))
 
 if __name__ == '__main__':
-    pool = multiprocessing.Pool(processes=1)
-    days = ['2018-11-01','2018-11-02','2018-11-03','2018-11-04','2018-11-05']
-    q = JoinableQueue()
-    for ds in days:
-        pool.apply_async(seq_gen_2, args=(ds, ))
-    pool.close()
-    pool.join()
+    seq_gen_3('2018-11-01')
+    # pool = multiprocessing.Pool(processes=1)
+    # days = ['2018-11-01']
+    # q = JoinableQueue()
+    # for ds in days:
+    #     pool.apply_async(seq_gen_2, args=(ds, ))
+    # pool.close()
+    # pool.join()
 
 
 
