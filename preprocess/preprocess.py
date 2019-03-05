@@ -79,7 +79,7 @@ def process(ds):
             game_result = max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
             game_type = max([int(json.loads(x)['game_type']) if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
             if GameEnd_count!=1 or GameStart_count!=1 or game_result not in [0,1] :
-                print(gameid)
+                print(gameid,GameEnd_count,GameStart_count,game_result)
                 D1[gameid].pop(role_id)
 
     #清洗比赛
