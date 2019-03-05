@@ -56,7 +56,7 @@ def process(ds):
             try:
                 datas = json.loads(f.read())
                 for data in datas :
-                    if 'game_uuid' in data[0]['origin_json'] :
+                    if 'origin_json' in data[0] and 'game_uuid' in data[0]['origin_json'] :
                         gameid = json.loads(data[0]['origin_json'])['game_uuid']
                         if gameid in D:
                             if role_id in D[gameid] :
@@ -121,7 +121,7 @@ def process(ds):
 
 if __name__ == '__main__':
     pool = multiprocessing.Pool(processes=1)
-    days = ['2018-11-01']
+    days = ['2019-03-02']
     q = JoinableQueue()
     for ds in days:
         pool.apply_async(process, args=(ds, ))
