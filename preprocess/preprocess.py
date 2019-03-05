@@ -43,7 +43,7 @@ def extraction_info(info):
     elif id == 'ShootResult':
         return '#'.join([str(x) for x in [id,info['score'],info['shoot_type'],'None']])
     else:
-        return ''
+        return 'None'
 
 
 def process(ds):
@@ -85,6 +85,7 @@ def process(ds):
     D = D1
     # json.dump(D, open(ds+'.dict', "w"))
     L = list(filter(lambda x:len(D[x])==6 ,D.keys()))
+    print(list(filter(lambda x:len(D[x])!=6 ,D.keys()))[:10])
     print(ds,len(L))
 
     D2={}
