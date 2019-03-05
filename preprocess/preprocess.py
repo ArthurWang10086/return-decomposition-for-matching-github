@@ -26,8 +26,8 @@ def extraction_info(info):
         return '#'.join([str(x) for x in [id,'None',info['pass_type'],info['skill_id']]])
     elif id == 'Skill':
         return '#'.join([str(x) for x in [id,'None','None',info['skill_id']]])
-    elif id == 'Shoot':
-        return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
+    # elif id == 'Shoot':
+    #     return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
     elif id == 'Conversion':
         return '#'.join([str(x) for x in [id,'None',info['reason'],'None',info['game_score']]])
     elif id == 'Block':
@@ -40,6 +40,8 @@ def extraction_info(info):
         return '#'.join([str(x) for x in [id,info['result'],info['rebound_type'],info['skill_id']]])
     elif id == 'ShootCancel':
         return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
+    elif id == 'ShootResult':
+        return '#'.join([str(x) for x in [id,info['score'],info['shoot_type'],'None']])
     else:
         return ''
 
