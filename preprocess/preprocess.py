@@ -29,7 +29,7 @@ def extraction_info(info):
     # elif id == 'Shoot':
     #     return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
     elif id == 'Conversion':
-        return '#'.join([str(x) for x in [id,'None',info['reason'],'None',info['game_score']]])
+        return '#'.join([str(x) for x in [id,'None',info['reason'],'None']])
     elif id == 'Block':
         # return '#'.join([str(x) for x in [id,info['blocked_player'],info['skill_id'],info['result']]])
         return '#'.join([str(x) for x in [id,info['result'],'None',info['skill_id']]])
@@ -43,7 +43,7 @@ def extraction_info(info):
     elif id == 'ShootResult':
         return '#'.join([str(x) for x in [id,info['score'],info['shoot_type'],'None']])
     else:
-        return 'None'
+        return 'None#None#None#None'
 
 
 def process(ds):
