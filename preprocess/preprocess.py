@@ -141,6 +141,7 @@ def process(ds):
                     D2[gameid].append(gameid+'|'+role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info2(json.loads(x)) for x in D[gameid][role_id]]))
         except Exception as e:
             D2.pop(gameid)
+            print(D[gameid][role_id])
             traceback.print_exc()
             pass
 
