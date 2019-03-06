@@ -43,7 +43,7 @@ def extraction_info(info):
     elif id == 'ShootResult':
         return '#'.join([str(x) for x in [id,info['score'],info['shoot_type'],'None']])
     else:
-        return 'None#None#None#None'
+        return id+'#None#None#None'
 
 
 def process(ds):
