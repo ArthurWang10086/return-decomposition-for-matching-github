@@ -57,7 +57,7 @@ def extraction_info2(info):
     # elif id == 'Shoot':
     #     return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
     elif id == 'Conversion':
-        return '#'.join([str(x) for x in [id,'None',info['reason'],info['game_score']]])
+        return '#'.join([str(x) for x in [id,'None',info['reason'],info['game_score'].replace(':','-')]])
     elif id == 'Block':
         # return '#'.join([str(x) for x in [id,info['blocked_player'],info['skill_id'],info['result']]])
         return '#'.join([str(x) for x in [id,info['result'],'None',info['skill_id']]])
@@ -72,7 +72,7 @@ def extraction_info2(info):
         return '#'.join([str(x) for x in [id,info['score'],info['shoot_type'],'None']])
     elif id == 'GameEnd':
         #json.loads(b64decode(x).decode())
-        return id+'#'+b64encode(json.dumps(info).encode('utf-8')).decode()+'#'+str(info['role_score'])+'#'+str(info['game_score'])
+        return id+'#'+b64encode(json.dumps(info).encode('utf-8')).decode()+'#'+str(info['role_score'])+'#'+str(info['game_score']).replace(':','-')
     else:
         return id+'#None#None#None'
 
