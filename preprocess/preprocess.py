@@ -66,8 +66,8 @@ def extraction_info2(info):
         return '#'.join([str(x) for x in [id,info['result'],'None',info['skill_id']]])
     elif id == 'Rebound':
         return '#'.join([str(x) for x in [id,info['result'],info['rebound_type'],info['skill_id']]])
-    # elif id == 'ShootCancel':
-    #     return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
+    elif id == 'ShootCancel':
+        return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
     elif id == 'ShootResult':
         return '#'.join([str(x) for x in [id,info['score'],info['shoot_type'],'None']])
     elif id == 'GameEnd':
@@ -81,7 +81,7 @@ def process(ds):
     filepath = '../dataset/behaviors_sql/%s'%(ds)
     outpath = '../dataset/process_data/%s'%(ds)
     role_ids = list(filter(lambda x:len(x)==9,[x.split('.')[0] for x in os.listdir(filepath)]))
-    for role_id in role_ids[:100]:
+    for role_id in role_ids:
         with open(filepath+'/%s.json'%(role_id),'r') as f:
             try:
                 datas = json.loads(f.read())
@@ -118,9 +118,8 @@ def process(ds):
     # print(D['d369b4f10917e08c873935b53773c3ab'])
     D = D1
     # json.dump(D, open(ds+'.dict', "w"))
-    L = list(D.keys())
-    # L = list(filter(lambda x:len(D[x])==6 ,D.keys()))
-    # print(list(filter(lambda x:len(D[x])!=6 ,D.keys()))[:10])
+    L = list(filter(lambda x:len(D[x])==6 ,D.keys()))
+    print(list(filter(lambda x:len(D[x])!=6 ,D.keys()))[:10])
     print(ds,len(L))
 
     D2={}
@@ -142,7 +141,6 @@ def process(ds):
                     D2[gameid].append(gameid+'|'+role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info2(json.loads(x)) for x in D[gameid][role_id]]))
         except Exception as e:
             D2.pop(gameid)
-            # print(D[gameid][role_id])
             traceback.print_exc()
             pass
 
