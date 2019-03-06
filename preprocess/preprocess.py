@@ -72,7 +72,7 @@ def extraction_info2(info):
         return '#'.join([str(x) for x in [id,info['score'],info['shoot_type'],'None']])
     elif id == 'GameEnd':
         #json.loads(b64decode(x).decode())
-        return id+'#'+b64encode(json.dumps(info).encode('utf-8'))+'#'+info['role_score']+'#'+info['game_score']
+        return id+'#'+b64encode(json.dumps(info).encode('utf-8')).decode()+'#'+info['role_score']+'#'+info['game_score']
     else:
         return id+'#None#None#None'
 
@@ -88,6 +88,7 @@ def process(ds):
                 for data in datas :
                     if 'origin_json' in data[0] and 'game_uuid' in data[0]['origin_json'] :
                         gameid = json.loads(data[0]['origin_json'])['game_uuid']
+                        extraction_info2(data[0]['origin_json'])
                         if gameid in D:
                             if role_id in D[gameid] :
                                 D[gameid][role_id].append(data[0]['origin_json'])
