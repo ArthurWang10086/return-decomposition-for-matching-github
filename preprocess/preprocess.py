@@ -84,7 +84,7 @@ def process(ds):
 
     #清洗比赛
     print(ds,len(D))
-    print(D['d369b4f10917e08c873935b53773c3ab'])
+    # print(D['d369b4f10917e08c873935b53773c3ab'])
     D = D1
     # json.dump(D, open(ds+'.dict', "w"))
     L = list(filter(lambda x:len(D[x])==6 ,D.keys()))
