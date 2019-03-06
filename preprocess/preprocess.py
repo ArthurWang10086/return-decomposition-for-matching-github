@@ -67,6 +67,7 @@ def extraction_info2(info):
     elif id == 'Rebound':
         return '#'.join([str(x) for x in [id,info['result'],info['rebound_type'],info['skill_id']]])
     elif id == 'ShootCancel':
+        print(info)
         return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
     elif id == 'ShootResult':
         return '#'.join([str(x) for x in [id,info['score'],info['shoot_type'],'None']])
@@ -142,7 +143,7 @@ def process(ds):
                     D2[gameid].append(gameid+'|'+role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info2(json.loads(x)) for x in D[gameid][role_id]]))
         except Exception as e:
             D2.pop(gameid)
-            print(D[gameid][role_id])
+            # print(D[gameid][role_id])
             traceback.print_exc()
             pass
 
