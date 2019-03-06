@@ -15,6 +15,7 @@ import simplejson as json
 import os
 from multiprocessing import Process, JoinableQueue
 import multiprocessing
+import zlib
 
 # EncodeMap = {'Pass': 1, 'Skill': 2, 'Shoot': 3, 'Conversion': 4, 'Block': 5, 'Steal': 6, 'Rebound': 7,'ShootCancel':8}
 
@@ -69,7 +70,8 @@ def extraction_info2(info):
     elif id == 'ShootResult':
         return '#'.join([str(x) for x in [id,info['score'],info['shoot_type'],'None']])
     elif id == 'GameEnd':
-        return id+'#'+info
+        #json.loads(zlib.decompress(x).decode())
+        return id+'#'+zlib.compress(json.dumps(info).encode('utf-8'))+'#'+info['role_score']+'#'+info['game_score']
     else:
         return id+'#None#None#None'
 
