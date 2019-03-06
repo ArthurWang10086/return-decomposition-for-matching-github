@@ -88,7 +88,6 @@ def process(ds):
                 for data in datas :
                     if 'origin_json' in data[0] and 'game_uuid' in data[0]['origin_json'] :
                         gameid = json.loads(data[0]['origin_json'])['game_uuid']
-                        extraction_info2(data[0]['origin_json'])
                         if gameid in D:
                             if role_id in D[gameid] :
                                 D[gameid][role_id].append(data[0]['origin_json'])
@@ -97,7 +96,7 @@ def process(ds):
                         else:
                             D[gameid] = {}
                             D[gameid][role_id] = [data[0]['origin_json']]
-            except Exception, e:
+            except Exception as  e:
                 print(role_id)
                 print(e)
                 pass
@@ -112,7 +111,6 @@ def process(ds):
             game_type = max([int(json.loads(x)['game_type']) if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
             if GameEnd_count!=1 or GameStart_count!=1 or game_result not in [0,1] or game_type!=2 :
                 print(gameid)
-                print(e)
                 D1[gameid].pop(role_id)
 
     #清洗比赛
@@ -141,7 +139,7 @@ def process(ds):
                 game_result = str(max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]]))
                 if game_result == '0':
                     D2[gameid].append(gameid+'|'+role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info2(json.loads(x)) for x in D[gameid][role_id]]))
-        except Exception, e:
+        except Exception as e:
             D2.pop(gameid)
             print(e)
             pass
@@ -154,13 +152,14 @@ def process(ds):
 
 
 if __name__ == '__main__':
-    pool = multiprocessing.Pool(processes=1)
-    days = ['2019-03-02']
-    q = JoinableQueue()
-    for ds in days:
-        pool.apply_async(process, args=(ds, ))
-    pool.close()
-    pool.join()
+    process('2019-03-02')
+    # pool = multiprocessing.Pool(processes=1)
+    # days = ['2019-03-02']
+    # q = JoinableQueue()
+    # for ds in days:
+    #     pool.apply_async(process, args=(ds, ))
+    # pool.close()
+    # pool.join()
 
 
 
