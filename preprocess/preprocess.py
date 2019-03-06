@@ -81,7 +81,7 @@ def process(ds):
     filepath = '../dataset/behaviors_sql/%s'%(ds)
     outpath = '../dataset/process_data/%s'%(ds)
     role_ids = list(filter(lambda x:len(x)==9,[x.split('.')[0] for x in os.listdir(filepath)]))
-    for role_id in role_ids:
+    for role_id in role_ids[:100]:
         with open(filepath+'/%s.json'%(role_id),'r') as f:
             try:
                 datas = json.loads(f.read())
@@ -118,8 +118,9 @@ def process(ds):
     # print(D['d369b4f10917e08c873935b53773c3ab'])
     D = D1
     # json.dump(D, open(ds+'.dict', "w"))
-    L = list(filter(lambda x:len(D[x])==6 ,D.keys()))
-    print(list(filter(lambda x:len(D[x])!=6 ,D.keys()))[:10])
+    L = list(D.keys())
+    # L = list(filter(lambda x:len(D[x])==6 ,D.keys()))
+    # print(list(filter(lambda x:len(D[x])!=6 ,D.keys()))[:10])
     print(ds,len(L))
 
     D2={}
