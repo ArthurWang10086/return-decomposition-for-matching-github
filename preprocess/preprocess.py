@@ -10,7 +10,7 @@
 # Conversion  reason(pickup rebound)
 # ShootCancel  result  skill_id  shoot_type
 
-
+import traceback
 import simplejson as json
 import os
 from multiprocessing import Process, JoinableQueue
@@ -98,7 +98,7 @@ def process(ds):
                             D[gameid][role_id] = [data[0]['origin_json']]
             except Exception as  e:
                 print(role_id)
-                print(e)
+                traceback.print_exc()
                 pass
     #清洗序列
     import copy
@@ -110,7 +110,7 @@ def process(ds):
             game_result = max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
             game_type = max([int(json.loads(x)['game_type']) if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
             if GameEnd_count!=1 or GameStart_count!=1 or game_result not in [0,1] or game_type!=2 :
-                print(gameid)
+                print(gameid,GameEnd_count,GameStart_count,game_result)
                 D1[gameid].pop(role_id)
 
     #清洗比赛
@@ -141,7 +141,7 @@ def process(ds):
                     D2[gameid].append(gameid+'|'+role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info2(json.loads(x)) for x in D[gameid][role_id]]))
         except Exception as e:
             D2.pop(gameid)
-            print(e)
+            traceback.print_exc()
             pass
 
     print(len(D2))
