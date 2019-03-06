@@ -45,6 +45,33 @@ def extraction_info(info):
     else:
         return id+'#None#None#None'
 
+def extraction_info2(info):
+    id = info['log_id']
+    if id=='Pass':
+        # return '#'.join([str(x) for x in [id,info['receiver_id'],info['skill_id'],info['pass_type']]])
+        return '#'.join([str(x) for x in [id,'None',info['pass_type'],info['skill_id']]])
+    elif id == 'Skill':
+        return '#'.join([str(x) for x in [id,'None','None',info['skill_id']]])
+    # elif id == 'Shoot':
+    #     return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
+    elif id == 'Conversion':
+        return '#'.join([str(x) for x in [id,'None',info['reason'],info['game_score']]])
+    elif id == 'Block':
+        # return '#'.join([str(x) for x in [id,info['blocked_player'],info['skill_id'],info['result']]])
+        return '#'.join([str(x) for x in [id,info['result'],'None',info['skill_id']]])
+    elif id == 'Steal':
+        # return '#'.join([str(x) for x in [id,info['stealed_player'],info['skill_id'],info['result']]])
+        return '#'.join([str(x) for x in [id,info['result'],'None',info['skill_id']]])
+    elif id == 'Rebound':
+        return '#'.join([str(x) for x in [id,info['result'],info['rebound_type'],info['skill_id']]])
+    elif id == 'ShootCancel':
+        return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
+    elif id == 'ShootResult':
+        return '#'.join([str(x) for x in [id,info['score'],info['shoot_type'],'None']])
+    elif id == 'GameEnd':
+        return id+'#'+info
+    else:
+        return id+'#None#None#None'
 
 def process(ds):
     D = {}
@@ -100,14 +127,14 @@ def process(ds):
                 # GameStart_count = sum([1 if 'GameStart' in x else 0 for x in D[gameid][role_id]])
                 game_result = str(max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]]))
                 if game_result == '1':
-                    D2[gameid].append(gameid+'|'+role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info(json.loads(x)) for x in D[gameid][role_id]]))
+                    D2[gameid].append(gameid+'|'+role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info2(json.loads(x)) for x in D[gameid][role_id]]))
 
             for role_id in D[gameid]:
                 # GameEnd_count = sum([1 if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
                 # GameStart_count = sum([1 if 'GameStart' in x else 0 for x in D[gameid][role_id]])
                 game_result = str(max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]]))
                 if game_result == '0':
-                    D2[gameid].append(gameid+'|'+role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info(json.loads(x)) for x in D[gameid][role_id]]))
+                    D2[gameid].append(gameid+'|'+role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info2(json.loads(x)) for x in D[gameid][role_id]]))
         except Exception:
             D2.pop(gameid)
             pass
