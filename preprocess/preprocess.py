@@ -97,8 +97,9 @@ def process(ds):
                         else:
                             D[gameid] = {}
                             D[gameid][role_id] = [data[0]['origin_json']]
-            except Exception:
+            except Exception, e:
                 print(role_id)
+                print(e)
                 pass
     #清洗序列
     import copy
@@ -111,6 +112,7 @@ def process(ds):
             game_type = max([int(json.loads(x)['game_type']) if 'GameEnd' in x else 0 for x in D[gameid][role_id]])
             if GameEnd_count!=1 or GameStart_count!=1 or game_result not in [0,1] or game_type!=2 :
                 print(gameid)
+                print(e)
                 D1[gameid].pop(role_id)
 
     #清洗比赛
@@ -139,8 +141,9 @@ def process(ds):
                 game_result = str(max([json.loads(x)['game_result'] if 'GameEnd' in x else 0 for x in D[gameid][role_id]]))
                 if game_result == '0':
                     D2[gameid].append(gameid+'|'+role_id+'@'+game_result+'@'+','.join([json.loads(x)['log_ts']+':'+json.loads(x)['log_id']+':'+extraction_info2(json.loads(x)) for x in D[gameid][role_id]]))
-        except Exception:
+        except Exception, e:
             D2.pop(gameid)
+            print(e)
             pass
 
     print(len(D2))
