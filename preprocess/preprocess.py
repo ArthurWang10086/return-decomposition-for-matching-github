@@ -69,7 +69,7 @@ def extraction_info2(info):
     elif id == 'GameEnd':
         #json.loads(b64decode(x).decode())
         return id+'#'+b64encode(json.dumps(info).encode('utf-8')).decode()+'#'+str(info['role_score'])+'#'\
-               +str(info['game_score']).replace(':','-')+'#'+None
+               +str(info['game_score']).replace(':','-')+'#None'
     else:
         return id+'#None#None#None'
 
