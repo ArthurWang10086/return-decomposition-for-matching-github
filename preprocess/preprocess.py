@@ -71,7 +71,7 @@ def extraction_info2(info):
         return id+'#'+b64encode(json.dumps(info).encode('utf-8')).decode()+'#'+str(info['role_score'])+'#'\
                +str(info['game_score']).replace(':','-')+'#None'
     else:
-        return id+'#None#None#None'
+        return id+'#None#None#None#None'
 
 def process(ds):
     D = {}
