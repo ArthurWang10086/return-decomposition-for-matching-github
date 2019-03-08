@@ -51,28 +51,25 @@ def extraction_info2(info):
     id = info['log_id']
     if id=='Pass':
         # return '#'.join([str(x) for x in [id,info['receiver_id'],info['skill_id'],info['pass_type']]])
-        return '#'.join([str(x) for x in [id,'None',info['pass_type'],info['skill_id']]])
+        return '#'.join([str(x) for x in [id,'None',info['pass_type'],info['skill_id'],info['game_remain_time']]])
     elif id == 'Skill':
-        return '#'.join([str(x) for x in [id,'None','None',info['skill_id']]])
-    # elif id == 'Shoot':
-    #     return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
+        return '#'.join([str(x) for x in [id,'None','None',info['skill_id'],info['game_remain_time']]])
     elif id == 'Conversion':
-        return '#'.join([str(x) for x in [id,'None',info['reason'],info['game_score'].replace(':','-')]])
+        return '#'.join([str(x) for x in [id,'None',info['reason'],info['game_score'].replace(':','-'),info['game_remain_time']]])
     elif id == 'Block':
         # return '#'.join([str(x) for x in [id,info['blocked_player'],info['skill_id'],info['result']]])
-        return '#'.join([str(x) for x in [id,info['result'],'None',info['skill_id']]])
+        return '#'.join([str(x) for x in [id,info['result'],'None',info['skill_id'],info['game_remain_time']]])
     elif id == 'Steal':
         # return '#'.join([str(x) for x in [id,info['stealed_player'],info['skill_id'],info['result']]])
-        return '#'.join([str(x) for x in [id,info['result'],'None',info['skill_id']]])
+        return '#'.join([str(x) for x in [id,info['result'],'None',info['skill_id'],info['game_remain_time']]])
     elif id == 'Rebound':
-        return '#'.join([str(x) for x in [id,info['result'],info['rebound_type'],info['skill_id']]])
-    # elif id == 'ShootCancel':
-    #     return '#'.join([str(x) for x in [id,info['result'],info['shoot_type'],info['skill_id']]])
+        return '#'.join([str(x) for x in [id,info['result'],info['rebound_type'],info['skill_id'],info['game_remain_time']]])
     elif id == 'ShootResult':
-        return '#'.join([str(x) for x in [id,info['score'],info['shoot_type'],'None']])
+        return '#'.join([str(x) for x in [id,info['score'],info['shoot_type'],'None',info['game_remain_time']]])
     elif id == 'GameEnd':
         #json.loads(b64decode(x).decode())
-        return id+'#'+b64encode(json.dumps(info).encode('utf-8')).decode()+'#'+str(info['role_score'])+'#'+str(info['game_score']).replace(':','-')
+        return id+'#'+b64encode(json.dumps(info).encode('utf-8')).decode()+'#'+str(info['role_score'])+'#'\
+               +str(info['game_score']).replace(':','-')+'#'+None
     else:
         return id+'#None#None#None'
 
