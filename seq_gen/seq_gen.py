@@ -44,8 +44,8 @@ def seq_gen_2(ds):
     filepath = '../dataset/process_data/%s'%(ds)
     outpath = '../dataset/ball/%s'%(ds)
     L=[]
-    EncodeMap = actionEncode.EncodeMap
-    EncodeMap2 = actionEncode.EncodeMap2
+    # EncodeMap = actionEncode.EncodeMap
+    # EncodeMap2 = actionEncode.EncodeMap2
     f = open(filepath+'.txt','r')
     datas = f.read().split('\n')
     for data in datas:
@@ -54,9 +54,10 @@ def seq_gen_2(ds):
             result = x.split('@')[1]
             result = '1' if int(result)>0 else '-1'
             for action in x.split('@')[2].split(','):
-                if len(action.split(':')[-1])>0:
+                # print(action.split(':')[-2])
+                if len(action.split(':')[-1])>0 and action.split(':')[-2] not in ['GameEnd','Skill','RecommendFriend','MentorsLog','MatchEnd','GameStart','GameObInfo','ShootCancel'] and action.split(':')[-2]!='Shoot':
                     tmp.append((action[:19],str(i)+':'+action.split(':')[-1]))
-        sorted(tmp,key=lambda x : x[0])
+        tmp = sorted(tmp,key=lambda x : x[0])
         if len(tmp)>1:
             L.append('1'+'@'+','.join([str(x[1]) for x in tmp]))
 
@@ -145,7 +146,7 @@ def seq_gen_3(ds):
         f.write('\n'.join(L[:1000]))
 
 if __name__ == '__main__':
-    seq_gen_3('2018-11-01')
+    seq_gen_2('2019-03-02')
     # pool = multiprocessing.Pool(processes=1)
     # days = ['2018-11-01']
     # q = JoinableQueue()
